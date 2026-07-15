@@ -1,0 +1,131 @@
+# Package of the Day 📦
+
+<img src="screenshots/badges/built-with-love.svg" height="28px"/>&nbsp;&nbsp;
+<img src="screenshots/badges/flutter-dart.svg" height="28px" />&nbsp;&nbsp;
+<a href="https://choosealicense.com/licenses/mit/" target="_blank"><img src="screenshots/badges/license-MIT.svg" height="28px" /></a>&nbsp;&nbsp;
+<img src="screenshots/badges/Flutter-3.svg" height="28px" />&nbsp;&nbsp;
+<img src="screenshots/badges/dart-null_safety-blue.svg" height="28px"/>
+
+A Flutter practice project focused on mastering popular packages through hands-on implementation and real-world UI examples.
+
+This project is built to strengthen Flutter development skills by exploring one package at a time with practical, working code samples.
+
+---
+
+## 📖 About the Project
+
+**Package of the Day** is a learning-focused Flutter project where essential and advanced packages are explored through practical implementations.  
+Instead of just reading documentation, this project focuses on *learning by building*.
+
+The goal is to understand how Flutter packages work, when to use them, and how to integrate them effectively into real applications.
+
+🎯 Perfect for:
+- Flutter developers learning new packages
+- Quick reference for package implementation
+- Hands-on practice with popular pub.dev packages
+- Building a personal package knowledge library
+
+---
+
+## 📦 Packages Covered
+
+### Day 01. Avatar Glow
+- Animated glowing ring effect around widgets
+- Perfect for profile pictures & live indicators
+- Call buttons and active status badges
+- Package: `avatar_glow: ^3.0.1`
+- Features: Customizable glow color, duration, and repeat patterns
+
+---
+
+## 📋 Table of Contents
+<div align="center">
+
+## 📦 Flutter Package of the Day
+
+Learn Flutter packages by building practical examples, one package at a time. Each example demonstrates real-world usage with clean, easy-to-understand code.
+
+</div>
+
+## 📋 Packages
+
+<table>
+  <thead>
+    <tr>
+      <th width="90">Day</th>
+      <th width="220">Package</th>
+      <th width="220">Pub.dev</th>
+      <th>Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>01</b></td>
+      <td>
+        <a href="lib/features/day01_avatar_glow/day01_avatar_glow.dart">
+          <b>Avatar Glow</b>
+        </a><br/>
+        <sub>Animated glowing avatar effect</sub>
+      </td>
+      <td>
+        <a href="https://pub.dev/packages/avatar_glow">
+          avatar_glow ^3.0.1
+        </a>
+      </td>
+      <td align="center">
+        <a href="screenshots/day01_avatar_glow.gif">
+          <img src="screenshots/day01_avatar_glow.gif" width="170"/>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## 🚀 Goal
+
+To explore the Flutter ecosystem by learning one package at a time, understanding its purpose, API, best practices, and real-world implementation through practical examples.
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter
+- Dart
+- Pub.dev Packages
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/SheikhAman/package_of_the_day.git
+
+# Navigate to the project
+cd package_of_the_day
+
+# Install dependencies
+flutter pub get
+
+# Run the application
+flutter run
+```
+
+---
+
+## 📌 Note
+
+This repository is created for learning and practice purposes.  
+Each package is implemented in its own example to keep the code clean, focused, and easy to understand.
+
+---
+
+## ⭐ Future Improvements
+
+- Cover 100+ popular Flutter packages
+- Add package comparisons and alternatives
+- Build mini real-world apps using multiple packages
+- Add web support where applicable
+- Keep examples updated with the latest package versions
