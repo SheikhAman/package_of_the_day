@@ -50,6 +50,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `liquid_pull_to_refresh: ^3.0.1`
 - Features: customizable liquid color, background color, height, and animation speed
 
+### Day 04. Percent Indicator
+- Animated **circular** and **linear** progress indicators for stats, downloads, and onboarding screens
+- Includes a **live, draggable slider** that updates the circular indicator in real time — not just a static hardcoded percentage
+- A "Quick Stats" section shows several linear bars at once (storage, battery, downloads), styled as clean white cards
+- Package: `percent_indicator: ^4.2.5`
+- Features: customizable stroke width, colors, rounded caps, and animation duration for both indicator types
+
+
 ---
 
 ## 📋 Table of Contents

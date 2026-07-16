@@ -21,6 +21,9 @@ dependencies:
   # For fancy pull to refresh
   liquid_pull_to_refresh: ^3.0.1
 
+  # For percentage indicator
+  percent_indicator: ^4.2.5
+
 
 dev_dependencies:
   flutter_test:
