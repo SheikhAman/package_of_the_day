@@ -57,6 +57,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `percent_indicator: ^4.2.5`
 - Features: customizable stroke width, colors, rounded caps, and animation duration for both indicator types
 
+### Day 05. Carousel Slider
+- Fun, built-in **3D cube transition** between slides, plus a circular slide indicator — no custom animation code needed
+- Carousel is sized as a **fixed-height banner (220px)**, not stretched full-screen — mirrors how carousels actually appear in real apps (App Store featured banners, onboarding hero sections)
+- A "Why use it" section below the banner fills out the rest of the screen with real content, so the layout looks like a finished screen rather than an isolated widget demo
+- Each slide is a styled gradient card with an icon, title, and subtitle instead of a flat color block
+- Package: `flutter_carousel_slider: ^1.1.0`
+- Features: swappable slide transforms (e.g. cube), customizable slide indicators, infinite looping via `unlimitedMode`
+
+
 
 ---
 
