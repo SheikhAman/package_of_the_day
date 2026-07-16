@@ -43,6 +43,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `google_fonts: ^8.2.0`
 - Features: custom font weight, style, and size support; caches fonts locally after first load for offline use
 
+### Day 03. Liquid Pull to Refresh
+- Replaces the default refresh spinner with a fun, animated **liquid-fill** effect
+- Great for adding personality to list-based screens (feeds, dashboards, inboxes)
+- Includes a **live refresh counter** and **last-refreshed timestamp**, so the effect of pulling to refresh is visible, not just decorative
+- Package: `liquid_pull_to_refresh: ^3.0.1`
+- Features: customizable liquid color, background color, height, and animation speed
 
 ---
 

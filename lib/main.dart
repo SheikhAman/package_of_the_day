@@ -30,7 +30,8 @@ class MyApp extends StatelessWidget {
         ),
       ),
       // home: const Day01AvatarGlow(),
-      home: const Day02GoogleFonts(),
+      // home: const Day02GoogleFonts(),
+      home: const Day03LiquidPullToRefresh(),
     );
   }
 }

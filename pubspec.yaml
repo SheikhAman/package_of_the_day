@@ -18,6 +18,9 @@ dependencies:
   # For accessing all Google fonts
   google_fonts: ^8.2.0
 
+  # For fancy pull to refresh
+  liquid_pull_to_refresh: ^3.0.1
+
 
 dev_dependencies:
   flutter_test:
