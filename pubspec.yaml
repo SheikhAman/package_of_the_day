@@ -15,6 +15,9 @@ dependencies:
   # --- Components & Indicators ---
   avatar_glow: ^3.0.1
 
+  # For accessing all Google fonts
+  google_fonts: ^8.2.0
+
 
 dev_dependencies:
   flutter_test:

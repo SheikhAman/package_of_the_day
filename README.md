@@ -36,6 +36,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `avatar_glow: ^3.0.1`
 - Features: Customizable glow color, duration, and repeat patterns
 
+### Day 02. Google Fonts
+- Instant access to 1500+ fonts from [fonts.google.com](https://fonts.google.com) — no manual downloads, no pubspec asset setup
+- Great for fast typography experiments, branding, and UI polish
+- Includes a **live preview** with an interactive font-size slider and bold toggle, so anyone opening the app can see the effect of typography changes in real time
+- Package: `google_fonts: ^8.2.0`
+- Features: custom font weight, style, and size support; caches fonts locally after first load for offline use
+
+
 ---
 
 ## 📋 Table of Contents
