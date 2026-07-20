@@ -65,7 +65,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_carousel_slider: ^1.1.0`
 - Features: swappable slide transforms (e.g. cube), customizable slide indicators, infinite looping via `unlimitedMode`
 
-
+### Day 06. Smooth Page Indicator
+- Pairs with any PageView to add polished, animated dot indicators — a staple of onboarding flows
+- Page view is sized reasonably within the layout (not a nested Scaffold per page, not full-screen by accident), with a "Next" button that walks through pages using the shared PageController
+- Each page is a gradient card with an icon, title, and subtitle instead of an empty colored box, and the button label changes to "You're all set" on the last page
+- Package: smooth_page_indicator: ^2.0.1
+- Features: multiple built-in dot effects (ExpandingDotsEffect, WormEffect, JumpingDotEffect, and more), fully customizable size, spacing, and color
 
 ---
 
