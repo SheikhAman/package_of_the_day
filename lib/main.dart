@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
       // home: const Day08Animations(),
       // home: const Day09Neon(),
       // home: const Day10Aurora(),
-      home: const Day11CardSwiper(),
+      // home: const Day11CardSwiper(),
+      home: const Day12FlutterBlurHash(),
     );
   }
 }

@@ -9,3 +9,4 @@ export 'day08_animations/day08_animations.dart';
 export 'day09_neon/day09_neon.dart';
 export 'day10_aurora/day10_aurora.dart';
 export 'day11_card_swiper/day11_card_swiper.dart';
+export 'day12_flutter_blurhash/day12_flutter_blurhash.dart';

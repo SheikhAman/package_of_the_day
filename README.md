@@ -104,6 +104,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: card_swiper: ^3.0.1
 - Features: autoplay with configurable delay, multiple layouts, customizable pagination dot builder
 
+### Day 12. BlurHash
+- Decodes a short string (like LB9amjso4Txuq@t8yYMxD4IUysx]) into a soft blurred preview shown instantly, while the real image loads over the network — the same technique behind Medium's and Wolt's image placeholders
+- Added a "Replay transition" button so you can watch the blur-to-image fade more than once, instead of only seeing it on first load
+- Generate your own hash for any photo at blurha.sh
+- Package: flutter_blurhash: ^0.9.1
+- Features: works as an Image fit/loader combo, configurable fade duration, any BoxFit
+
 
 ---
 

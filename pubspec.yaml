@@ -45,6 +45,9 @@ dependencies:
   # For card swiping effects
   card_swiper: ^3.0.1
 
+  # For displaying blur image while loading
+  flutter_blurhash: ^0.9.1
+
 
 
 dev_dependencies:
