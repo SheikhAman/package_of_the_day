@@ -41,7 +41,8 @@ class MyApp extends StatelessWidget {
       // home: const Day10Aurora(),
       // home: const Day11CardSwiper(),
       // home: const Day12FlutterBlurHash(),
-      home: const Day13FlutterSvg(),
+      // home: const Day13FlutterSvg(),
+      home: const Day14FlutterCustomClippers(),
     );
   }
 }

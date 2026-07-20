@@ -51,6 +51,9 @@ dependencies:
   # For  rendering SVG image
   flutter_svg: ^2.3.0
 
+  # For various custom shapes
+  flutter_custom_clippers: ^2.1.0
+
 
 
 dev_dependencies:

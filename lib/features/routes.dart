@@ -11,3 +11,4 @@ export 'day10_aurora/day10_aurora.dart';
 export 'day11_card_swiper/day11_card_swiper.dart';
 export 'day12_flutter_blurhash/day12_flutter_blurhash.dart';
 export 'day13_flutter_svg/day13_flutter_svg.dart';
+export 'day14_flutter_custom_clippers/day14_flutter_custom_clippers.dart';

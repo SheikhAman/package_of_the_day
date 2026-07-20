@@ -118,6 +118,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_svg: ^2.3.0
 - Features: BoxFit support, works from assets, network URLs, or raw SVG strings
 
+### Day 14. Custom Clippers
+- Ships ready-made ClipPath shapes — waves, arcs, tickets, diagonals — for headers, banners, and cards without hand-drawing paths yourself
+- Rather than dumping all ~18 clippers with debug labels, this curates 4 clippers used the way they'd appear in a real app: a wave header banner, a movie-ticket-style coupon card, an arc promo banner, and an oval profile header
+- Each shape is filled with a gradient and real content (icon + text) instead of a flat color with the class name printed on it
+- Package: flutter_custom_clippers: ^2.1.0
+- Features: wave, arc, oval, diagonal, ticket, and pointed-edge clippers, most with flip/reverse options for mirroring
+
+
 ---
 
 ## 📋 Table of Contents
