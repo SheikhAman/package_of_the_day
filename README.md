@@ -72,6 +72,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: smooth_page_indicator: ^2.0.1
 - Features: multiple built-in dot effects (ExpandingDotsEffect, WormEffect, JumpingDotEffect, and more), fully customizable size, spacing, and color
 
+### Day 07. Font Awesome
+- Brings 2000+ Font Awesome icons (solid, regular, and brand) to Flutter as simple `FaIcon` widgets — a drop-in replacement for the standard `Icon`
+- A clean grid showcases a mix of brand icons (GitHub, Google, LinkedIn) and common UI icons (bell, heart, star, search), each in its own labeled card
+- Package: `font_awesome_flutter: ^11.0.0`
+- Features: solid/regular/brand icon sets, same API as Flutter's built-in `Icon` widget
+
+
 ---
 
 ## 📋 Table of Contents

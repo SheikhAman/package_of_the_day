@@ -4,3 +4,4 @@ export 'day03_liquid_pull_to_refresh/day03_liquid_pull_to_refresh.dart';
 export 'day04_percent_indicator/day04_percent_indicator.dart';
 export 'day05_flutter_carousel_slider/day05_flutter_carousel_slider.dart';
 export 'day06_smooth_page_indicator/day06_smooth_page_indicator.dart';
+export 'day07_font_awesome_flutter/day07_font_awesome_flutter.dart';

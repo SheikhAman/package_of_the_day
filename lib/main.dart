@@ -34,7 +34,8 @@ class MyApp extends StatelessWidget {
       // home: const Day03LiquidPullToRefresh(),
       // home: const Day04PercentIndicator(),
       // home: const Day05FlutterCarouselSlider(),
-      home: const Day06SmoothPageIndicator(),
+      // home: const Day06SmoothPageIndicator(),
+      home: const Day07FontAwesomeFlutter(),
     );
   }
 }

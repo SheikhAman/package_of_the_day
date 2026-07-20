@@ -30,6 +30,9 @@ dependencies:
   # For cute & fun dot indicator
   smooth_page_indicator: ^2.0.1
 
+  # For awesome icons
+  font_awesome_flutter: ^11.0.0
+
 
 
 dev_dependencies:
