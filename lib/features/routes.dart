@@ -8,3 +8,4 @@ export 'day07_font_awesome_flutter/day07_font_awesome_flutter.dart';
 export 'day08_animations/day08_animations.dart';
 export 'day09_neon/day09_neon.dart';
 export 'day10_aurora/day10_aurora.dart';
+export 'day11_card_swiper/day11_card_swiper.dart';

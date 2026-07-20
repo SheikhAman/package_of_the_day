@@ -97,6 +97,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: aurora: ^1.0.0
 - Features: customizable blob size, position, and color list; layer multiple Aurora widgets in a Stack for a fuller effect
 
+### Day 11. Card Swiper
+- Turns a list of widgets into an auto-playing, swipeable carousel with pagination dots — a common pattern for promo/banner sections
+- The original example used bundled asset images (assets/images/banner/*.jpg); swapped for styled gradient banner cards (icon, title, subtitle) so the example runs standalone without needing image assets in the project
+- Carousel is sized as a fixed 190px banner, not full-screen, sitting inside a scrollable page alongside the info card
+- Package: card_swiper: ^3.0.1
+- Features: autoplay with configurable delay, multiple layouts, customizable pagination dot builder
+
 
 ---
 
