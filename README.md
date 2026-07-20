@@ -111,6 +111,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_blurhash: ^0.9.1
 - Features: works as an Image fit/loader combo, configurable fade duration, any BoxFit
 
+### Day 13. Flutter SVG
+- Renders vector graphics via SvgPicture.asset, .network, or .string — stays crisp at any size, unlike raster (PNG/JPG) images
+- The original example loaded a bundled asset (assets/svg/flutter.svg); since that file isn't available here, this uses inline SVG strings with SvgPicture.string instead, so the example runs standalone with no asset setup — swap in SvgPicture.asset(...) once you have real files in pubspec.yaml
+- A small gallery shows three hand-written vector icons (sun, mountains, rocket) in styled cards
+- Package: flutter_svg: ^2.3.0
+- Features: BoxFit support, works from assets, network URLs, or raw SVG strings
 
 ---
 

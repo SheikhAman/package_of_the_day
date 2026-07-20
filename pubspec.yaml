@@ -48,6 +48,9 @@ dependencies:
   # For displaying blur image while loading
   flutter_blurhash: ^0.9.1
 
+  # For  rendering SVG image
+  flutter_svg: ^2.3.0
+
 
 
 dev_dependencies:
