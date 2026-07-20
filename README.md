@@ -90,6 +90,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: neon: ^0.1.0
 - Features: multiple neon fonts, custom glow color, adjustable font size, per-letter or whole-text flickering
 
+### Day 10. Aurora Gradients
+- Draws soft, blurred color blobs to give a screen an ambient, animated backdrop
+- Kept on a black background intentionally, same reasoning as Day 09 — the glow only reads clearly against dark backdrops
+- Content sits on a frosted-glass card (BackdropFilter + translucent container) over the aurora blobs, showing a realistic use case — a hero/landing header — rather than plain text floating on the background
+- Package: aurora: ^1.0.0
+- Features: customizable blob size, position, and color list; layer multiple Aurora widgets in a Stack for a fuller effect
+
+
 ---
 
 ## 📋 Table of Contents

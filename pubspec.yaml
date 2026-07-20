@@ -39,6 +39,9 @@ dependencies:
   # For Neon signs
   neon: ^0.1.0
 
+  # For Aurora gradient
+  aurora: ^1.0.0
+
 
 
 dev_dependencies:

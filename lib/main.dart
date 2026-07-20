@@ -37,7 +37,8 @@ class MyApp extends StatelessWidget {
       // home: const Day06SmoothPageIndicator(),
       // home: const Day07FontAwesomeFlutter(),
       // home: const Day08Animations(),
-      home: const Day09Neon(),
+      // home: const Day09Neon(),
+      home: const Day10Aurora(),
     );
   }
 }
