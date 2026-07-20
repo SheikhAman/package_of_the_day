@@ -36,6 +36,9 @@ dependencies:
   # For pre-built Animations
   animations: ^2.2.0
 
+  # For Neon signs
+  neon: ^0.1.0
+
 
 
 dev_dependencies:

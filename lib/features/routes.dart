@@ -6,3 +6,4 @@ export 'day05_flutter_carousel_slider/day05_flutter_carousel_slider.dart';
 export 'day06_smooth_page_indicator/day06_smooth_page_indicator.dart';
 export 'day07_font_awesome_flutter/day07_font_awesome_flutter.dart';
 export 'day08_animations/day08_animations.dart';
+export 'day09_neon/day09_neon.dart';

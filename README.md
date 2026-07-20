@@ -84,6 +84,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: animations: ^2.2.0
 - Features: multiple transition types (fadeThrough, fade, fadeThroughWithRipple), customizable colors, shapes, and duration for both the closed and open states
 
+### Day 09. Neon
+- Renders glowing, sign-style text with built-in retro fonts (Cyberpunk, Night Club 70s, Beon, and more), colors, and an optional flicker effect
+- Kept on a dark background intentionally — unlike the earlier light-themed days, neon glow only reads clearly against black, so each sign sits in its own subtly-bordered panel like a real sign board
+- Package: neon: ^0.1.0
+- Features: multiple neon fonts, custom glow color, adjustable font size, per-letter or whole-text flickering
 
 ---
 
