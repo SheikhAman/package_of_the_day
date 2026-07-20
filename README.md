@@ -125,6 +125,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_custom_clippers: ^2.1.0
 - Features: wave, arc, oval, diagonal, ticket, and pointed-edge clippers, most with flip/reverse options for mirroring
 
+### Day 15. Flutter TTS
+- Converts text into spoken audio using the platform's built-in speech engine — no server, API key, or internet connection required
+- Swapped the original's unrelated news-article sample text for generic, self-describing copy ("try adjusting the rate and pitch...") so the demo makes sense on its own
+- Added live speech-rate and pitch sliders wired directly to setSpeechRate / setPitch, so you can actually hear the effect instead of only seeing fixed platform-specific presets
+- Package: flutter_tts: ^4.2.5
+- Features: adjustable language, pitch, speech rate, and volume; start/completion/cancel handlers to track playback state
+
+
 
 ---
 

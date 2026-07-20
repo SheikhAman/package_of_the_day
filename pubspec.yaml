@@ -54,6 +54,9 @@ dependencies:
   # For various custom shapes
   flutter_custom_clippers: ^2.1.0
 
+  # For Text-to-speech in flutter
+  flutter_tts: ^4.2.5
+
 
 
 dev_dependencies:
