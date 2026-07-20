@@ -33,6 +33,9 @@ dependencies:
   # For awesome icons
   font_awesome_flutter: ^11.0.0
 
+  # For pre-built Animations
+  animations: ^2.2.0
+
 
 
 dev_dependencies:

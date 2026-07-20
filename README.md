@@ -78,6 +78,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `font_awesome_flutter: ^11.0.0`
 - Features: solid/regular/brand icon sets, same API as Flutter's built-in `Icon` widget
 
+### Day 08. Animations (OpenContainer)
+- OpenContainer (from the animations package) smoothly morphs a small card into a full detail screen — a common pattern in real apps (product cards, list-to-detail navigation)
+- Uses a realistic example: a short list of trail cards that expand into detail pages with a title, tag, and description, instead of an abstract "small box / big box" demo
+- Package: animations: ^2.2.0
+- Features: multiple transition types (fadeThrough, fade, fadeThroughWithRipple), customizable colors, shapes, and duration for both the closed and open states
+
 
 ---
 
