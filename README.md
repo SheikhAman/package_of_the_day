@@ -146,6 +146,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: syncfusion_flutter_charts: ^34.1.32
 - Features: TooltipBehavior, category/numeric axes, dozens of series types (column, line, area, pie, and more), per-series color and styling
 
+### Day 18. RFlutter Alert
+- Makes it easy to show styled dialogs — success, error, warning, and fully custom layouts — with built-in animations
+- The six examples are laid out as a **clean tappable action list** (icon, title, subtitle) instead of six stacked `ElevatedButton`s with plain labels
+- The original loaded a bundled asset image for the "custom image" example; swapped for an `Icon` widget instead, showing that the `image:` slot accepts any widget, not just `Image.asset` — so it runs standalone with no asset setup
+- Package: `rflutter_alert: ^2.0.7`
+- Features: built-in alert types (success, error, warning, info), custom buttons with color/gradient, fully custom `AlertStyle` (animation, border, colors), and arbitrary custom `content`
+
+
 
 ---
 

@@ -63,6 +63,9 @@ dependencies:
   # For Drawing charts
   syncfusion_flutter_charts: ^34.1.32
 
+  # For displaying alert pop-up
+  rflutter_alert: ^2.0.7
+
 
 
 dev_dependencies:

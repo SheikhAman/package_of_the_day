@@ -15,3 +15,4 @@ export 'day14_flutter_custom_clippers/day14_flutter_custom_clippers.dart';
 export 'day15_flutter_tts/day15_flutter_tts.dart';
 export 'day16_flutter_highlight/day16_flutter_highlight.dart';
 export 'day17_syncfusion_flutter_charts/day17_syncfusion_flutter_charts.dart';
+export 'day18_rflutter_alert/day18_rflutter_alert.dart';
