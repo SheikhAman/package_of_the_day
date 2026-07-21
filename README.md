@@ -139,7 +139,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_highlight: ^0.7.0
 - Features: dozens of built-in themes, language auto-detection or explicit language param, works with any TextStyle (paired here with google_fonts' Fira Code for a real code-editor look)
 
-
+### Day 17. Syncfusion Flutter Charts
+- Production-ready bar, line, and area/pie charts with built-in tooltips, legends, and animation — free for individuals and small businesses under Syncfusion's Community License
+- The original referenced RunningBidsChart, CompletedBidsChart, and TotalAmountChart from a separate model.dart that wasn't included; this version is fully self-contained with sample weekly data built right in, so it compiles and runs standalone
+- Three chart types on purpose, to show range: a column chart (running bids), a line chart with markers (completed bids), and an area chart (total amount)
+- Package: syncfusion_flutter_charts: ^34.1.32
+- Features: TooltipBehavior, category/numeric axes, dozens of series types (column, line, area, pie, and more), per-series color and styling
 
 
 ---
