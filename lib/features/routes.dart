@@ -19,3 +19,4 @@ export 'day18_rflutter_alert/day18_rflutter_alert.dart';
 export 'day19_flutter_settings_ui/day19_flutter_settings_ui.dart';
 export 'day20_flutter_spinkit/day20_flutter_spinkit.dart';
 export 'day21_audioplayers/day21_audioplayers.dart';
+export 'day22_go_router/day22_go_router.dart';

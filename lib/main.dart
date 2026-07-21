@@ -49,7 +49,8 @@ class MyApp extends StatelessWidget {
       // home: const Day18RflutterAlert(),
       // home: const Day19FlutterSettingsUi(),
       // home: const Day20FlutterSpinkit(),
-      home: const Day21AudioPlayers(),
+      // home: const Day21AudioPlayers(),
+      home: const Day22GoRouter(),
     );
   }
 }

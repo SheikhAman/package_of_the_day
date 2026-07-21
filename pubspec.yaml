@@ -75,6 +75,9 @@ dependencies:
   # For playing audio files
   audioplayers: ^6.7.1
 
+  # For easy-to-use navigation
+  go_router: ^17.3.0
+
 
 
 dev_dependencies:

@@ -175,6 +175,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: audioplayers: ^6.7.1
 - Features: multiple source types, player state stream, position/duration streams, seeking
 
+### Day 22. Go Router
+- Adds declarative, URL-based navigation to Flutter — deep linking and browser back/forward work out of the box, on web and mobile alike
+- Updated to the current router API: replaced the separate routeInformationParser / routerDelegate parameters with the single routerConfig parameter, which is what go_router (and Flutter's Router widget) recommends as of v6+
+- Renamed Page1Screen/Page2Screen to HomeScreen/DetailsScreen, each showing its current path so it's clear what context.go(...) actually changed
+- Package: go_router: ^17.3.0
+- Features: declarative route definitions, path parameters, nested/shell routes, redirects, deep linking
+
 
 ---
 
