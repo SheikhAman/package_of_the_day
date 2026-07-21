@@ -13,3 +13,4 @@ export 'day12_flutter_blurhash/day12_flutter_blurhash.dart';
 export 'day13_flutter_svg/day13_flutter_svg.dart';
 export 'day14_flutter_custom_clippers/day14_flutter_custom_clippers.dart';
 export 'day15_flutter_tts/day15_flutter_tts.dart';
+export 'day16_flutter_highlight/day16_flutter_highlight.dart';

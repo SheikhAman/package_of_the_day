@@ -57,6 +57,9 @@ dependencies:
   # For Text-to-speech in flutter
   flutter_tts: ^4.2.5
 
+  # For Code highlight
+  flutter_highlight: ^0.7.0
+
 
 
 dev_dependencies:

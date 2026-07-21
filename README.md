@@ -132,6 +132,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_tts: ^4.2.5
 - Features: adjustable language, pitch, speech rate, and volume; start/completion/cancel handlers to track playback state
 
+### Day 16. Flutter Highlight
+- Adds syntax-colored code blocks with themes borrowed from highlight.js — handy for tutorials, docs, and code-sharing screens
+- Fixed a bug from the original: the code was Dart but language was set to 'javascript' — now correctly matches each snippet's actual language
+- A small language switcher (Dart / JSON) swaps both the code and the highlighter's language live, and a copy button puts the current snippet on the clipboard with a confirmation snackbar
+- Package: flutter_highlight: ^0.7.0
+- Features: dozens of built-in themes, language auto-detection or explicit language param, works with any TextStyle (paired here with google_fonts' Fira Code for a real code-editor look)
+
+
 
 
 ---
