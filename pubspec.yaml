@@ -66,6 +66,9 @@ dependencies:
   # For displaying alert pop-up
   rflutter_alert: ^2.0.7
 
+  # For setting ui for both android & iOS
+  flutter_settings_ui: ^3.0.1
+
 
 
 dev_dependencies:

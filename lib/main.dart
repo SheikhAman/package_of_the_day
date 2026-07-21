@@ -46,7 +46,8 @@ class MyApp extends StatelessWidget {
       // home: const Day15FlutterTts(),
       // home: const Day16FlutterHighlight(),
       // home: const Day17SyncfusionFlutterCharts(),
-      home: const Day18RflutterAlert(),
+      // home: const Day18RflutterAlert(),
+      home: const Day19FlutterSettingsUi(),
     );
   }
 }

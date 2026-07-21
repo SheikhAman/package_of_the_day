@@ -153,6 +153,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `rflutter_alert: ^2.0.7`
 - Features: built-in alert types (success, error, warning, info), custom buttons with color/gradient, fully custom `AlertStyle` (animation, border, colors), and arbitrary custom `content`
 
+### Day 19. Settings UI
+- Builds native-feeling settings screens — sections, tiles, and switches — without hand-rolling ListTile styling and dividers yourself
+- Fixed a logic bug from the original: "Change password" was a switchTile (a boolean toggle), which doesn't make sense for an action like changing a password — it's now a regular tappable tile like "Sign out" or "Email"
+- Every tile's onPressed now shows a snackbar (Opening "Language"...) instead of doing nothing, so tapping around actually gives feedback
+- Package: flutter_settings_ui: ^3.0.1
+- Features: sections with titles, standard tiles, switch tiles, custom leading/trailing widgets, works with Text widgets for full styling control
+
+
 
 
 ---
