@@ -72,6 +72,9 @@ dependencies:
   # For animated loading indicators
   flutter_spinkit: ^5.2.2
 
+  # For playing audio files
+  audioplayers: ^6.7.1
+
 
 
 dev_dependencies:

@@ -167,6 +167,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_spinkit: ^5.2.2
 - Features: dozens of spinner styles, customizable color, size, duration, and (for some) control via AnimationController
 
+### Day 21. Audioplayers
+- Plays audio from assets, files, or URLs, with play/pause/seek control and position/duration streams
+- Updated to the current API — the original used AudioCache and PlayerMode.LOW_LATENCY, which are from a much older version of the package (pre-v1). audioplayers: ^6.8.1 plays sources directly via AudioPlayer().play(...) with typed sources like UrlSource, AssetSource, or DeviceFileSource
+- Also replaced missing local assets (audio file + cover image) with a streamed sample track from a public URL and a gradient album-art placeholder, so the example runs standalone
+- Added a live, seekable progress bar driven by onPositionChanged/onDurationChanged, and pause/resume instead of only play/stop
+- Package: audioplayers: ^6.7.1
+- Features: multiple source types, player state stream, position/duration streams, seeking
+
 
 ---
 
