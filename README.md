@@ -160,7 +160,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_settings_ui: ^3.0.1
 - Features: sections with titles, standard tiles, switch tiles, custom leading/trailing widgets, works with Text widgets for full styling control
 
-
+### Day 20. Flutter Spinkit
+- Ships 20+ animated loading indicators — a drop-in upgrade from the default CircularProgressIndicator
+- Curated down to 9 spinners in one consistent accent color, instead of all 20+ in random colors separated by thick dividers — easier to compare styles side by side, and reads as a designed screen rather than a raw feature dump
+- Added an "In Practice" section: a real submit button that swaps its label for a spinner during a simulated 2-second load, showing the pattern you'd actually use in an app
+- Package: flutter_spinkit: ^5.2.2
+- Features: dozens of spinner styles, customizable color, size, duration, and (for some) control via AnimationController
 
 
 ---

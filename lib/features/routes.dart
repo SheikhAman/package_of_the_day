@@ -17,3 +17,4 @@ export 'day16_flutter_highlight/day16_flutter_highlight.dart';
 export 'day17_syncfusion_flutter_charts/day17_syncfusion_flutter_charts.dart';
 export 'day18_rflutter_alert/day18_rflutter_alert.dart';
 export 'day19_flutter_settings_ui/day19_flutter_settings_ui.dart';
+export 'day20_flutter_spinkit/day20_flutter_spinkit.dart';
