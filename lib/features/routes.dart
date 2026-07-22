@@ -22,3 +22,4 @@ export 'day21_audioplayers/day21_audioplayers.dart';
 export 'day22_go_router/day22_go_router.dart';
 export 'day23_http/day23_http.dart';
 export 'day24_onboarding/day24_onboarding.dart';
+export 'day25_flutter_neumorphic_plus/day25_flutter_neumorphic_plus.dart';

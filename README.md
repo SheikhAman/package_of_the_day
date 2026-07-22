@@ -196,6 +196,16 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: onboarding: ^4.0.2
 - Features: CustomPainter-based indicators (4 built-ins: LinePainter, CirclePainter, SquarePainter, TrianglePainter), fully custom footer builder, configurable animation speed
 
+### Day 25. Flutter Neumorphic
+- Renders "soft UI" components — embossed buttons, sliders, switches, progress bars — using light/shadow pairs instead of flat colors or borders
+- Trimmed down to 4 core components (progress, button, slider, switch) instead of the full showcase (radio, checkboxes, 8 indicators, two button styles) — easier to read top to bottom and enough to show the visual style clearly
+- Uses the package's own theming (NeumorphicTheme/NeumorphicBackground) rather than the series' usual white-card style, since neumorphism needs one shared flat base color for the embossed effect to read correctly
+- Working dark/light toggle in the header, now a single icon button instead of a labeled "Dark Mode" button
+- Switched to flutter_neumorphic_plus — the original flutter_neumorphic package is unmaintained and its source still references Flutter Material APIs (bodyText2, headline5, ThemeData.accentColor, AppBarTheme.textTheme) that were removed in later Flutter SDK versions, causing build failures. The fork patches exactly this and is a drop-in replacement — same widget names, same API, just a different import path (package:flutter_neumorphic_plus/flutter_neumorphic.dart)
+- Package: flutter_neumorphic_plus: ^3.5.0
+- Features: NeumorphicButton, Slider, Switch, Progress, concave/convex/flat shape styles, full dark mode support
+
+
 
 
 ---

@@ -84,6 +84,9 @@ dependencies:
   # For landing page
   onboarding: ^4.0.2
 
+  # For neumorphic UI design
+  flutter_neumorphic_plus: ^3.5.0
+
 
 
 dev_dependencies:
