@@ -87,6 +87,9 @@ dependencies:
   # For neumorphic UI design
   flutter_neumorphic_plus: ^3.5.0
 
+  # For parsing and evaluating mathematical expressions
+  math_expressions: ^3.1.0
+
 
 
 dev_dependencies:

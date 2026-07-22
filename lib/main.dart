@@ -53,7 +53,8 @@ class MyApp extends StatelessWidget {
       // home: const Day22GoRouter(),
       // home: const Day23Http(),
       // home: const Day24Onboarding(),
-      home: const Day25FlutterNeumorphicPlus(),
+      // home: const Day25FlutterNeumorphicPlus(),
+      home: const Day26MathExpressions(),
     );
   }
 }

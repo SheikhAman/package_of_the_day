@@ -205,7 +205,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: flutter_neumorphic_plus: ^3.5.0
 - Features: NeumorphicButton, Slider, Switch, Progress, concave/convex/flat shape styles, full dark mode support
 
-
+### Day 26. Math Expressions
+- Parses and evaluates math strings like `"1+2-4*3"` at runtime — handy for calculators, spreadsheets, or user-defined formulas
+- **Fixed a crash bug**: the original called `exp.evaluate(...)` with no error handling — typing anything malformed (`"2+"`, `"2++2"`, empty input) would throw an uncaught exception and crash the widget. Wrapped in a `try/catch` that shows a friendly "Invalid expression" message instead
+- **Fixed a confusing UX bug**: the original's "Clear" button only reset the *answer* text while leaving stale text in the input field — now "Reset" clears both together
+- Added **quick-insert operator buttons** (`+ − × ÷ ( ) .`) that type into the field at the cursor position, since typing math symbols on a phone keyboard is annoying
+- Package: `math_expressions: ^3.1.0`
+- Features: `Parser`/`Expression`/`ContextModel` for parsing and evaluating arbitrary math strings, supports variables, functions, and multiple evaluation types
 
 
 ---
