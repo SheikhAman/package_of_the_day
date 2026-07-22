@@ -182,6 +182,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: go_router: ^17.3.0
 - Features: declarative route definitions, path parameters, nested/shell routes, redirects, deep linking
 
+### Day 23. HTTP
+- Makes GET, POST, and other requests with a simple, promise-like API — this example fetches a sample record from a free public test API (jsonplaceholder.typicode.com)
+- Fixed a race condition in the original: it set isLoading = false after a hardcoded 3-second Future.delayed, regardless of whether the actual request had finished — meaning a slow network would flip the UI back before data arrived, and a fast one would show a spinner for 3 seconds for nothing. Now the button awaits _fetchData() directly, and loading state is always cleared in a finally block
+- Added proper error handling — failed requests now show a visible error message instead of just a print() no one sees
+- JSON response is pretty-printed (JsonEncoder.withIndent) in a code-style block, instead of dumped as one unformatted line of text
+- Package: http: ^1.6.0
+- Features: GET/POST/PUT/DELETE, headers, timeouts, works with any REST API
+
+
 
 ---
 

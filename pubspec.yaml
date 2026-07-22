@@ -78,6 +78,9 @@ dependencies:
   # For easy-to-use navigation
   go_router: ^17.3.0
 
+  # For making HTTP request
+  http: ^1.6.0
+
 
 
 dev_dependencies:
