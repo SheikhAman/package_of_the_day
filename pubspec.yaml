@@ -93,6 +93,9 @@ dependencies:
   # For modern neumorphic containers
   clay_containers: ^0.3.4
 
+  # For dark mode switch
+  day_night_switch: ^1.0.4
+
 
 
 dev_dependencies:

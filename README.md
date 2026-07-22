@@ -220,8 +220,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `clay_containers: ^0.3.4`
 - Features: `ClayContainer` (flat/emboss, adjustable depth/spread, custom border radius, concave/convex/none curve types), `ClayText` for embossed text
 
-
-
+### Day 28. Day/Night Switch
+- **`day_night_switcher` (originally requested) is discontinued** — swapped for `day_night_switch`, an actively maintained package offering the same idea (an animated sun/moon toggle), with a simpler single-widget API instead of two separate widgets
+- **Removed a redundant UI pattern** from the original: it had three separate controls (`Switch.adaptive`, `DayNightSwitcher`, and `DayNightSwitcherIcon`) all bound to the exact same boolean — visually confusing and pointless, since toggling any one should logically toggle all three. Now there's a single switch
+- Uses `provider`'s `ChangeNotifier` to drive `ThemeMode` across the whole app — the switch is just one input that calls `toggleTheme()`; everything else (app bar colors, background, text colors) updates automatically via `Theme.of(context)`
+- Package: `day_night_switch: <latest>` (replacing discontinued `day_night_switcher: ^0.2.0+1`)
+- Features: single animated toggle between day/night states, customizable day/night/sun/moon colors, optional custom sun/moon images
 
 
 ---

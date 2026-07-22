@@ -55,7 +55,8 @@ class MyApp extends StatelessWidget {
       // home: const Day24Onboarding(),
       // home: const Day25FlutterNeumorphicPlus(),
       // home: const Day26MathExpressions(),
-      home: const Day27ClayContainers(),
+      // home: const Day27ClayContainers(),
+      home: const Day28DayNightSwitch(),
     );
   }
 }
