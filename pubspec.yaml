@@ -81,6 +81,9 @@ dependencies:
   # For making HTTP request
   http: ^1.6.0
 
+  # For landing page
+  onboarding: ^4.0.2
+
 
 
 dev_dependencies:

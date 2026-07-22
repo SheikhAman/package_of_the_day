@@ -190,6 +190,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: http: ^1.6.0
 - Features: GET/POST/PUT/DELETE, headers, timeouts, works with any REST API
 
+### Day 24. Onboarding
+- Drag-based onboarding flow with a fixed footer, page indicator, and skip/get-started button — built on the verified v4.0.2 API
+- Each slide's icon sits in a gradient circle with a soft shadow instead of a flat tinted circle — small touch, reads noticeably more polished
+- Package: onboarding: ^4.0.2
+- Features: CustomPainter-based indicators (4 built-ins: LinePainter, CirclePainter, SquarePainter, TrianglePainter), fully custom footer builder, configurable animation speed
+
 
 
 ---
