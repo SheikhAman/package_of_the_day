@@ -90,6 +90,9 @@ dependencies:
   # For parsing and evaluating mathematical expressions
   math_expressions: ^3.1.0
 
+  # For modern neumorphic containers
+  clay_containers: ^0.3.4
+
 
 
 dev_dependencies:

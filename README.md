@@ -213,6 +213,16 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `math_expressions: ^3.1.0`
 - Features: `Parser`/`Expression`/`ContextModel` for parsing and evaluating arbitrary math strings, supports variables, functions, and multiple evaluation types
 
+### Day 27. Clay Containers
+- Renders soft, moldable "clay" shapes using layered shadows — flat, embossed, concave, or convex — all derived from one base color
+- **Kept a single flat base color throughout the screen**, same reasoning as Day 25's neumorphic example: clay/soft-UI effects only render correctly when every element shares the same background color, so the series' usual white-card style would fight the effect here
+- Replaced the original's **10 unlabeled shapes stacked in a column** with three organized sections: a realistic "profile card" combining `ClayContainer` + `ClayText`, a labeled side-by-side comparison of the three curve types, and a small custom-border-radius gallery
+- Package: `clay_containers: ^0.3.4`
+- Features: `ClayContainer` (flat/emboss, adjustable depth/spread, custom border radius, concave/convex/none curve types), `ClayText` for embossed text
+
+
+
+
 
 ---
 
