@@ -102,6 +102,9 @@ dependencies:
   # For using Lucide Icon pack
   flutter_lucide: ^1.11.0
 
+  # For gradient text
+  simple_gradient_text: ^1.4.0
+
 
 
 dev_dependencies:

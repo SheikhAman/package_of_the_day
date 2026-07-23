@@ -240,6 +240,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_lucide: <latest>`
 - Features: 1,699+ icons, tree-shaking (only the icons you actually use are bundled), cross-platform (Android/iOS/web/desktop), regularly updated alongside upstream Lucide releases
 
+### Day 31. Simple Gradient Text
+- Paints any string with a linear or radial color gradient — a quick way to make a headline, hero title, or logo text stand out without a custom `ShaderMask`
+- A large **hero-style gradient title** up top, plus two labeled example cards below (linear vs. radial), instead of one lone centered example — shows both gradient types side by side for comparison
+- Package: `simple_gradient_text: ^1.4.0`
+- Features: `GradientType.linear` (default) or `.radial`, any number of colors, adjustable radius for radial gradients, works with any `TextStyle`
 
 
 

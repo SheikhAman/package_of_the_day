@@ -58,7 +58,8 @@ class MyApp extends StatelessWidget {
       // home: const Day27ClayContainers(),
       // home: const Day28DayNightSwitch(),
       // home: const Day29Provider(),
-      home: const Day30FlutterLucide(),
+      // home: const Day30FlutterLucide(),
+      home: const Day31SimpleGradientText(),
     );
   }
 }
