@@ -27,3 +27,4 @@ export 'day26_math_expressions/day26_math_expressions.dart';
 export 'day27_clay_containers/day27_clay_containers.dart';
 export 'day28_day_night_switch/day28_day_night_switch.dart';
 export 'day29_provider/day29_provider.dart';
+export 'day30_flutter_lucide/day30_flutter_lucide.dart';

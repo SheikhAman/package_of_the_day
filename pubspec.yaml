@@ -99,6 +99,9 @@ dependencies:
   # For State-management
   provider: ^6.1.5+1
 
+  # For using Lucide Icon pack
+  flutter_lucide: ^1.11.0
+
 
 
 dev_dependencies:

@@ -234,6 +234,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `provider: ^6.1.5+1`
 - Features: `ChangeNotifier`, `ChangeNotifierProvider`, `MultiProvider` for combining multiple providers, `context.watch`/`context.read`/`context.select` for reading state with different rebuild granularity
 
+### Day 30. Flutter Lucide
+- Lucide is a free, open-source icon set of 1,699+ simple, consistent outline icons on a 24x24 grid — a clean alternative to Material's filled icon set, and the actively-maintained continuation of the (now-discontinued) Feather icon project
+- Curated the original's 20-icon dump across 5 rows in 5 different pastel background colors down to a **labeled 12-icon grid in one consistent accent color**, matching Day 7's Font Awesome showcase
+- Package: `flutter_lucide: <latest>`
+- Features: 1,699+ icons, tree-shaking (only the icons you actually use are bundled), cross-platform (Android/iOS/web/desktop), regularly updated alongside upstream Lucide releases
+
 
 
 
