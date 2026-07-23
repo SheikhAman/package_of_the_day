@@ -268,6 +268,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `intro_slider: ^4.2.5`
 - Features: gradient or image slide backgrounds, custom skip/next/done buttons and styling, configurable indicator (color, size, animation type), swipe-beyond-end detection, custom layouts via `listCustomTabs`
 
+### Day 35. Phosphor Icons
+- Phosphor is a flexible, actively maintained icon family with 772+ icons across 6 weight styles (thin, light, regular, bold, fill, duotone) — one of the more comprehensive general-purpose icon sets available for Flutter
+- Package: `phosphor_flutter: ^2.1.0`
+
+
 
 
 

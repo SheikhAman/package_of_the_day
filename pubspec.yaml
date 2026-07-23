@@ -114,6 +114,9 @@ dependencies:
   # For making a cool intro
   intro_slider: ^4.2.5
 
+  # For icons
+  phosphor_flutter: ^2.1.0
+
 
 
 dev_dependencies:
