@@ -31,3 +31,4 @@ export 'day30_flutter_lucide/day30_flutter_lucide.dart';
 export 'day31_simple_gradient_text/day31_simple_gradient_text.dart';
 export 'day32_image_picker/day32_image_picker.dart';
 export 'day33_curved_labeled_navigation_bar/day33_curved_labeled_navigation_bar.dart';
+export 'day34_intro_slider/day34_intro_slider.dart';

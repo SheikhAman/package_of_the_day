@@ -261,6 +261,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `curved_labeled_navigation_bar: ^2.0.6`
 - Features: animated curved tab transition with a raised active icon, per-item icon + label, customizable bar/button colors, gradient support in some fork variants
 
+### Day 34. Intro Slider
+- Full-screen onboarding slider with skip/next/done buttons, animated indicator dots, and per-slide gradient backgrounds
+- **Rewritten against the current API**, verified directly from the package's GitHub README: `Slide` no longer exists in `intro_slider: ^4.2.5` — slides are now `ContentConfig` objects, and settings that used to be top-level (`colorDot`, `sizeDot`, `typeDotAnimation`, `backgroundColorAllSlides`) moved into grouped `IndicatorConfig` / `NavigationBarConfig` objects
+- Replaced the original's local asset images (`pathImage: 'assets/images/intro_slider/*.png'`) with **icons via `centerWidget`** — a `ContentConfig` field that accepts any widget, not just an image path — so it runs standalone with no bundled assets
+- Package: `intro_slider: ^4.2.5`
+- Features: gradient or image slide backgrounds, custom skip/next/done buttons and styling, configurable indicator (color, size, animation type), swipe-beyond-end detection, custom layouts via `listCustomTabs`
+
 
 
 

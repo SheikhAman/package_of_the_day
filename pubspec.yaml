@@ -111,6 +111,10 @@ dependencies:
   # For Curved Labeled Navigation Bar
   curved_labeled_navigation_bar: ^2.0.6
 
+  # For making a cool intro
+  intro_slider: ^4.2.5
+
+
 
 dev_dependencies:
   flutter_test:
