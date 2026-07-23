@@ -105,6 +105,9 @@ dependencies:
   # For gradient text
   simple_gradient_text: ^1.4.0
 
+  # For picking images from the image library, and taking new pictures with the camera
+  image_picker: ^1.2.3
+
 
 
 dev_dependencies:

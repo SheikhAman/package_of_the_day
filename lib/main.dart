@@ -59,7 +59,8 @@ class MyApp extends StatelessWidget {
       // home: const Day28DayNightSwitch(),
       // home: const Day29Provider(),
       // home: const Day30FlutterLucide(),
-      home: const Day31SimpleGradientText(),
+      // home: const Day31SimpleGradientText(),
+      home: const Day32ImagePicker(),
     );
   }
 }

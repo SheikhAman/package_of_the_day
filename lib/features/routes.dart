@@ -29,3 +29,4 @@ export 'day28_day_night_switch/day28_day_night_switch.dart';
 export 'day29_provider/day29_provider.dart';
 export 'day30_flutter_lucide/day30_flutter_lucide.dart';
 export 'day31_simple_gradient_text/day31_simple_gradient_text.dart';
+export 'day32_image_picker/day32_image_picker.dart';

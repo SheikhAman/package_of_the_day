@@ -246,6 +246,16 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `simple_gradient_text: ^1.4.0`
 - Features: `GradientType.linear` (default) or `.radial`, any number of colors, adjustable radius for radial gradients, works with any `TextStyle`
 
+### Day 32. Image Picker
+- Lets users choose a photo from their gallery or take a new one with the camera — a near-universal building block for profile pictures and uploads
+- **Fixed a web-compatibility bug**: the original used `File(image.path)` and `Image.file(...)`. `dart:io`'s `File` doesn't work on Flutter web (there's no real filesystem there) — this would crash if the app ever ran on web. Reads the picked image as bytes (`picked.readAsBytes()`) and displays it with `Image.memory(...)` instead, which works identically on mobile, desktop, and web
+- **Fixed silent error handling**: the original only `print()`ed failures — invisible to the actual user. Failures now show a snackbar with the actual error message
+- Restyled the preview as a circular avatar placeholder (with a loading spinner while picking) instead of the default `FlutterLogo`, and the two buttons as a labeled icon row instead of full-width stacked buttons
+- Package: `image_picker: ^1.2.3`
+- Features: pick from gallery or camera, image/video support, quality and size constraints, cross-platform (Android/iOS/web/desktop where supported)
+
+
+
 
 
 ---
