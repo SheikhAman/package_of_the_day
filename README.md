@@ -254,6 +254,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `image_picker: ^1.2.3`
 - Features: pick from gallery or camera, image/video support, quality and size constraints, cross-platform (Android/iOS/web/desktop where supported)
 
+### Day 33. Curved Labeled Navigation Bar
+- Animated convex/curved bottom navigation bar with a floating, elevated icon for the active tab — a distinctive alternative to Flutter's flat `BottomNavigationBar`
+- **Consolidated 5 nearly-identical page files** (`HomePage`, `DiscoveryPage`, `AddPage`, `MessagePage`, `ProfilePage` — each the exact same layout with a different string) into one reusable `_PageContent` widget driven by a small `_NavDestination` data list
+- **Switched to `IndexedStack`** instead of `_pages[_selectIndex]`, so each page's widget state is preserved when switching tabs rather than being rebuilt from scratch every time
+- Package: `curved_labeled_navigation_bar: ^2.0.6`
+- Features: animated curved tab transition with a raised active icon, per-item icon + label, customizable bar/button colors, gradient support in some fork variants
 
 
 

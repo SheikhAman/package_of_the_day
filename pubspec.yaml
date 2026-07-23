@@ -108,6 +108,8 @@ dependencies:
   # For picking images from the image library, and taking new pictures with the camera
   image_picker: ^1.2.3
 
+  # For Curved Labeled Navigation Bar
+  curved_labeled_navigation_bar: ^2.0.6
 
 
 dev_dependencies:
