@@ -227,6 +227,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `day_night_switch: <latest>` (replacing discontinued `day_night_switcher: ^0.2.0+1`)
 - Features: single animated toggle between day/night states, customizable day/night/sun/moon colors, optional custom sun/moon images
 
+### Day 29. Provider
+- Lightweight state management built on `InheritedWidget` — `ChangeNotifier` + `context.watch`/`context.read` instead of manually threading callbacks through widget constructors
+- **Kept the original's smart pattern of isolating the watching widget**: only `_CountDisplay` calls `context.watch<Counter>()`, so incrementing/decrementing only rebuilds that one `Text`, not the whole screen — this was correctly commented in your original code and preserved here
+- **Replaced the three stacked `FloatingActionButton`s** (unconventional — Material design expects a single FAB, not three crammed into a `Row` inside `floatingActionButton`) with a proper inline button row: minus / restart (outlined) and plus (filled, as the primary action)
+- Package: `provider: ^6.1.5+1`
+- Features: `ChangeNotifier`, `ChangeNotifierProvider`, `MultiProvider` for combining multiple providers, `context.watch`/`context.read`/`context.select` for reading state with different rebuild granularity
+
+
+
 
 ---
 

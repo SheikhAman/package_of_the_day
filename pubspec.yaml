@@ -96,6 +96,9 @@ dependencies:
   # For dark mode switch
   day_night_switch: ^1.0.4
 
+  # For State-management
+  provider: ^6.1.5+1
+
 
 
 dev_dependencies:
