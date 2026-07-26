@@ -67,7 +67,8 @@ class MyApp extends StatelessWidget {
       // home: const Day36FlutterStaggeredGridView(),
       // home: const Day37Shimmer(),
       // home: const Day38Lottie(),
-      home: const Day39SharedPreferences(),
+      // home: const Day39SharedPreferences(),
+      home: const Day40AutoSizeTextPlus(),
     );
   }
 }

@@ -37,3 +37,4 @@ export 'day36_flutter_staggered_grid_view/day36_flutter_staggered_grid_view.dart
 export 'day37_shimmer/day37_shimmer.dart';
 export 'day38_lottie/day38_lottie.dart';
 export 'day39_shared_preferences/day39_shared_preferences.dart';
+export 'day40_auto_size_text_plus/day40_auto_size_text_plus.dart';

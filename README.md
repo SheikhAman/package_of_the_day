@@ -299,6 +299,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Features: `SharedPreferences.getInstance()`, `setString()`, `getString()`, `setInt()`, `getInt()`, `setDouble()`, `getDouble()`, `setBool()`, `getBool()`, `clear()`
 
 
+### Day 40. Auto Size Text (auto_size_text_plus)
+- Automatically resizes text to fit perfectly within its layout bounds — prevents UI overflow errors and text truncation across different screen sizes and dynamic string lengths
+- Added side-by-side comparison: Visually contrasts standard Flutter Text (which overflows) against AutoSizeText (which scales down automatically)
+- Interactive playground: Features live text editing, a maxLines slider, and a card width contraction slider to observe real-time scaling behavior
+- Demonstrates core API features: Highlights minFontSize, maxFontSize, presetFontSizes, stepGranularity, and overflow behavior
+- Package: auto_size_text_plus: ^3.0.2
+- Features: AutoSizeText(), minFontSize, maxFontSize, maxLines, presetFontSizes, stepGranularity
+
+
 
 ---
 
