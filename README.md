@@ -272,7 +272,10 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Phosphor is a flexible, actively maintained icon family with 772+ icons across 6 weight styles (thin, light, regular, bold, fill, duotone) — one of the more comprehensive general-purpose icon sets available for Flutter
 - Package: `phosphor_flutter: ^2.1.0`
 
-
+### Day 36. Flutter Staggered Grid View
+- Ships 6 different grid layout delegates in one package: **Staggered** (cell-span based), **Masonry** (Pinterest-style variable-height columns), **Quilted** (repeating tile patterns), **Woven** (alternating large/offset tiles), **Staired** (diagonal step layout), and **Aligned** (masonry with aligned rows)
+- Package: `flutter_staggered_grid_view: ^0.7.0`
+- Features: `StaggeredGrid`/`StaggeredGridTile`, `MasonryGridView`, `SliverQuiltedGridDelegate`, `SliverWovenGridDelegate`, `SliverStairedGridDelegate`, `AlignedGridView`
 
 
 

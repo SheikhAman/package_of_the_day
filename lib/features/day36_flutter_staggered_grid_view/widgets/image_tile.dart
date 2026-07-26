@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+class ImageTile extends StatelessWidget {
+  const ImageTile({
+    super.key,
+    required this.index,
+    required this.width,
+    required this.height,
+  });
+
+  final int index;
+  final int width;
+  final int height;
+
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: Image.network(
+        'https://picsum.photos/$width/$height?random=$index',
+        width: width.toDouble(),
+        height: height.toDouble(),
+        fit: BoxFit.cover,
+      ),
+    );
+  }
+}
