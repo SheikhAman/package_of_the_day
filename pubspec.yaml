@@ -123,6 +123,9 @@ dependencies:
   # For shimmer loading effect
   shimmer: ^3.0.0
 
+  # For animation
+  lottie: ^3.3.3
+
 
 
 dev_dependencies:

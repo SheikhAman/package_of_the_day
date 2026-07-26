@@ -282,6 +282,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `shimmer: ^3.0.0`
 - Features: `Shimmer.fromColors` wraps any child with an animated gradient sweep, customizable base/highlight colors and direction
 
+### Day 38. Lottie
+- Plays After Effects animations exported as JSON — smooth, scalable, and far lighter than a video file, driven by an `AnimationController` for full play/reverse/scrub control
+- **Duration now matches the real animation** via `onLoaded: (composition) => _controller.duration = composition.duration`, instead of a hardcoded guess (`Duration(seconds: 2)`) that could make the animation play faster or slower than intended
+- Added `errorBuilder` fallbacks for both animations, since these load over the network and could fail
+- Package: `lottie: ^3.3.3`
+- Features: `Lottie.asset`/`.network`/`.memory`, external `AnimationController` for interactive/scrubbable playback, `onLoaded` callback exposing the real composition duration, built-in `repeat`/`reverse` looping
+
+
 
 
 ---

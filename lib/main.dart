@@ -65,7 +65,8 @@ class MyApp extends StatelessWidget {
       // home: const Day34IntroSlider(),
       // home: const Day35PhosphorFlutterIcons(),
       // home: const Day36FlutterStaggeredGridView(),
-      home: const Day37Shimmer(),
+      // home: const Day37Shimmer(),
+      home: const Day38Lottie(),
     );
   }
 }

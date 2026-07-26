@@ -35,3 +35,4 @@ export 'day34_intro_slider/day34_intro_slider.dart';
 export 'day35_phosphor_flutter_icons/day35_phosphor_flutter_icons.dart';
 export 'day36_flutter_staggered_grid_view/day36_flutter_staggered_grid_view.dart';
 export 'day37_shimmer/day37_shimmer.dart';
+export 'day38_lottie/day38_lottie.dart';
