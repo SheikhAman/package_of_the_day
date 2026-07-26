@@ -277,6 +277,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_staggered_grid_view: ^0.7.0`
 - Features: `StaggeredGrid`/`StaggeredGridTile`, `MasonryGridView`, `SliverQuiltedGridDelegate`, `SliverWovenGridDelegate`, `SliverStairedGridDelegate`, `AlignedGridView`
 
+### Day 37. Shimmer
+- Draws an animated shine sweeping over placeholder shapes while real content loads — a much more polished loading state than a bare spinner for list-style UIs
+- Package: `shimmer: ^3.0.0`
+- Features: `Shimmer.fromColors` wraps any child with an animated gradient sweep, customizable base/highlight colors and direction
+
 
 
 ---

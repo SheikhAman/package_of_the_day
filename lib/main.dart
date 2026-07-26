@@ -64,7 +64,8 @@ class MyApp extends StatelessWidget {
       // home: const Day33CurvedLabeledNavBar(),
       // home: const Day34IntroSlider(),
       // home: const Day35PhosphorFlutterIcons(),
-      home: const Day36FlutterStaggeredGridView(),
+      // home: const Day36FlutterStaggeredGridView(),
+      home: const Day37Shimmer(),
     );
   }
 }
