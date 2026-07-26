@@ -289,6 +289,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `lottie: ^3.3.3`
 - Features: `Lottie.asset`/`.network`/`.memory`, external `AnimationController` for interactive/scrubbable playback, `onLoaded` callback exposing the real composition duration, built-in `repeat`/`reverse` looping
 
+### Day 39. Shared Preferences
+- Persists small pieces of data (strings, numbers, bools, doubles) to local storage — survives app restarts and is perfect for storing app settings, lightweight user preferences, and simple offline data
+- Demonstrates **typed storage** by saving and loading a `String`, `int`, `double`, and `bool` using Shared Preferences
+- **Added input validation** to ensure all fields contain valid values before saving, preventing invalid data from being stored
+- **Added success feedback** with SnackBars after saving, loading, and clearing preferences, giving users clear confirmation for every action
+- **Demonstrates data management** using both typed getters/setters (`setString`, `setInt`, `setDouble`, `setBool`) and `clear()` to remove all saved preferences
+- Package: `shared_preferences: ^2.5.5`
+- Features: `SharedPreferences.getInstance()`, `setString()`, `getString()`, `setInt()`, `getInt()`, `setDouble()`, `getDouble()`, `setBool()`, `getBool()`, `clear()`
 
 
 
