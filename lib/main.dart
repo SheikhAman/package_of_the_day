@@ -70,7 +70,8 @@ class MyApp extends StatelessWidget {
       // home: const Day39SharedPreferences(),
       // home: const Day40AutoSizeTextPlus(),
       // home: const Day41DeviceInfoPlus(),
-      home: const Day42Geolocator(),
+      // home: const Day42Geolocator(),
+      home: const Day43GlassKit(),
     );
   }
 }

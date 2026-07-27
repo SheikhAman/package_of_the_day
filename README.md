@@ -321,6 +321,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `geolocator: ^14.0.3`
 - Features: current position with configurable accuracy, permission request/check, location-services check, position stream for continuous tracking, distance/bearing calculations
 
+### Day 43. Glass Kit
+- Renders frosted or clear "glassmorphism" panels with blur, border highlights, and subtle gradients — the trendy frosted-glass UI look
+- Kept both original examples (Clear Glass, Frosted Glass) side by side, and added a **realistic "In Practice" example** — a frosted glass stat card (steps/calories/distance), the kind of overlay you'd actually see on a fitness or dashboard app
+- Package: `glass_kit: ^4.0.2`
+- Features: `GlassContainer.clearGlass()`/`.frostedGlass()` presets, or full manual control (blur, opacity, border, gradient) via the base `GlassContainer` constructor
 
 
 ---
