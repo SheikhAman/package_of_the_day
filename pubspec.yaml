@@ -153,6 +153,11 @@ dependencies:
   # For playing video files
   video_player: ^2.11.1
 
+  # For responsive design
+  responsive_framework: ^1.5.1
+
+
+
 
 dev_dependencies:
   flutter_test:

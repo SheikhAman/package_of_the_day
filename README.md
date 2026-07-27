@@ -361,6 +361,17 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `video_player: ^2.11.1`
 - Features: `VideoPlayerController`, `networkUrl`, `asset videos`, `initialize`, `play`, `pause`, `setVolume`, `setLooping`, `VideoProgressIndicator`
 
+### Day 48. Responsive Framework
+- Builds adaptive Flutter layouts for mobile, tablet, desktop, and large screens
+- Configures custom responsive breakpoints using `ResponsiveBreakpoints.builder`
+- Uses `ResponsiveVisibility` to show or hide widgets based on screen size
+- Demonstrates `ResponsiveRowColumn` to automatically switch between row and column layouts
+- Uses `ResponsiveValue` to apply different values, such as font sizes, for different breakpoints
+- Detects the current device type using `ResponsiveBreakpoints.of(context)`
+- Package: `responsive_framework: ^1.5.1`
+- Features: `ResponsiveBreakpoints`, `Breakpoint`, `ResponsiveVisibility`, `ResponsiveRowColumn`, `ResponsiveValue`, adaptive layouts
+
+
 
 ---
 
