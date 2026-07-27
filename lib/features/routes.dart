@@ -44,3 +44,4 @@ export 'day43_glass_kit/day43_glass_kit.dart';
 export 'day44_url_launcher/day44_url_launcher.dart';
 export 'day45_webview_flutter/day45_webview_flutter.dart';
 export 'day46_sizer/day46_sizer.dart';
+export 'day47_video_player/day47_video_player.dart';

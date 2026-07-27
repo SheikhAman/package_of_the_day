@@ -350,6 +350,16 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `sizer: ^3.1.3`
 - Features: `.w`, `.h`, `.sp`, responsive layouts, orientation awareness, device type detection
 
+### Day 47. Video Player
+- Plays videos inside a Flutter application using the official `video_player` package
+- Supports both online network videos and local asset videos
+- Added custom video controls with play/pause functionality
+- Added video progress indicator with scrubbing support
+- Added mute/unmute functionality with dynamic volume control
+- Added looping support for continuous video playback
+- Uses `ValueListenableBuilder` to efficiently rebuild only video-related UI changes
+- Package: `video_player: ^2.11.1`
+- Features: `VideoPlayerController`, `networkUrl`, `asset videos`, `initialize`, `play`, `pause`, `setVolume`, `setLooping`, `VideoProgressIndicator`
 
 
 ---

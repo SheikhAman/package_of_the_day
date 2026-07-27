@@ -150,6 +150,9 @@ dependencies:
   # For responsive UI design
   sizer: ^3.1.3
 
+  # For playing video files
+  video_player: ^2.11.1
+
 
 dev_dependencies:
   flutter_test:
@@ -161,6 +164,7 @@ flutter:
 
   assets:
     - assets/
+    - assets/videos/
 
 
 #  fonts:
