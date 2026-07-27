@@ -341,7 +341,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `webview_flutter: ^4.14.1`
 - Features: `loadRequest`/`loadHtmlString`/`loadFlutterAsset`, `NavigationDelegate` for intercepting navigation and errors, `runJavaScript`/`runJavaScriptReturningResult`, cookie/cache management
 
-
+### Day 46. Sizer
+- Makes Flutter layouts responsive using percentage-based sizing
+- Uses `.w` and `.h` extensions to size widgets relative to the screen width and height
+- Uses `.sp` for responsive text scaling across different device sizes
+- Demonstrates responsive containers, text, padding, buttons, and circular widgets with a clean, production-ready UI
+- Shows how to initialize the package using `Sizer` at the root of the application
+- Package: `sizer: ^3.1.3`
+- Features: `.w`, `.h`, `.sp`, responsive layouts, orientation awareness, device type detection
 
 
 
