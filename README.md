@@ -327,6 +327,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `glass_kit: ^4.0.2`
 - Features: `GlassContainer.clearGlass()`/`.frostedGlass()` presets, or full manual control (blur, opacity, border, gradient) via the base `GlassContainer` constructor
 
+### Day 44. URL Launcher
+- Opens links, phone dialers, SMS composers, and email clients using the device's default handler for each URI scheme
+- **Added visible error feedback**: `canLaunchUrl` failures only hit `debugPrint`, invisible to an actual user — now shows a snackbar explaining what didn't work
+- Package: `url_launcher: ^6.3.2`
+- Features: `tel:`, `sms:`, `mailto:`, and plain `https://` URI schemes, `canLaunchUrl` to check support before attempting, `LaunchMode` for in-app vs. external browser behavior
+
 
 ---
 

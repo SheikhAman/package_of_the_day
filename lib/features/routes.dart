@@ -41,3 +41,4 @@ export 'day40_auto_size_text_plus/day40_auto_size_text_plus.dart';
 export 'day41_device_info_plus/day41_device_info_plus.dart';
 export 'day42_geolocator/day42_geolocator.dart';
 export 'day43_glass_kit/day43_glass_kit.dart';
+export 'day44_url_launcher/day44_url_launcher.dart';
