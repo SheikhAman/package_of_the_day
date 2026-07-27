@@ -135,6 +135,9 @@ dependencies:
   # For getting device information
   device_info_plus: ^13.2.0
 
+  # For device geolocation
+  geolocator: ^14.0.3
+
 
 
 dev_dependencies:

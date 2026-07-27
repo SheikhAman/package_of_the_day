@@ -314,6 +314,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `device_info_plus: ^13.2.0`
 - Features: `androidInfo`, `iosInfo`, `webBrowserInfo`, `macOsInfo`, `windowsInfo`, `linuxInfo` — one plugin covering every platform Flutter targets
 
+### Day 42. Geolocator
+- Reads the device's GPS coordinates, handling permission requests and location-services checks along the way
+- **Fixed a broken `setState`-around-async pattern**: the original wrapped the entire async `getCurrentPosition()` call inside `setState(() { getCurrentPosition(); })`. `setState`'s callback runs synchronously — it doesn't wait for the `await`s inside — so the rebuild fired *before* latitude/longitude were ever set, meaning the UI would basically never show real coordinates. Rewritten as a proper async method that calls `setState` after each `await` completes
+- **Fixed incomplete permission handling**: the original called `Geolocator.requestPermission()` after a denial but never checked the result or did anything with it — the position was simply never fetched even if the user tapped "Allow." Now re-checks the returned permission and proceeds if granted
+- Package: `geolocator: ^14.0.3`
+- Features: current position with configurable accuracy, permission request/check, location-services check, position stream for continuous tracking, distance/bearing calculations
+
 
 
 ---
