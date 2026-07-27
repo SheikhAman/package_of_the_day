@@ -144,6 +144,8 @@ dependencies:
   # For launching a URL
   url_launcher: ^6.3.2
 
+  ## For loading and displaying html
+  webview_flutter: ^4.14.1
 
 
 dev_dependencies:
