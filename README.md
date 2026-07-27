@@ -307,6 +307,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: auto_size_text_plus: ^3.0.2
 - Features: AutoSizeText(), minFontSize, maxFontSize, maxLines, presetFontSizes, stepGranularity
 
+### Day 41. Device Info Plus
+- Reads platform-specific device details — model, OS version, whether it's a real device or a simulator/emulator, and more
+- **Fixed unreadable text**: the original used `Colors.white10` background, `Colors.white24` app bar, and white text — white-on-near-white, essentially invisible. Restyled with the series' light theme (white cards, dark readable text)
+- **Auto-loads on screen open** instead of requiring a button tap first (showing blank fields until then), with a refresh icon in the app bar to reload on demand
+- Package: `device_info_plus: ^13.2.0`
+- Features: `androidInfo`, `iosInfo`, `webBrowserInfo`, `macOsInfo`, `windowsInfo`, `linuxInfo` — one plugin covering every platform Flutter targets
+
 
 
 ---

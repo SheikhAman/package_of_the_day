@@ -132,6 +132,9 @@ dependencies:
   # For automatically resizes text to fit perfectly within its bounds
   auto_size_text_plus: ^3.0.2
 
+  # For getting device information
+  device_info_plus: ^13.2.0
+
 
 
 dev_dependencies:

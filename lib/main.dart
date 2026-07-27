@@ -68,7 +68,8 @@ class MyApp extends StatelessWidget {
       // home: const Day37Shimmer(),
       // home: const Day38Lottie(),
       // home: const Day39SharedPreferences(),
-      home: const Day40AutoSizeTextPlus(),
+      // home: const Day40AutoSizeTextPlus(),
+      home: const Day41DeviceInfoPlus(),
     );
   }
 }
