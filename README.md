@@ -371,6 +371,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `responsive_framework: ^1.5.1`
 - Features: `ResponsiveBreakpoints`, `Breakpoint`, `ResponsiveVisibility`, `ResponsiveRowColumn`, `ResponsiveValue`, adaptive layouts
 
+### Day 49. Timelines
+- Renders a vertical timeline of connected steps — a natural fit for order tracking, onboarding progress, or activity history
+- Package: `timelines_upgraded: ^0.1.1`
+- Features: vertical/horizontal timelines, alternating or basic content alignment, customizable connectors (solid/dashed) and indicators (dot/outlined/custom), full `TimelineTheme` support
+
+
 
 
 ---

@@ -46,3 +46,4 @@ export 'day45_webview_flutter/day45_webview_flutter.dart';
 export 'day46_sizer/day46_sizer.dart';
 export 'day47_video_player/day47_video_player.dart';
 export 'day48_responsive_framework/day48_responsive_framework.dart';
+export 'day49_timelines_upgraded/day49_timelines_upgraded.dart';

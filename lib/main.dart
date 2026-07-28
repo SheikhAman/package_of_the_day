@@ -76,7 +76,8 @@ class MyApp extends StatelessWidget {
       // home: const Day45WebviewFlutter(),
       // home: const Day46Sizer(),
       // home: const Day47VideoPlayer(),
-      home: const Day48ResponsiveFramework(),
+      // home: const Day48ResponsiveFramework(),
+      home: const Day49TimelinesUpgraded(),
     );
   }
 }

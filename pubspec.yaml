@@ -156,6 +156,10 @@ dependencies:
   # For responsive design
   responsive_framework: ^1.5.1
 
+  # For displaying timeline
+  timelines_upgraded: ^0.1.1
+
+
 
 
 
