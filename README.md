@@ -376,6 +376,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `timelines_upgraded: ^0.1.1`
 - Features: vertical/horizontal timelines, alternating or basic content alignment, customizable connectors (solid/dashed) and indicators (dot/outlined/custom), full `TimelineTheme` support
 
+### Day 50. Just Audio
+- Streams and plays audio from a URL with play, pause, and drag-to-seek — no separate architecture class, everything lives in one `State`
+- Simplified on purpose: a single `AudioPlayer` instance, three stream listeners (`playingStream`, `positionStream`, `durationStream`) that call `setState` directly, and a plain `Slider` for seeking — no `PageManager`, no `ValueNotifier`, no `ValueListenableBuilder`
+- Styled as a small "now playing" card: gradient album-art placeholder, track title, progress slider with elapsed/remaining time, and a circular play/pause button
+- Package: `just_audio: ^0.10.6`
+- Features: streaming from URL/asset/file, `playingStream`/`positionStream`/`durationStream` for reactive UI updates, `seek()`, gapless playback, playlists (not used here, kept simple)
+
 
 
 

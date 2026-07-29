@@ -159,6 +159,9 @@ dependencies:
   # For displaying timeline
   timelines_upgraded: ^0.1.1
 
+  # For playing audio
+  just_audio: ^0.10.6
+
 
 
 

@@ -47,3 +47,4 @@ export 'day46_sizer/day46_sizer.dart';
 export 'day47_video_player/day47_video_player.dart';
 export 'day48_responsive_framework/day48_responsive_framework.dart';
 export 'day49_timelines_upgraded/day49_timelines_upgraded.dart';
+export 'day50_just_audio/day50_just_audio.dart';
