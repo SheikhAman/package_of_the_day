@@ -165,6 +165,9 @@ dependencies:
   # Beautiful persistent bottom navigation
   persistent_bottom_nav_bar_v2: ^6.3.2
 
+  # Value-based object comparison
+  equatable: ^2.1.0
+
 
 
 
