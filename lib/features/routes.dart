@@ -48,3 +48,4 @@ export 'day47_video_player/day47_video_player.dart';
 export 'day48_responsive_framework/day48_responsive_framework.dart';
 export 'day49_timelines_upgraded/day49_timelines_upgraded.dart';
 export 'day50_just_audio/day50_just_audio.dart';
+export 'day51_persistent_bottom_nav_bar_v2/day51_persistent_bottom_nav_bar_v2.dart';

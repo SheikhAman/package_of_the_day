@@ -78,7 +78,8 @@ class MyApp extends StatelessWidget {
       // home: const Day47VideoPlayer(),
       // home: const Day48ResponsiveFramework(),
       // home: const Day49TimelinesUpgraded(),
-      home: const Day50JustAudio(),
+      // home: const Day50JustAudio(),
+      home: const Day51PersistentBottomNavBarV2(),
     );
   }
 }

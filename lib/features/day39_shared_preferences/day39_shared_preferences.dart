@@ -126,7 +126,7 @@ class _Day39SharedPreferencesState extends State<Day39SharedPreferences> {
               },
             ),
 
-            const Spacer(),
+            const SizedBox(height: 30),
 
             SizedBox(
               width: double.infinity,

@@ -162,6 +162,9 @@ dependencies:
   # For playing audio
   just_audio: ^0.10.6
 
+  # Beautiful persistent bottom navigation
+  persistent_bottom_nav_bar_v2: ^6.3.2
+
 
 
 
