@@ -171,6 +171,9 @@ dependencies:
   # Config-based web scraper
   dart_web_scraper: ^0.2.16
 
+  # For onboarding UI screen
+  introduction_screen: ^4.0.0
+
 
 
 

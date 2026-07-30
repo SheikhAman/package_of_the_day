@@ -81,7 +81,8 @@ class MyApp extends StatelessWidget {
       // home: const Day50JustAudio(),
       // home: const Day51PersistentBottomNavBarV2(),
       // home: const Day52Equatable(),
-      home: const Day53DartWebScraper(),
+      // home: const Day53DartWebScraper(),
+      home: const Day54IntroductionScreen(),
     );
   }
 }

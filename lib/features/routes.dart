@@ -51,3 +51,4 @@ export 'day50_just_audio/day50_just_audio.dart';
 export 'day51_persistent_bottom_nav_bar_v2/day51_persistent_bottom_nav_bar_v2.dart';
 export 'day52_equatable/day52_equatable.dart';
 export 'day53_dart_web_scraper/day53_dart_web_scraper.dart';
+export 'day54_introduction_screen/day54_introduction_screen.dart';
