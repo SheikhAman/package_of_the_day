@@ -168,6 +168,9 @@ dependencies:
   # Value-based object comparison
   equatable: ^2.1.0
 
+  # Config-based web scraper
+  dart_web_scraper: ^0.2.16
+
 
 
 

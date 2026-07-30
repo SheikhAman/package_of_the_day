@@ -384,12 +384,25 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Features: streaming from URL/asset/file, `playingStream`/`positionStream`/`durationStream` for reactive UI updates, `seek()`, gapless playback, playlists (not used here, kept simple)
 
 ### Day 51. Persistent Bottom Nav Bar v2
-
 - Creates a beautiful persistent bottom navigation bar where each tab keeps its own navigation stack while switching between screens.
 - Uses a single `PersistentTabController` with multiple `PersistentTabConfig` tabs to keep the example simple and beginner-friendly—everything lives in one file.
 - Demonstrates five tabs with a modern Material 3 interface, animated navigation, and a customized navigation bar using `Style15BottomNavBar`.
 - Package: `persistent_bottom_nav_bar_v2: ^6.3.2`
 - Features: persistent tab navigation, independent navigation stack per tab, customizable nav bar styles, animated tab transitions, built-in navigation controller, and keyboard-aware navigation bar behavior.
+
+### Day 52. Equatable
+- Simplifies object comparison by comparing values instead of memory references, making model classes easier to work with.
+- Uses a single `User` model extending `Equatable` with the `props` getter, allowing two different objects containing the same data to be considered equal.
+- Demonstrates three comparisons (`James == Sarah`, `Sarah == Sarah`, and `Sarah == Sarah Copy`) with a clean Material 3 interface that clearly shows `TRUE` and `FALSE` results.
+- Package: `equatable: ^2.1.0`
+- Features: value equality, cleaner model classes, immutable object support, reliable state comparison, and reduced boilerplate compared to manually overriding `==` and `hashCode`.
+
+### Day 53. Dart Web Scraper
+- Scrapes website content using reusable parser configurations and CSS selectors without manually parsing HTML.
+- Uses a single `WebScraper` instance with the `scrape()` method and `ScraperConfig` to extract quotes and authors from a website in one request.
+- Demonstrates fetching live website data, parsing HTML elements, and displaying the results in a clean Material 3 interface with loading and error handling.
+- Package: `dart_web_scraper: ^0.2.16`
+- Features: config-based web scraping, CSS selectors, reusable parsers, HTML element extraction, text parsing, automatic browser-like request headers, and built-in error handling.
 
 
 
