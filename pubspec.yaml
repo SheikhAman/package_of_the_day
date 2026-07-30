@@ -177,6 +177,9 @@ dependencies:
   # For animated text
   animated_text_kit: ^4.3.0
 
+  # For horizontal data table
+  horizontal_data_table: ^4.3.4
+
 
 
 

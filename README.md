@@ -418,6 +418,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `animated_text_kit: ^4.3.0`
 - Features: rotate animation, typewriter effect, fade animation, scale animation, colorize animation, wavy text, customizable speed, repeat animations, and easy integration.
 
+### Day 56. Horizontal Data Table
+- Freezes a left-hand column (Name) while the rest of the table scrolls horizontally — useful for tables with more columns than fit on screen, with independent vertical/horizontal scrollbars and pull-to-refresh/load-more support
+- **Fixed a data-duplication bug**: the original stored users in a top-level `User user = User()` global singleton and called `user.initData(100)` in `initState`. Since that singleton lives for the whole app process, re-entering the screen would call `initData` again and append another 100 rows on top of the existing ones. Moved to local widget state instead, generated once
+- **Fixed a layout overflow bug**: the table's height was set to `MediaQuery.of(context).size.height` — the *entire screen height* — while already inside a `Scaffold` with an `AppBar`, pushing the table past the visible area. Wrapped in `Expanded` so it correctly fills just the remaining space
+- Restyled: status shown as a colored pill (green/red) instead of an icon + plain text, accent-colored scrollbars, sortable header columns highlighted when active
+- Package: `horizontal_data_table: ^4.3.4`
+- Features: fixed left column + scrollable right columns, independent scrollbar styling, pull-to-refresh, pull-to-load-more, custom header/row builders
+
 
 
 ---
