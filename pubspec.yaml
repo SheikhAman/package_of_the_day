@@ -180,6 +180,9 @@ dependencies:
   # For horizontal data table
   horizontal_data_table: ^4.3.4
 
+  # For confetti animation
+  confetti: ^0.8.0
+
 
 
 

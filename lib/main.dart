@@ -84,7 +84,8 @@ class MyApp extends StatelessWidget {
       // home: const Day53DartWebScraper(),
       // home: const Day54IntroductionScreen(),
       // home: const Day55AnimatedTextKit(),
-      home: const Day56HorizontalDataTable(),
+      // home: const Day56HorizontalDataTable(),
+      home: const Day57Confetti(),
     );
   }
 }

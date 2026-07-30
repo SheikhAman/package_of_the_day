@@ -426,6 +426,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `horizontal_data_table: ^4.3.4`
 - Features: fixed left column + scrollable right columns, independent scrollbar styling, pull-to-refresh, pull-to-load-more, custom header/row builders
 
+### Day 57. Confetti
+- Plays a short particle burst — a nice bit of delight for success screens, achievements, or "you're all set" moments
+- Simplified from the original: instead of manually listening to controller state (`addListener` + `isPlaying` bool) just to toggle a button label between "Celebrate"/"Stop," this uses a fixed-duration one-shot burst (`ConfettiController(duration:...)` + `.play()`) — one button, one action
+- `Scaffold` is the root widget (standard pattern), with the confetti overlay inside the body's own `Stack`, rather than wrapping the whole `Scaffold` in one
+- Custom `colors:` matching the accent palette instead of default randomized colors
+- Package: `confetti: ^0.8.0`
+- Features: explosive/directional blast, configurable particle count, blast force range, emission frequency, custom colors and particle shapes
+
 
 
 ---

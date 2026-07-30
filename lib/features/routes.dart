@@ -54,3 +54,4 @@ export 'day53_dart_web_scraper/day53_dart_web_scraper.dart';
 export 'day54_introduction_screen/day54_introduction_screen.dart';
 export 'day55_animated_text_kit/day55_animated_text_kit.dart';
 export 'day56_horizontal_data_table/day56_horizontal_data_table.dart';
+export 'day57_confetti/day57_confetti.dart';
