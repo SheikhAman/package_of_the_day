@@ -411,6 +411,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `introduction_screen: ^4.0.0`
 - Features: swipeable onboarding pages, customizable buttons, page indicators, completion callback, page animations, and responsive onboarding flow.
 
+### Day 55. Animated Text Kit
+- Adds beautiful animated text effects with simple, customizable widgets for onboarding screens, splash screens, headers, and marketing content.
+- Uses multiple `AnimatedTextKit` examples to demonstrate popular animations including Rotate, Typewriter, Fade, Scale, Colorize, and Wavy while keeping the implementation beginner-friendly.
+- Styled with clean Material 3 cards that make it easy to compare different animation types in a single screen.
+- Package: `animated_text_kit: ^4.3.0`
+- Features: rotate animation, typewriter effect, fade animation, scale animation, colorize animation, wavy text, customizable speed, repeat animations, and easy integration.
+
+
 
 ---
 
