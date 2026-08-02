@@ -473,6 +473,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_hooks: ^0.21.3+1`
 - Features: `HookWidget`, `useState`, `useTextEditingController`, automatic resource disposal, cleaner state management, and reusable logic.
 
+### Day 63. Path Provider
+- Finds platform-specific storage directories for saving files and app data.
+- Uses `getTemporaryDirectory()` and `getApplicationDocumentsDirectory()` to access storage locations, then demonstrates writing and reading a text file.
+- Styled with a modern Material 3 interface showing directory paths, reusable action buttons, and a simple file storage example.
+- Package: `path_provider: ^2.1.6`
+- Features: temporary directory, application documents directory, file storage, file reading, persistent local data, and cross-platform path access.
+
+
 
 ```
 
