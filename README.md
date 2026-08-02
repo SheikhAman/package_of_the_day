@@ -443,6 +443,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
     - `video_player: ^2.11.1`
 - Features: built-in playback controls, fullscreen mode, playback speed selection, looping, progress indicator, muting, custom progress colors, and error handling.
 
+### Day 59. GetIt
+- Registers and accesses shared objects anywhere in the application using a lightweight service locator without passing dependencies through widget constructors.
+- Uses a global `GetIt` instance to register a singleton `CounterService`, retrieve it from the widget tree, and update the UI through `ChangeNotifier`.
+- Styled with a modern Material 3 interface featuring a service card, live counter display, and a clean action button to demonstrate dependency injection in a simple way.
+- Package: `get_it: ^9.2.1`
+- Features: service locator, singleton registration, dependency injection, global service access, `ChangeNotifier` integration, lightweight architecture, and improved code organization.
+
 
 
 ---

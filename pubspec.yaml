@@ -186,6 +186,9 @@ dependencies:
   # Feature-rich video player
   chewie: ^1.14.1
 
+  # Lightweight service locator
+  get_it: ^9.2.1
+
 
 
 
