@@ -87,7 +87,8 @@ class MyApp extends StatelessWidget {
       // home: const Day56HorizontalDataTable(),
       // home: const Day57Confetti(),
       // home: const Day58Chewie(),
-      home: const Day59GetIt(),
+      // home: const Day59GetIt(),
+      home: const Day60AnotherFlushbar(),
     );
   }
 }

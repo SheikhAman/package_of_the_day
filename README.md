@@ -450,6 +450,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `get_it: ^9.2.1`
 - Features: service locator, singleton registration, dependency injection, global service access, `ChangeNotifier` integration, lightweight architecture, and improved code organization.
 
+### Day 60. Another Flushbar
+- Displays beautiful floating notifications with custom colors, icons, animations, and auto-dismiss support.
+- Uses a single helper method to create reusable success, info, warning, and error notifications with minimal code.
+- Styled with rounded corners, drop shadows, Material 3 buttons, and smooth animations for a modern user experience.
+- Package: `another_flushbar: ^2.2.4`
+- Features: floating notifications, top/bottom positioning, custom icons, colors, animations, auto dismiss, custom duration, rounded corners, and reusable notification widgets.
 
 
 ---

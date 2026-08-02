@@ -189,6 +189,9 @@ dependencies:
   # Lightweight service locator
   get_it: ^9.2.1
 
+  # Beautiful floating notifications
+  another_flushbar: ^2.2.4
+
 
 
 

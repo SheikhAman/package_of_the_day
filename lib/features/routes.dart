@@ -57,3 +57,4 @@ export 'day56_horizontal_data_table/day56_horizontal_data_table.dart';
 export 'day57_confetti/day57_confetti.dart';
 export 'day58_chewie/day58_chewie.dart';
 export 'day59_get_it/day59_get_it.dart';
+export 'day60_another_flushbar/day60_another_flushbar.dart';
