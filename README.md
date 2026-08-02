@@ -466,6 +466,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
   - `another_flushbar: ^1.12.30`
 - Features: Wi-Fi detection, mobile data detection, ethernet support, offline detection, real-time connectivity updates, and beautiful floating notifications.
 
+### Day 62. Flutter Hooks
+- Simplifies Flutter development by using hooks to manage state, controllers, and reusable logic without creating a `StatefulWidget`.
+- Uses `HookWidget`, `useTextEditingController`, and `useState` to build a login form with automatic controller disposal and reactive UI updates.
+- Styled with a clean Material 3 interface featuring a modern login form, password visibility toggle, and animated login status card.
+- Package: `flutter_hooks: ^0.21.3+1`
+- Features: `HookWidget`, `useState`, `useTextEditingController`, automatic resource disposal, cleaner state management, and reusable logic.
+
+
+```
 
 ---
 

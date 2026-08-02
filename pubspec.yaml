@@ -195,6 +195,9 @@ dependencies:
   # Network connectivity
   connectivity_plus: ^7.3.1
 
+  # React Hooks for Flutter
+  flutter_hooks: ^0.21.3+1
+
 
 
 
