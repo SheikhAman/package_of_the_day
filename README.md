@@ -480,6 +480,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `path_provider: ^2.1.6`
 - Features: temporary directory, application documents directory, file storage, file reading, persistent local data, and cross-platform path access.
 
+### Day 64. YouTube Player Flutter
+- Embeds YouTube videos directly inside a Flutter application with built-in playback controls.
+- Uses a single `YoutubePlayerController` to load a YouTube video, display video metadata, and control playback with Play/Pause and Fullscreen buttons.
+- Styled with a clean, card-based Material interface featuring an embedded player, video information card, and reusable action buttons.
+- Package: `youtube_player_flutter: ^9.1.3`.
+- Features: YouTube video embedding, play/pause, fullscreen mode, progress indicator, video title, channel name, duration, and controller-based playback.
 
 
 ```

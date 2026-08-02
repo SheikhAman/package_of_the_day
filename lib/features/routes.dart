@@ -61,3 +61,4 @@ export 'day60_another_flushbar/day60_another_flushbar.dart';
 export 'day61_connectivity_plus/day61_connectivity_plus.dart';
 export 'day62_flutter_hooks/day62_flutter_hooks.dart';
 export 'day63_path_provider/day63_path_provider.dart';
+export 'day64_youtube_player_flutter/day64_youtube_player_flutter.dart';
