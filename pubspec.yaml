@@ -192,6 +192,9 @@ dependencies:
   # Beautiful floating notifications
   another_flushbar: ^2.2.4
 
+  # Network connectivity
+  connectivity_plus: ^7.3.1
+
 
 
 

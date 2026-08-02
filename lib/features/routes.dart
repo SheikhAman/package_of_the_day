@@ -58,3 +58,4 @@ export 'day57_confetti/day57_confetti.dart';
 export 'day58_chewie/day58_chewie.dart';
 export 'day59_get_it/day59_get_it.dart';
 export 'day60_another_flushbar/day60_another_flushbar.dart';
+export 'day61_connectivity_plus/day61_connectivity_plus.dart';

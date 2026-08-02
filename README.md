@@ -457,6 +457,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `another_flushbar: ^2.2.4`
 - Features: floating notifications, top/bottom positioning, custom icons, colors, animations, auto dismiss, custom duration, rounded corners, and reusable notification widgets.
 
+### Day 61. Connectivity Plus
+- Detects the device's current network status and listens for connectivity changes in real time.
+- Uses `Connectivity().checkConnectivity()` to get the current connection and `onConnectivityChanged` to automatically update the UI when the network changes.
+- Styled with a modern Material 3 interface featuring a live connection status card and floating notifications using `another_flushbar`.
+- Packages:
+  - `connectivity_plus: ^7.3.1`
+  - `another_flushbar: ^1.12.30`
+- Features: Wi-Fi detection, mobile data detection, ethernet support, offline detection, real-time connectivity updates, and beautiful floating notifications.
+
 
 ---
 
