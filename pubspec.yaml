@@ -183,6 +183,9 @@ dependencies:
   # For confetti animation
   confetti: ^0.8.0
 
+  # Feature-rich video player
+  chewie: ^1.14.1
+
 
 
 

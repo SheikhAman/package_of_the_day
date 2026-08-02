@@ -434,6 +434,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `confetti: ^0.8.0`
 - Features: explosive/directional blast, configurable particle count, blast force range, emission frequency, custom colors and particle shapes
 
+### Day 58. Chewie
+- Builds a feature-rich video player on top of the `video_player` package with a polished Material Design interface.
+- Uses a single `VideoPlayerController` wrapped by `ChewieController` to provide play/pause controls, fullscreen mode, playback speed, looping, and a customizable progress bar.
+- Demonstrates streaming a network video with loading and error handling in a clean Material 3 layout suitable for beginner learning and real-world apps.
+- Packages:
+    - `chewie: ^1.14.1`
+    - `video_player: ^2.11.1`
+- Features: built-in playback controls, fullscreen mode, playback speed selection, looping, progress indicator, muting, custom progress colors, and error handling.
+
 
 
 ---

@@ -85,7 +85,8 @@ class MyApp extends StatelessWidget {
       // home: const Day54IntroductionScreen(),
       // home: const Day55AnimatedTextKit(),
       // home: const Day56HorizontalDataTable(),
-      home: const Day57Confetti(),
+      // home: const Day57Confetti(),
+      home: const Day58Chewie(),
     );
   }
 }
