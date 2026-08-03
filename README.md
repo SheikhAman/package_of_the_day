@@ -487,8 +487,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `youtube_player_flutter: ^9.1.3`.
 - Features: YouTube video embedding, play/pause, fullscreen mode, progress indicator, video title, channel name, duration, and controller-based playback.
 
-
-```
+### Day 65. YouTube Player IFrame
+- Embeds the official YouTube IFrame Player inside a Flutter application.
+- Uses a single `YoutubePlayerController` to load and control a YouTube video with built-in playback controls and fullscreen support.
+- Styled with a clean Material 3 interface featuring an embedded player, information card, and reusable action buttons.
+- Package: `youtube_player_iframe: ^6.0.2`
+- Features: official YouTube IFrame player, play, pause, fullscreen mode, YouTube controls, cross-platform support, and responsive video playback.
 
 ---
 

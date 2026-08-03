@@ -204,6 +204,9 @@ dependencies:
   # For playing YouTube videos
   youtube_player_flutter: ^9.1.3
 
+  # Official YouTube IFrame player
+  youtube_player_iframe: ^6.0.2
+
 
 
 
