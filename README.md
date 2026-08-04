@@ -494,6 +494,17 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `youtube_player_iframe: ^6.0.2`
 - Features: official YouTube IFrame player, play, pause, fullscreen mode, YouTube controls, cross-platform support, and responsive video playback.
 
+### Day 66. Flutter Slidable
+- Build interactive swipeable list items with smooth animations using the `flutter_slidable` package.
+- Beginner-friendly example demonstrating swipe actions with a simple learning-topic list.
+- Swipe right to reveal **Archive** and **Share** actions.
+- Swipe left to reveal **More** and **Delete** actions.
+- Delete items dynamically from the list using `setState`.
+- Demonstrates `Slidable`, `ActionPane`, `DrawerMotion`, and `SlidableAction`.
+- Package: `flutter_slidable: ^4.0.3`
+- Features: swipe gestures, start/end action panes, custom action buttons, smooth animations, dynamic list updates, SnackBar notifications, and modern Flutter UI patterns.
+
+
 ---
 
 ## 📋 Table of Contents

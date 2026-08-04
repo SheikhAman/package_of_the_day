@@ -93,7 +93,8 @@ class MyApp extends StatelessWidget {
       // home: const Day62FlutterHooks(),
       // home: const Day63PathProvider(),
       // home: const Day64YoutubePlayerFlutter(),
-      home: const Day65YoutubePlayerIframe(),
+      // home: const Day65YoutubePlayerIframe(),
+      home: const Day66FlutterSlidable(),
     );
   }
 }

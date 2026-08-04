@@ -207,6 +207,9 @@ dependencies:
   # Official YouTube IFrame player
   youtube_player_iframe: ^6.0.2
 
+  # For implementation of slidable list item
+  flutter_slidable: ^4.0.3
+
 
 
 
