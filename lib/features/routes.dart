@@ -67,3 +67,4 @@ export 'day66_flutter_slidable/day66_flutter_slidable.dart';
 export 'day67_json_annotation/day67_json_annotation.dart';
 export 'day68_dio/day68_dio.dart';
 export 'day69_gal/day69_gal.dart';
+export 'day70_searchfield/day70_searchfield.dart';

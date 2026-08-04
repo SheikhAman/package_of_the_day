@@ -534,6 +534,27 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Shows proper async/await handling with error management.
 - Provides SnackBar feedback after successful image saving.
 
+### Day 70. SearchField
+- Implements a modern autocomplete search experience using the `searchfield` package.
+- Beginner-friendly example demonstrating how to create a searchable input with suggestions.
+- Shows real-time search filtering from a local user list.
+- Demonstrates `SearchField`, `SearchFieldListItem`, and search callbacks.
+- Useful for implementing user search, product search, location search, and API-based search features.
+- Package: `searchfield: ^2.0.0`
+- Features: autocomplete suggestions, searchable input field, suggestion dropdown, custom styling, filtering, and easy integration with Flutter applications.
+
+
+
+### Package
+
+No external package required.
+
+Uses Flutter SDK:
+
+```dart
+SearchAnchor
+SearchController
+
 ---
 
 ## 📋 Table of Contents

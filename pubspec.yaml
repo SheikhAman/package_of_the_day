@@ -219,6 +219,9 @@ dependencies:
   # For saving images and videos in gallery
   gal: ^2.3.3
 
+  # A customizable search field with auto-complete suggestions
+  searchfield: ^2.0.0
+
 
 
 
