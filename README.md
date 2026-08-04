@@ -515,6 +515,18 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Uses nullable fields, `DateTime` conversion, and nested JSON objects.
 - Package: `json_annotation: ^4.12.0`
 
+### Day 68. Dio
+- Learn how to make HTTP requests in Flutter using the powerful `dio` package.
+- Demonstrates fetching data from a REST API and displaying the response in the UI.
+- Uses `GET` request to retrieve data from an external API.
+- Beginner-friendly example showing API calling, JSON decoding, and response handling.
+- Shows how to handle HTTP status codes and catch request errors.
+- Displays raw API response data and extracted JSON values like `userId` and `title`.
+- Demonstrates loading state handling while waiting for API responses.
+- Uses `jsonDecode()` to convert API JSON response into Dart objects.
+- Package: `dio: ^5.11.0`
+
+
 
 ---
 

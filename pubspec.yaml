@@ -213,6 +213,9 @@ dependencies:
   # For JSON to Dart class generator
   json_annotation: ^4.12.0
 
+  # A powerful Http client for Dart
+  dio: ^5.11.0
+
 
 
 
