@@ -64,3 +64,4 @@ export 'day63_path_provider/day63_path_provider.dart';
 export 'day64_youtube_player_flutter/day64_youtube_player_flutter.dart';
 export 'day65_youtube_player_iframe/day65_youtube_player_iframe.dart';
 export 'day66_flutter_slidable/day66_flutter_slidable.dart';
+export 'day67_json_annotation/day67_json_annotation.dart';

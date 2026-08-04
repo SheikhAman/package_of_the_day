@@ -210,6 +210,9 @@ dependencies:
   # For implementation of slidable list item
   flutter_slidable: ^4.0.3
 
+  # For JSON to Dart class generator
+  json_annotation: ^4.12.0
+
 
 
 
@@ -217,6 +220,13 @@ dependencies:
 
 
 dev_dependencies:
+  # It provides a concrete way of generating files using Dart code
+  build_runner: ^2.15.1
+  # Dependency of "json_annotation"
+  json_serializable: ^6.13.2
+
+
+
   flutter_test:
     sdk: flutter
 

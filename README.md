@@ -504,6 +504,17 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_slidable: ^4.0.3`
 - Features: swipe gestures, start/end action panes, custom action buttons, smooth animations, dynamic list updates, SnackBar notifications, and modern Flutter UI patterns.
 
+### Day 67. JSON Annotation
+- Learn how to convert Dart objects into JSON and JSON data back into Dart objects using `json_annotation`.
+- Demonstrates automatic JSON serialization and deserialization with generated code.
+- Uses `json_serializable` and `build_runner` to generate `.g.dart` files automatically.
+- Beginner-friendly example showing how models can handle complex nested objects like `Person` and `Address`.
+- Converts a Dart object using `toJson()` and recreates the object using `fromJson()`.
+- Shows how generated code reduces boilerplate and makes API data handling easier.
+- Demonstrates `@JsonSerializable()` annotation and `explicitToJson: true` for nested model conversion.
+- Uses nullable fields, `DateTime` conversion, and nested JSON objects.
+- Package: `json_annotation: ^4.12.0`
+
 
 ---
 
