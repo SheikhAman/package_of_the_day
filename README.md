@@ -526,7 +526,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Uses `jsonDecode()` to convert API JSON response into Dart objects.
 - Package: `dio: ^5.11.0`
 
-
+### Day 69. Gal Gallery Saver
+- Learn how to save images from the internet directly into the device gallery using the `gal` package.
+- Demonstrates downloading an image using `dio` and saving it to the phone gallery.
+- Beginner-friendly example showing image download, temporary file handling, and gallery access.
+- Uses `path_provider` to create a temporary storage location before saving the image.
+- Shows proper async/await handling with error management.
+- Provides SnackBar feedback after successful image saving.
 
 ---
 

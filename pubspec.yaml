@@ -216,6 +216,8 @@ dependencies:
   # A powerful Http client for Dart
   dio: ^5.11.0
 
+  # For saving images and videos in gallery
+  gal: ^2.3.3
 
 
 
