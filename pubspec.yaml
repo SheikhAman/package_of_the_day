@@ -252,6 +252,9 @@ dependencies:
   # For create animated countdown / countup timer
   slide_countdown: ^2.0.2
 
+  # For formate date & time
+  date_format: ^2.0.9
+
 
 
 

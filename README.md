@@ -613,6 +613,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `slide_countdown: ^2.0.2`
 - Features: `SlideCountdownSeparated` for a clean segmented look, auto-sliding digit animations, customizable separators, and built-in `onDone` callback for triggering post-timer events
 
+### Day 80. Date Format
+- Simplifies the process of transforming standard DateTime objects into human-readable strings using a declarative token-based system
+- Clarity over Complexity: Demonstrates several common formatting patterns—from ISO-standard dates to 12-hour clocks and timezones—highlighting how to replace rigid native methods with a more expressive API
+- Package: `date_format: ^2.0.9`
+- Features: Intuitive token array format (e.g., [yyyy, '-', mm, '-', dd]), support for full month/day names (MM, DD), 12/24 hour toggles, and timezone offset (z)
+
+
 
 
 ---
