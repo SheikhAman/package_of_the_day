@@ -106,7 +106,8 @@ class MyApp extends StatelessWidget {
       // home: const Day75CachedNetworkImage(),
       // home: const Day76FlutterCacheManager(),
       // home: const Day77Fluttertoast(),
-      home: const Day78Crypto(),
+      // home: const Day78Crypto(),
+      home: const Day79SlideCountdown(),
     );
   }
 }

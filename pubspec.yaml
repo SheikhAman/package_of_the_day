@@ -248,8 +248,9 @@ dependencies:
 
   # For cryptographic hashing functions
   crypto: ^3.0.7
-
-
+  
+  # For create animated countdown / countup timer
+  slide_countdown: ^2.0.2
 
 
 

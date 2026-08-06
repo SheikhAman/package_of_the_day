@@ -607,6 +607,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `crypto: ^3.0.7`
 - Features: Support for MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, and HMAC-SHA256; simple `convert()` API for `List<int>` bytes; easily integrable with `utf8.encode()` for string hashing
 
+### Day 79. Slide Countdown
+- Implements a polished, sliding-animation timer that provides a premium "launch day" feel to apps
+- **Interactive Experience**: Integrated with the `confetti` package (Day 57) to trigger a celebratory star-blast animation exactly when the timer hits zero, demonstrating complex state coordination between different packages
+- Package: `slide_countdown: ^2.0.2`
+- Features: `SlideCountdownSeparated` for a clean segmented look, auto-sliding digit animations, customizable separators, and built-in `onDone` callback for triggering post-timer events
+
 
 
 ---
