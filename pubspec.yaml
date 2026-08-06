@@ -240,6 +240,9 @@ dependencies:
   # For image caching & keeping them in cache directory
   cached_network_image: ^3.4.1
 
+  # For managing network cached files
+  flutter_cache_manager: ^3.4.2
+
 
 
 

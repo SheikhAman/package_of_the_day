@@ -589,6 +589,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `cached_network_image: ^3.4.1`
 - Features: automatic disk caching, `placeholder`/`errorWidget` builders, optional custom `CacheManager` for advanced cache control (stale period, max cached objects)
 
+### Day 76. Flutter Cache Manager
+- Downloads and caches any file to disk with `getSingleFile()` — the low-level building block that image-caching widgets like `CachedNetworkImage` (Day 75) are built on top of, but usable for any file type, not just images
+- **Different angle from Day 75 on purpose**: instead of going through the `CachedNetworkImage` widget, this calls `CacheManager().getSingleFile(url)` directly inside a `FutureBuilder<File>` and renders the result with `Image.file(...)` — shows the actual mechanism doing the caching, one layer down
+- Package: `flutter_cache_manager: ^3.4.2`
+- Features: `getSingleFile()`, `getFileStream()` for progress updates, custom `Config` (cache key, max objects, stale period, custom `HttpFileService`), `emptyCache()`, `removeFile()`
 
 
 ---

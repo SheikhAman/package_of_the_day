@@ -103,7 +103,8 @@ class MyApp extends StatelessWidget {
       // home: const Day72SharePlus(),
       // home: const Day73InfiniteScrollPagination(),
       // home: const Day74Marquee(),
-      home: const Day75CachedNetworkImage(),
+      // home: const Day75CachedNetworkImage(),
+      home: const Day76FlutterCacheManager(),
     );
   }
 }
