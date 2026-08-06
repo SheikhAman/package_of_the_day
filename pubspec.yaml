@@ -237,6 +237,9 @@ dependencies:
   # For animated text
   marquee: ^2.3.0
 
+  # For image caching & keeping them in cache directory
+  cached_network_image: ^3.4.1
+
 
 
 

@@ -72,3 +72,4 @@ export 'day71_file_picker/day71_file_picker.dart';
 export 'day72_share_plus/day72_share_plus.dart';
 export 'day73_infinite_scroll_pagination/day73_infinite_scroll_pagination.dart';
 export 'day74_marquee/day74_marquee.dart';
+export 'day75_cached_network_image/day75_cached_network_image.dart';

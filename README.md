@@ -582,6 +582,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Combines a scrolling text banner with a background image and Font Awesome icons for a modern UI.
 - Perfect for news tickers, announcements, notifications, promotional messages, and breaking news.
 
+### Day 75. Cached Network Image
+- Downloads an image once and reuses it from disk after that — scroll away and back, and it loads instantly instead of re-downloading, unlike a plain `Image.network`
+- **Simplified on purpose**: dropped the custom `CacheManager`/`Config` setup from the original in favor of the package's sensible default caching — one less concept to explain, and the default behavior is exactly what most apps actually want
+- Replaced the missing local placeholder asset with a simple loading spinner, and gave the whole list card styling instead of plain `ListTile`s
+- Package: `cached_network_image: ^3.4.1`
+- Features: automatic disk caching, `placeholder`/`errorWidget` builders, optional custom `CacheManager` for advanced cache control (stale period, max cached objects)
 
 
 
