@@ -98,7 +98,8 @@ class MyApp extends StatelessWidget {
       // home: const Day67JsonAnnotation(),
       // home: const Day68Dio(),
       // home: const Day69Gal(),
-      home: const Day70SearchField(),
+      // home: const Day70SearchField(),
+      home: const Day71FilePicker(),
     );
   }
 }

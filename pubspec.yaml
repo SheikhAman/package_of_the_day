@@ -222,6 +222,12 @@ dependencies:
   # A customizable search field with auto-complete suggestions
   searchfield: ^2.0.0
 
+  # Allows users to pick files from device storage with multiple format support
+  file_picker: ^12.0.0-beta.7
+
+  # For using the native APP to open files
+  open_file: ^4.0.0
+
 
 
 

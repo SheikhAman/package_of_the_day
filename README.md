@@ -543,17 +543,19 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `searchfield: ^2.0.0`
 - Features: autocomplete suggestions, searchable input field, suggestion dropdown, custom styling, filtering, and easy integration with Flutter applications.
 
+### Day 71. File Picker
+- Demonstrates how to select files from device storage using the `file_picker` package.
+- Beginner-friendly example showing how to pick and display selected file information.
+- Displays file name, file size, extension, and file path after selection.
+- Uses `open_file` to open the selected file with the device's default application.
+- Shows how to handle cancelled file selection safely.
+- Useful for document upload, PDF selection, image selection, and file management features.
+- Package: `file_picker: ^3.0.4`
+- Additional Package: `open_file: ^4.0.0`
+- Features: file selection, file metadata access, extension handling, file size calculation, opening files, device storage integration, and clean Material UI.
 
 
-### Package
 
-No external package required.
-
-Uses Flutter SDK:
-
-```dart
-SearchAnchor
-SearchController
 
 ---
 
