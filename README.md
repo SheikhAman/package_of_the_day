@@ -601,6 +601,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `fluttertoast: ^9.1.0`
 - Features: showToast(), cancel(), customizable gravity (Top, Center, Bottom), toastLength (
 
+### Day 78. Crypto
+- Provides a set of cryptographic hashing functions (SHA-1, SHA-256, MD5, HMAC) for secure data processing and integrity verification
+- **Practical Application**: Demonstrates a real-time "Hash Generator" where user input is simultaneously hashed into multiple formats, showcasing the package's performance and versatility
+- Package: `crypto: ^3.0.7`
+- Features: Support for MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, and HMAC-SHA256; simple `convert()` API for `List<int>` bytes; easily integrable with `utf8.encode()` for string hashing
 
 
 

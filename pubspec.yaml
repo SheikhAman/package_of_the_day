@@ -246,6 +246,9 @@ dependencies:
   # For displaying toast messages
   fluttertoast: ^9.1.0
 
+  # For cryptographic hashing functions
+  crypto: ^3.0.7
+
 
 
 
