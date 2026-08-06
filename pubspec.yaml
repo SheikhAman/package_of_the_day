@@ -228,6 +228,9 @@ dependencies:
   # For using the native APP to open files
   open_file: ^4.0.0
 
+  # For sharing contents from Flutter app
+  share_plus: ^13.3.0
+
 
 
 

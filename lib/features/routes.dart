@@ -69,4 +69,5 @@ export 'day68_dio/day68_dio.dart';
 export 'day69_gal/day69_gal.dart';
 export 'day70_searchfield/day70_searchfield.dart';
 export 'day71_file_picker/day71_file_picker.dart';
+export 'day72_share_plus/day72_share_plus.dart';
 
