@@ -70,4 +70,4 @@ export 'day69_gal/day69_gal.dart';
 export 'day70_searchfield/day70_searchfield.dart';
 export 'day71_file_picker/day71_file_picker.dart';
 export 'day72_share_plus/day72_share_plus.dart';
-
+export 'day73_infinite_scroll_pagination/day73_infinite_scroll_pagination.dart';

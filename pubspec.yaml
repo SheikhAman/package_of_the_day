@@ -231,6 +231,9 @@ dependencies:
   # For sharing contents from Flutter app
   share_plus: ^13.3.0
 
+  # For infinite scrolling
+  infinite_scroll_pagination: ^5.1.1
+
 
 
 
