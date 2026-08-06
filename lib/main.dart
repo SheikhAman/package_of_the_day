@@ -101,7 +101,8 @@ class MyApp extends StatelessWidget {
       // home: const Day70SearchField(),
       // home: const Day71FilePicker(),
       // home: const Day72SharePlus(),
-      home: const Day73InfiniteScrollPagination(),
+      // home: const Day73InfiniteScrollPagination(),
+      home: const Day74Marquee(),
     );
   }
 }

@@ -234,6 +234,9 @@ dependencies:
   # For infinite scrolling
   infinite_scroll_pagination: ^5.1.1
 
+  # For animated text
+  marquee: ^2.3.0
+
 
 
 

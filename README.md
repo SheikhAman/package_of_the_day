@@ -573,7 +573,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Shows loading indicators while fetching data and a "No More Courses" message when all pages have been loaded.
 - Uses Material 3 UI with modern cards and smooth pagination.
 
-
+### Day 74. Marquee
+- Learn how to create smooth scrolling text animations using the `marquee` package.
+- Beginner-friendly example with clean and easy-to-understand code.
+- Displays a continuously scrolling announcement banner at the top of the screen.
+- Customize scrolling speed, direction, spacing, pause duration, and animation curves.
+- Package: `marquee: ^2.3.0`
+- Combines a scrolling text banner with a background image and Font Awesome icons for a modern UI.
+- Perfect for news tickers, announcements, notifications, promotional messages, and breaking news.
 
 
 
