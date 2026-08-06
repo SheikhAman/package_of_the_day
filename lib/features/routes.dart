@@ -74,3 +74,4 @@ export 'day73_infinite_scroll_pagination/day73_infinite_scroll_pagination.dart';
 export 'day74_marquee/day74_marquee.dart';
 export 'day75_cached_network_image/day75_cached_network_image.dart';
 export 'day76_flutter_cache_manager/day76_flutter_cache_manager.dart';
+export 'day77_fluttertoast/day77_fluttertoast.dart';

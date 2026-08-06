@@ -595,6 +595,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_cache_manager: ^3.4.2`
 - Features: `getSingleFile()`, `getFileStream()` for progress updates, custom `Config` (cache key, max objects, stale period, custom `HttpFileService`), `emptyCache()`, `removeFile()`
 
+### Day 77. Fluttertoast
+- Displays brief, non-intrusive messages that disappear automatically — a near-universal building block for providing simple user feedback or action confirmations without interrupting the user flow
+- Global reach: Unlike standard Flutter SnackBars which require a BuildContext and a ScaffoldMessenger, fluttertoast can be triggered from anywhere in the app (even outside the widget tree), making it ideal for background service alerts or utility classes
+- Package: `fluttertoast: ^9.1.0`
+- Features: showToast(), cancel(), customizable gravity (Top, Center, Bottom), toastLength (
+
+
+
 
 ---
 

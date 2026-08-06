@@ -243,6 +243,9 @@ dependencies:
   # For managing network cached files
   flutter_cache_manager: ^3.4.2
 
+  # For displaying toast messages
+  fluttertoast: ^9.1.0
+
 
 
 
