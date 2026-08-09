@@ -643,6 +643,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `rxdart: ^0.28.0`
 - Features: BehaviorSubject for state persistence, StreamBuilder integration for zero-effort UI updates, and proper resource management through dispose() lifecycle handling
 
+### Day 85. Flutter Local Notifications
+- Displays pop-up messages on the phone's lock screen and status bar to alert users about important events, even when the app is closed.
+- Learning Path: This implementation focuses on the three most important actions: sending an instant notification, scheduling one for the future (e.g., in 5 seconds), and clearing all notifications with one tap.
+- **Smart Logic**: We created a dedicated "Service" file to handle the code and used RxDart to detect when a user taps a notification, allowing the app to automatically open a specific detail page.
+- **Native Mastery**: The project includes a beginner-friendly checklist for the "hard parts"—configuring the Android Manifest and Gradle files to ensure notifications work on the latest Android versions.
+- Package: `flutter_local_notifications: ^22.3.0`
+- Features: Instant alerts, timed/scheduled messages, redirection to specific pages using "payloads," and support for high-priority notification channels.
+
+
 
 ---
 

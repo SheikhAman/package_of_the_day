@@ -113,7 +113,8 @@ class MyApp extends StatelessWidget {
       // home: const Day81CustomRatingBar(),
       // home: const Day82PinCodeFields(),
       // home: const Day83Uuid(),
-      home: const Day84RxDart(),
+      // home: const Day84RxDart(),
+      home: const Day85FlutterLocalNotifications(),
     );
   }
 }

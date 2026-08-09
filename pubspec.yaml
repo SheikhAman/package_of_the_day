@@ -267,6 +267,9 @@ dependencies:
   # For extending the capabilities of Dart Streams and StreamControllers
   rxdart: ^0.28.0
 
+  # For local notifications
+  flutter_local_notifications: ^22.3.0
+
 
 
 
