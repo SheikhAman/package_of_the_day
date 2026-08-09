@@ -255,6 +255,9 @@ dependencies:
   # For formate date & time
   date_format: ^2.0.9
 
+  # For custom rating bar
+  custom_rating_bar: ^3.0.0
+
 
 
 

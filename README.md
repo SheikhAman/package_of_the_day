@@ -619,6 +619,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `date_format: ^2.0.9`
 - Features: Intuitive token array format (e.g., [yyyy, '-', mm, '-', dd]), support for full month/day names (MM, DD), 12/24 hour toggles, and timezone offset (z)
 
+### Day 81. Custom Rating Bar
+- A modern, lightweight, and actively maintained alternative for implementing star-based rating systems in Flutter
+- **Cleaner API**: Uses a declarative approach with `filledIcon` and `emptyIcon` parameters, eliminating the need for complex builders while offering full control over sizes, colors, and the number of stars
+- Package: `custom_rating_bar: ^3.0.0`
+- Features: Support for half-ratings (optional), customizable icons (not just stars), horizontal/vertical orientations, and smooth `onRatingChanged` callbacks for real-time UI updates
 
 
 

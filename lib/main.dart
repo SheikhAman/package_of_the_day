@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_of_the_day/features/day81_custom_rating_bar/day81_custom_rating_bar.dart';
 import 'features/routes.dart';
 
 void main() {
@@ -108,7 +109,8 @@ class MyApp extends StatelessWidget {
       // home: const Day77Fluttertoast(),
       // home: const Day78Crypto(),
       // home: const Day79SlideCountdown(),
-      home: const Day80DateFormat(),
+      // home: const Day80DateFormat(),
+      home: const Day81CustomRatingBar(),
     );
   }
 }
