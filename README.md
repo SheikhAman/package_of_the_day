@@ -651,6 +651,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_local_notifications: ^22.3.0`
 - Features: Instant alerts, timed/scheduled messages, redirection to specific pages using "payloads," and support for high-priority notification channels.
 
+### Day 86. Flutter Timezone
+- Modern, actively maintained replacement for fetching the user's native device timezone across Android, iOS, and Web.
+- **Why it matters**: Standard Dart `DateTime.now().timeZoneName` often returns generic strings like "UTC" or "EST." This package provides the full, industry-standard IANA ID (e.g., "Asia/Kolkata"), which is required for accurate server-side syncing and scheduling.
+- **Enhanced UI**: Features a beautiful "Hero" gradient card to display the detected location and an interactive, searchable-style list of all 400+ global timezones supported by the system.
+- Package: `flutter_timezone: ^5.1.0`
+- Features: `getLocalTimezone()` for instant detection, `getAvailableTimezones()` for the complete global database, and full compatibility with the `timezone` package for complex time arithmetic.
+
 
 
 ---

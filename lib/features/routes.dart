@@ -83,3 +83,4 @@ export 'day82_pin_code_fields/day82_pin_code_fields.dart';
 export 'day83_uuid/day83_uuid.dart';
 export 'day84_rxdart/day84_rxdart.dart';
 export 'day85_flutter_local_notifications/day85_flutter_local_notifications.dart';
+export 'day86_flutter_timezone/day86_flutter_timezone.dart';

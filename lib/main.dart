@@ -114,7 +114,8 @@ class MyApp extends StatelessWidget {
       // home: const Day82PinCodeFields(),
       // home: const Day83Uuid(),
       // home: const Day84RxDart(),
-      home: const Day85FlutterLocalNotifications(),
+      // home: const Day85FlutterLocalNotifications(),
+      home: const Day86FlutterTimezone(),
     );
   }
 }
