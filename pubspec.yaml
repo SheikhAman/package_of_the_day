@@ -264,6 +264,9 @@ dependencies:
   # For generating unique id
   uuid: ^4.6.0
 
+  # For extending the capabilities of Dart Streams and StreamControllers
+  rxdart: ^0.28.0
+
 
 
 

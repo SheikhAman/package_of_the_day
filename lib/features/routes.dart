@@ -81,3 +81,4 @@ export 'day80_date_format/day80_date_format.dart';
 export 'day81_custom_rating_bar/day81_custom_rating_bar.dart';
 export 'day82_pin_code_fields/day82_pin_code_fields.dart';
 export 'day83_uuid/day83_uuid.dart';
+export 'day84_rxdart/day84_rxdart.dart';

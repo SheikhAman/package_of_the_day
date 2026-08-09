@@ -637,6 +637,11 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `uuid: ^4.6.0`
 - Features: Support for time-based (v1), random (v4), and namespace-based (v5) identifier generation; cryptographically strong random number seeding
 
+### Day 84. RxDart
+- Extends the capabilities of standard Dart Streams with powerful classes like BehaviorSubject, PublishSubject, and a vast array of operators (debounce, switchMap, combineLatest)
+- **State Management Foundation**: Demonstrates a clean "Counter BLoC" implementation, showcasing how to separate business logic from the UI using reactive streams—a must-know pattern for professional Flutter development
+- Package: `rxdart: ^0.28.0`
+- Features: BehaviorSubject for state persistence, StreamBuilder integration for zero-effort UI updates, and proper resource management through dispose() lifecycle handling
 
 
 ---
