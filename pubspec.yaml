@@ -258,6 +258,9 @@ dependencies:
   # For custom rating bar
   custom_rating_bar: ^3.0.0
 
+  # For OTP or pin code inputs
+  pin_code_fields: ^9.4.0
+
 
 
 

@@ -79,3 +79,4 @@ export 'day78_crypto/day78_crypto.dart';
 export 'day79_slide_countdown/day79_slide_countdown.dart';
 export 'day80_date_format/day80_date_format.dart';
 export 'day81_custom_rating_bar/day81_custom_rating_bar.dart';
+export 'day82_pin_code_fields/day82_pin_code_fields.dart';
