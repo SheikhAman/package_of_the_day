@@ -631,6 +631,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `pin_code_fields: ^9.4.0`
 - Features: `triggerError()` for haptic/visual shake feedback, `MaterialPinTheme` for state-aware styling (active, filled, error), and support for various field shapes like `outlined`, `underlined`, and `circle`
 
+### Day 83. UUID
+- Generates RFC4122 universally unique identifiers (UUIDs) across different versions (v1, v4, v5)
+- **Practical Application**: Showcases a live ID generator with "Copy to Clipboard" functionality, demonstrating how to provide a professional utility UI for developers and users
+- Package: `uuid: ^4.6.0`
+- Features: Support for time-based (v1), random (v4), and namespace-based (v5) identifier generation; cryptographically strong random number seeding
+
 
 
 ---

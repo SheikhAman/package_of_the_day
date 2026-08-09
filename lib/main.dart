@@ -111,7 +111,8 @@ class MyApp extends StatelessWidget {
       // home: const Day79SlideCountdown(),
       // home: const Day80DateFormat(),
       // home: const Day81CustomRatingBar(),
-      home: const Day82PinCodeFields(),
+      // home: const Day82PinCodeFields(),
+      home: const Day83Uuid(),
     );
   }
 }

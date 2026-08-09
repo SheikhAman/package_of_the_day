@@ -261,6 +261,9 @@ dependencies:
   # For OTP or pin code inputs
   pin_code_fields: ^9.4.0
 
+  # For generating unique id
+  uuid: ^4.6.0
+
 
 
 
