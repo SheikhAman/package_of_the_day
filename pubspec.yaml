@@ -273,6 +273,9 @@ dependencies:
   # For getting native device timezone of the os
   flutter_timezone: ^5.1.0
 
+  # A library for Dart that generates fake data
+  faker: ^2.2.0
+
 
 
 

@@ -658,6 +658,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_timezone: ^5.1.0`
 - Features: `getLocalTimezone()` for instant detection, `getAvailableTimezones()` for the complete global database, and full compatibility with the `timezone` package for complex time arithmetic.
 
+### Day 87. Faker
+- Generates massive amounts of realistic mock data like names, addresses, and emails to help you build and test beautiful UIs without needing a real database.
+- **Why it is helpful**: It allows you to see how your app looks with "real-world" content, which is much better for demos and testing than using generic "Test 123" strings manually.
+- **Pro Tip**: This example demonstrates how to use "import hiding" to prevent a common error where Faker and Flutter both try to use a class named Color, showing how to handle package conflicts professionally.
+- Package: `faker: ^2.2.0`
+- Features: 20+ different categories (Person, Job, Address, Internet), random date generation, and multi-regional data support for realistic prototyping.
+
 
 
 ---
