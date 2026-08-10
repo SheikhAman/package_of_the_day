@@ -288,6 +288,10 @@ dependencies:
   # For modern, highly customizable and smooth animated toggles
   animated_toggle_switch: ^0.8.7
 
+  # For advanced URL-based routing and deep-linking (Legacy)
+  routemaster: ^1.1.1
+
+
 
 
 

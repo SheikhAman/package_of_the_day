@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:package_of_the_day/features/day81_custom_rating_bar/day81_custom_rating_bar.dart';
+import 'package:package_of_the_day/features/day92_routemaster/day92_routemaster.dart';
 import 'features/routes.dart';
 
 void main() {
@@ -120,7 +121,8 @@ class MyApp extends StatelessWidget {
       // home: const Day88StylishBottomBar(),
       // home: const Day89DevicePreview(),
       // home: const Day90AnimateDo(),
-      home: const Day91AnimatedToggleSwitch(),
+      // home: const Day91AnimatedToggleSwitch(),
+      home: const Day92Routemaster(),
     );
   }
 }
