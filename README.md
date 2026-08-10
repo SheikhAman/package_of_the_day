@@ -679,6 +679,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `device_preview: ^1.3.1`
 - Features: Real-time device simulation, orientation switching, system settings testing (Dark Mode, locales), and dynamic text scaling previews.
 
+### Day 90. Animate Do
+- A high-performance, lightweight animation library that provides a massive collection of entrance and attention-grabbing effects, serving as the modern standard for adding motion to any Flutter widget.
+- **Why it is helpful**: It allows you to replace dozens of smaller, unmaintained specialized packages with a single, unified library. Instead of writing complex AnimationControllers, you simply wrap any widget with an effect like FadeIn, Bounce, or Pulse.
+- **Learning Path**: This example demonstrates the two most powerful use cases: "Attention Grabbers" (infinite loops to highlight sales or live status) and "Entrance Animations" (using delays to make the UI flow in smoothly when a page loads).
+- Package: `animate_do: ^3.3.4`
+- Features: 50+ built-in animation styles, infinite looping support for permanent motion, manual triggers, and precise control over duration and delay offsets.
+
+
+
 
 ---
 

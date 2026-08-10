@@ -118,7 +118,8 @@ class MyApp extends StatelessWidget {
       // home: const Day86FlutterTimezone(),
       // home: const Day87Faker(),
       // home: const Day88StylishBottomBar(),
-      home: const Day89DevicePreview(),
+      // home: const Day89DevicePreview(),
+      home: const Day90AnimateDo(),
     );
   }
 }

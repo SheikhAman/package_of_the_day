@@ -282,6 +282,9 @@ dependencies:
   # For previewing and testing UI responsiveness across various devices
   device_preview: ^1.3.1
 
+  # For beautiful and high-performance UI animations
+  animate_do: ^5.1.0
+
 
 
 
