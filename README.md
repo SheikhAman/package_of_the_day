@@ -672,6 +672,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `stylish_bottom_bar: ^1.1.0`
 - Features: Multiple animation styles (Bubble, Flat, Floating), support for per-item color themes, seamless PageController integration, and custom curves for a professional app feel.
 
+### Day 89. Device Preview
+- A powerful tool that lets you preview your app on different device screens (iPhone, Android, Tablet, Watch) directly within your IDE or web browser.
+- **Why it is helpful**: It ensures your UI is responsive and "pixel-perfect" across all screen sizes and orientations, saving you from having to test on dozens of physical devices manually.
+- **Learning Path**: This example recreates a high-fidelity "Instagram Profile" UI to show how DevicePreview helps visualize safe areas, grid adaptivity, and font scaling across a diverse device catalog.
+- Package: `device_preview: ^1.3.1`
+- Features: Real-time device simulation, orientation switching, system settings testing (Dark Mode, locales), and dynamic text scaling previews.
 
 
 ---

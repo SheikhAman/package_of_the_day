@@ -86,3 +86,4 @@ export 'day85_flutter_local_notifications/day85_flutter_local_notifications.dart
 export 'day86_flutter_timezone/day86_flutter_timezone.dart';
 export 'day87_faker/day87_faker.dart';
 export 'day88_stylish_bottom_bar/day88_stylish_bottom_bar.dart';
+export 'day89_device_preview/day89_device_preview.dart';
