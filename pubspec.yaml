@@ -276,6 +276,9 @@ dependencies:
   # A library for Dart that generates fake data
   faker: ^2.2.0
 
+  # A highly customizable and maintained bottom navigation bar
+  stylish_bottom_bar: ^1.1.0
+
 
 
 

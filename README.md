@@ -665,6 +665,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `faker: ^2.2.0`
 - Features: 20+ different categories (Person, Job, Address, Internet), random date generation, and multi-regional data support for realistic prototyping.
 
+### Day 88. Stylish Bottom Bar
+- A modern and highly flexible navigation component that offers beautiful "bubble" or "pill" expansion animations, serving as the perfect maintained replacement for older packages like bottom_navy_bar.
+- **Why it is helpful**: It provides a high-quality visual experience out of the box, allowing you to create customized bottom bars that feel "expensive" and responsive with very little code.
+- **Learning Path**: This example shows how to perfectly synchronize the bottom bar with a PageView. When you tap an icon, the screen slides smoothly; when you swipe the screen, the bottom bar updates its selection automatically.
+- Package: `stylish_bottom_bar: ^1.1.0`
+- Features: Multiple animation styles (Bubble, Flat, Floating), support for per-item color themes, seamless PageController integration, and custom curves for a professional app feel.
+
 
 
 ---
