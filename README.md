@@ -686,6 +686,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `animate_do: ^3.3.4`
 - Features: 50+ built-in animation styles, infinite looping support for permanent motion, manual triggers, and precise control over duration and delay offsets.
 
+## Day 91. Animated Toggle Switch
+- A highly versatile and buttery-smooth alternative to standard Switch and SegmentedControl widgets, designed to handle multi-value selections with premium transitions.
+- **Why it is helpful**: It solves the common problem of "stiff" UI by providing fluid, high-frame-rate animations. This package is actively maintained and is the direct modern replacement for the older, unmaintained toggle_switch library.
+- **Learning Path**: This example showcases three distinct real-world styles: "Rolling" for icon-based selections, "Size" for pill-based text labels, and "Dual" for beautiful action-oriented on/off states.
+- Package: `animated_toggle_switch: ^0.8.7`
+- Features: Fully customizable iconBuilder and textBuilder, support for various internal styles (Rolling, Size, Dual, Custom), and smooth state-synchronization with parent widgets.
 
 
 

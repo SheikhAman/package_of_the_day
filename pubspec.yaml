@@ -285,6 +285,9 @@ dependencies:
   # For beautiful and high-performance UI animations
   animate_do: ^5.1.0
 
+  # For modern, highly customizable and smooth animated toggles
+  animated_toggle_switch: ^0.8.7
+
 
 
 

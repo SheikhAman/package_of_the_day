@@ -88,3 +88,4 @@ export 'day87_faker/day87_faker.dart';
 export 'day88_stylish_bottom_bar/day88_stylish_bottom_bar.dart';
 export 'day89_device_preview/day89_device_preview.dart';
 export 'day90_animate_do/day90_animate_do.dart';
+export 'day91_animated_toggle_switch/day91_animated_toggle_switch.dart';
