@@ -303,6 +303,9 @@ dependencies:
   # For a persistent, reactive, and pure Dart NoSQL local database
   sembast: ^3.8.6
 
+  # The modern, compile-safe state management standard (Successor to Provider)
+  flutter_riverpod: ^3.3.2
+
 
 
 

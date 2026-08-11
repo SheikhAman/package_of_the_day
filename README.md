@@ -728,6 +728,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `sembast: ^3.8.6`
 - Features: ACID compliance, reactive listeners to detect data changes, powerful filtering and sorting, and a file-based storage engine that works offline perfectly.
 
+### Day 97. Flutter Riverpod
+- A modern and reactive state management framework for Flutter that provides a compile-safe, testable, and highly organized way to manage application logic.
+- **Why it is helpful**: It is the professional successor to the Provider package. Riverpod catches common errors (like ProviderNotFoundException) at compile-time rather than at runtime. It also allows you to access your state from anywhere in the app without needing the BuildContext, making your code much more flexible.
+- **Learning Path**: This implementation demonstrates "Feature-First Architecture" by splitting the code into logical layers: Models, Providers, and Widgets. We built a real-world "User Profile Manager" to show how complex data objects can be synced across the UI instantly.
+- Package: `flutter_riverpod: ^3.3.2`
+- Features: Support for the Notifier pattern, immutable state updates using copyWith, automatic disposal of unused data, and a decoupled architecture that is perfect for large-scale enterprise applications.'
 
 
 
