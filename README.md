@@ -742,6 +742,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `timeago: ^3.7.1`
 - Features: Support for 50+ languages (locales), customizable message lookups, support for future time (e.g., "in 5 minutes"), and zero-dependency lightweight performance.
 
+### Day 99. Pretty QR Code
+- A high-performance, modern QR code generation library that allows for the creation of visually stunning and brand-consistent codes directly within Flutter.
+- **Why it is helpful**: It moves beyond simple "blocky" QR codes by offering smooth "Squircles," rounded corners, and reactive data updates, which are essential for professional payment, login, or social apps.
+- **Learning Path**: This implementation demonstrates a real-time QR generator dashboard. It showcases the package’s ability to reactively transform raw text or URLs into encoded visuals while allowing the user to toggle between different aesthetic styles.
+- Package: `pretty_qr_code: ^3.6.0`
+- Features: Support for data-based and widget-based rendering, customizable dot shapes (Smooth, Rounded, Square), built-in logo overlay support, and high-resolution canvas painting.
+
 
 
 ---

@@ -309,6 +309,11 @@ dependencies:
   # For converting timestamps into human-readable relative time strings
   timeago: ^3.7.1
 
+  # For generating modern, highly customizable, and beautiful QR codes
+  pretty_qr_code: ^3.6.0
+
+
+
 
 
 
