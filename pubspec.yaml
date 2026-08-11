@@ -291,6 +291,10 @@ dependencies:
   # For advanced URL-based routing and deep-linking (Legacy)
   routemaster: ^1.1.1
 
+  # For automatic skeleton loading states from existing widgets
+  skeletonizer: ^2.1.3
+
+
 
 
 

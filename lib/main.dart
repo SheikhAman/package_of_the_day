@@ -122,7 +122,8 @@ class MyApp extends StatelessWidget {
       // home: const Day89DevicePreview(),
       // home: const Day90AnimateDo(),
       // home: const Day91AnimatedToggleSwitch(),
-      home: const Day92Routemaster(),
+      // home: const Day92Routemaster(),
+      home: const Day93Skeletonizer(),
     );
   }
 }

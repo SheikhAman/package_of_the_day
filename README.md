@@ -700,6 +700,12 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `routemaster: ^1.1.1`
 - Features: URL-based navigation, path parameters support, built-in tab management, and centralized, declarative routing logic.
 
+### Day 93. Skeletonizer
+- A highly intelligent loading state library that automatically generates skeleton screens by analyzing and masking your existing UI widgets, removing the need for manual placeholder code.
+- **Why it is helpful**: Traditionally, developers had to build two separate UIs—one for the data and one for the loading shimmer. Skeletonizer paints your actual layout with a shimmering effect automatically, making your code significantly more maintainable.
+- **Pro Strategy**: This implementation demonstrates how to resolve modern Flutter SDK conflicts (like the clipRSuperellipse error) using dependency overrides to point directly to the latest package fixes on GitHub—a key skill for managing production-grade projects.
+- Package: `skeletonizer: ^2.1.3`
+- Features: Automatic widget-to-skeleton mapping, highly customizable ShimmerEffect, support for complex lists, and seamless transitions between loading and data states.
 
 
 ---
