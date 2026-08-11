@@ -721,6 +721,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `permission_handler: ^11.3.1`
 - Features: Support for over 30+ permission types (Camera, Photos, Contacts, Sensors, etc.), automatic status checking, and built-in handlers for deep-linking into system settings.
 
+### Day 96. Sembast
+- A "Pure Dart" NoSQL database that provides a persistent, document-based storage solution without the need for complex native binaries or code generation.
+- **Why it is helpful**: It is the most stable and maintained alternative to Isar/Hive for local data persistence. Because it is written in 100% Dart, it offers superior reliability across all platforms (iOS, Android, Web, Desktop) and is much easier to debug and unit test.
+- **Learning Path**: This implementation covers the full "CRUD" lifecycle—initializing a local store, inserting map-based documents, updating records via unique keys, and querying data with `Finder` logic.
+- Package: `sembast: ^3.8.6`
+- Features: ACID compliance, reactive listeners to detect data changes, powerful filtering and sorting, and a file-based storage engine that works offline perfectly.
+
 
 
 

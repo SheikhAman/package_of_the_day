@@ -93,3 +93,4 @@ export 'day92_routemaster/day92_routemaster.dart';
 export 'day93_skeletonizer/day93_skeletonizer.dart';
 export 'day94_fl_chart/day94_fl_chart.dart';
 export 'day95_permission_handler/day95_permission_handler.dart';
+export 'day96_sembast/day96_sembast.dart';

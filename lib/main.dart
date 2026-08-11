@@ -126,7 +126,8 @@ class MyApp extends StatelessWidget {
       // home: const Day92Routemaster(),
       // home: const Day93Skeletonizer(),
       // home: const Day94FlChart(),
-      home: const Day95PermissionHandler(),
+      // home: const Day95PermissionHandler(),
+      home: const Day96Sembast(),
     );
   }
 }
