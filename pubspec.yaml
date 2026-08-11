@@ -294,6 +294,9 @@ dependencies:
   # For automatic skeleton loading states from existing widgets
   skeletonizer: ^2.1.3
 
+  # For highly customizable and interactive open-source charts
+  fl_chart: ^0.70.2
+
 
 
 
