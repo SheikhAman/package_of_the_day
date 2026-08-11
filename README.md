@@ -735,6 +735,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `flutter_riverpod: ^3.3.2`
 - Features: Support for the Notifier pattern, immutable state updates using copyWith, automatic disposal of unused data, and a decoupled architecture that is perfect for large-scale enterprise applications.'
 
+### Day 98. Timeago
+- A lightweight utility for transforming static `DateTime` objects into dynamic, human-readable relative time strings (e.g., "just now", "5m ago", "2 days ago").
+- **Why it is helpful**: It improves user engagement by making "Activity Feeds," "Comment Sections," and "Notification Lists" feel real-time and urgent. It automatically handles the complex math of calculating time differences and choosing the most natural description.
+- **Learning Path**: This implementation demonstrates a professional activity log dashboard, highlighting the package’s ability to scale automatically from seconds to months using a simple, declarative `format()` function.
+- Package: `timeago: ^3.7.1`
+- Features: Support for 50+ languages (locales), customizable message lookups, support for future time (e.g., "in 5 minutes"), and zero-dependency lightweight performance.
+
 
 
 ---

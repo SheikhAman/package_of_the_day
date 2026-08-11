@@ -95,3 +95,4 @@ export 'day94_fl_chart/day94_fl_chart.dart';
 export 'day95_permission_handler/day95_permission_handler.dart';
 export 'day96_sembast/day96_sembast.dart';
 export 'day97_flutter_riverpod/day97_flutter_riverpod.dart';
+export 'day98_timeago/day98_timeago.dart';

@@ -306,6 +306,9 @@ dependencies:
   # The modern, compile-safe state management standard (Successor to Provider)
   flutter_riverpod: ^3.3.2
 
+  # For converting timestamps into human-readable relative time strings
+  timeago: ^3.7.1
+
 
 
 
