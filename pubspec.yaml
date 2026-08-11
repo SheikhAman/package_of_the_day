@@ -297,6 +297,12 @@ dependencies:
   # For highly customizable and interactive open-source charts
   fl_chart: ^0.70.2
 
+  # For professional management of system-level permissions
+  permission_handler: ^11.3.1
+
+
+
+
 
 
 

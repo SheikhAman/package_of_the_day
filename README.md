@@ -714,6 +714,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `fl_chart: ^0.70.2`
 - Features: Real-time touch interaction feedback, fully customizable grid and border data, multiple data series support, and buttery-smooth entry animations out of the box.
 
+### Day 95. Permission Handler
+- A critical system-level library for checking, requesting, and managing device permissions across Android and iOS using a single, unified API.
+- **Security & UX**: Demonstrates a professional permission management dashboard that handles various states (Granted, Denied, Permanently Denied) and provides the "Open App Settings" fallback for a seamless user experience.
+- **Why it matters**: In modern mobile development, permissions must be requested at runtime rather than install time. This package ensures your app remains compliant with the latest privacy guidelines from Google and Apple.
+- Package: `permission_handler: ^11.3.1`
+- Features: Support for over 30+ permission types (Camera, Photos, Contacts, Sensors, etc.), automatic status checking, and built-in handlers for deep-linking into system settings.
+
 
 
 
