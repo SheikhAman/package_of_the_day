@@ -312,6 +312,8 @@ dependencies:
   # For generating modern, highly customizable, and beautiful QR codes
   pretty_qr_code: ^3.6.0
 
+  # The industry standard for enterprise-level state management and architecture
+  flutter_bloc: ^9.1.1
 
 
 

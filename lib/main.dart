@@ -127,7 +127,8 @@ class MyApp extends StatelessWidget {
       // home: const Day96Sembast(),
       // home: const Day97FlutterRiverpod(),
       // home: const Day98Timeago(),
-      home: const Day99PrettyQrCode(),
+      // home: const Day99PrettyQrCode(),
+      home: const Day100FlutterBloc(),
     );
   }
 }

@@ -6,9 +6,940 @@
 <img src="screenshots/badges/Flutter-3.svg" height="28px" />&nbsp;&nbsp;
 <img src="screenshots/badges/dart-null_safety-blue.svg" height="28px"/>
 
-A Flutter practice project focused on mastering popular packages through hands-on implementation and real-world UI examples.
+**100 Days. 100 Packages. 1 Mission: Mastery.**
 
-This project is built to strengthen Flutter development skills by exploring one package at a time with practical, working code samples.
+A Flutter practice project focused on mastering popular packages through hands-on implementation and real-world UI examples. This project serves as a testament to consistent learning and professional-grade application architecture.
+
+---
+
+## 🏆 100-Day Milestone Overview
+
+This project explores the entire Flutter ecosystem, from simple UI enhancements to complex enterprise-level architectures. Key focus areas include:
+
+-   **Architecture:** Mastered **BLoC**, **Riverpod**, and **Provider** for scalable state management.
+-   **Data Persistence:** Implemented **Sembast (NoSQL)**, **Shared Preferences**, and secure storage.
+-   **Native Integration:** Handled complex **Permissions**, **Local Notifications**, **Geolocator**, and **Device Info**.
+-   **Modern UI/UX:** Built responsive layouts with **Skeletonizer**, **Animate Do**, **Glass Kit**, and **Neumorphism**.
+-   **Performance:** All assets optimized using **WebP** for instant web rendering and minimal repository size.
+
+---
+
+## 📋 Visual Package Gallery
+
+Explore all 100 implementations at a glance. Each example is a standalone feature demonstrating real-world usage.
+
+<table>
+  <thead>
+    <tr>
+      <th width="90">Day</th>
+      <th width="220">Package</th>
+      <th width="220">Pub.dev</th>
+      <th>Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>01</b></td>
+      <td>
+        <a href="lib/features/day01_avatar_glow/day01_avatar_glow.dart"><b>Avatar Glow</b></a><br/>
+        <sub>Animated glowing ring effect</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/avatar_glow">avatar_glow ^3.0.1</a></td>
+      <td align="center"><img src="screenshots/day01_avatar_glow.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>02</b></td>
+      <td>
+        <a href="lib/features/day02_google_fonts/day02_google_fonts.dart"><b>Google Fonts</b></a><br/>
+        <sub>Instant access to 1500+ fonts</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/google_fonts">google_fonts ^8.2.0</a></td>
+      <td align="center"><img src="screenshots/day02_google_fonts.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>03</b></td>
+      <td>
+        <a href="lib/features/day03_liquid_pull_to_refresh/day03_liquid_pull_to_refresh.dart"><b>Liquid Refresh</b></a><br/>
+        <sub>Animated liquid-fill refresh</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/liquid_pull_to_refresh">liquid_pull_to_refresh ^3.0.1</a></td>
+      <td align="center"><img src="screenshots/day03_liquid_pull_to_refresh.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>04</b></td>
+      <td>
+        <a href="lib/features/day04_percent_indicator/day04_percent_indicator.dart"><b>Percent Indicator</b></a><br/>
+        <sub>Circular & linear progress</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/percent_indicator">percent_indicator ^4.2.5</a></td>
+      <td align="center"><img src="screenshots/day04_percent_indicator.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>05</b></td>
+      <td>
+        <a href="lib/features/day05_flutter_carousel_slider/day05_flutter_carousel_slider.dart"><b>Carousel Slider</b></a><br/>
+        <sub>3D cube carousel slider</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_carousel_slider">flutter_carousel_slider ^1.1.0</a></td>
+      <td align="center"><img src="screenshots/day05_flutter_carousel_slider.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>06</b></td>
+      <td>
+        <a href="lib/features/day06_smooth_page_indicator/day06_smooth_page_indicator.dart"><b>Page Indicator</b></a><br/>
+        <sub>Animated dot indicators</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/smooth_page_indicator">smooth_page_indicator ^2.0.1</a></td>
+      <td align="center"><img src="screenshots/day06_smooth_page_indicator.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>07</b></td>
+      <td>
+        <a href="lib/features/day07_font_awesome_flutter/day07_font_awesome_flutter.dart"><b>Font Awesome</b></a><br/>
+        <sub>2000+ custom icons</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/font_awesome_flutter">font_awesome_flutter ^11.0.0</a></td>
+      <td align="center"><img src="screenshots/day07_font_awesome_flutter.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>08</b></td>
+      <td>
+        <a href="lib/features/day08_animations/day08_animations.dart"><b>Animations</b></a><br/>
+        <sub>Morphing card transitions</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/animations">animations ^2.2.0</a></td>
+      <td align="center"><img src="screenshots/day08_animations.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>09</b></td>
+      <td>
+        <a href="lib/features/day09_neon/day09_neon.dart"><b>Neon</b></a><br/>
+        <sub>Glowing neon sign text</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/neon">neon ^0.1.0</a></td>
+      <td align="center"><img src="screenshots/day09_neon.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>10</b></td>
+      <td>
+        <a href="lib/features/day10_aurora/day10_aurora.dart"><b>Aurora</b></a><br/>
+        <sub>Soft color blobs backdrop</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/aurora">aurora ^1.0.0</a></td>
+      <td align="center"><img src="screenshots/day10_aurora.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>11</b></td>
+      <td>
+        <a href="lib/features/day11_card_swiper/day11_card_swiper.dart"><b>Card Swiper</b></a><br/>
+        <sub>Swipeable banner carousel</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/card_swiper">card_swiper ^3.0.1</a></td>
+      <td align="center"><img src="screenshots/day11_card_swiper.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>12</b></td>
+      <td>
+        <a href="lib/features/day12_flutter_blurhash/day12_flutter_blurhash.dart"><b>BlurHash</b></a><br/>
+        <sub>Blurred image placeholders</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_blurhash">flutter_blurhash ^0.9.1</a></td>
+      <td align="center"><img src="screenshots/day12_flutter_blurhash.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>13</b></td>
+      <td>
+        <a href="lib/features/day13_flutter_svg/day13_flutter_svg.dart"><b>Flutter SVG</b></a><br/>
+        <sub>Scalable vector graphics</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_svg">flutter_svg ^2.3.0</a></td>
+      <td align="center"><img src="screenshots/day13_flutter_svg.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>14</b></td>
+      <td>
+        <a href="lib/features/day14_flutter_custom_clippers/day14_flutter_custom_clippers.dart"><b>Custom Clippers</b></a><br/>
+        <sub>Pre-made ClipPath shapes</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_custom_clippers">flutter_custom_clippers ^2.1.0</a></td>
+      <td align="center"><img src="screenshots/day14_flutter_custom_clippers.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>15</b></td>
+      <td>
+        <a href="lib/features/day15_flutter_tts/day15_flutter_tts.dart"><b>Flutter TTS</b></a><br/>
+        <sub>Text-to-speech conversion</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_tts">flutter_tts ^4.2.5</a></td>
+      <td align="center"><img src="screenshots/day15_flutter_tts.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>16</b></td>
+      <td>
+        <a href="lib/features/day16_flutter_highlight/day16_flutter_highlight.dart"><b>Highlight</b></a><br/>
+        <sub>Syntax-colored code blocks</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_highlight">flutter_highlight ^0.7.0</a></td>
+      <td align="center"><img src="screenshots/day16_flutter_highlight.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>17</b></td>
+      <td>
+        <a href="lib/features/day17_syncfusion_flutter_charts/day17_syncfusion_flutter_charts.dart"><b>Syncfusion Charts</b></a><br/>
+        <sub>Production-ready charts</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/syncfusion_flutter_charts">syncfusion_flutter_charts ^34.1.32</a></td>
+      <td align="center"><img src="screenshots/day17_syncfusion_flutter_charts.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>18</b></td>
+      <td>
+        <a href="lib/features/day18_rflutter_alert/day18_rflutter_alert.dart"><b>RFlutter Alert</b></a><br/>
+        <sub>Styled alert dialogs</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/rflutter_alert">rflutter_alert ^2.0.7</a></td>
+      <td align="center"><img src="screenshots/day18_rflutter_alert.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>19</b></td>
+      <td>
+        <a href="lib/features/day19_flutter_settings_ui/day19_flutter_settings_ui.dart"><b>Settings UI</b></a><br/>
+        <sub>Native settings screens</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_settings_ui">flutter_settings_ui ^3.0.1</a></td>
+      <td align="center"><img src="screenshots/day19_flutter_settings_ui.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>20</b></td>
+      <td>
+        <a href="lib/features/day20_flutter_spinkit/day20_flutter_spinkit.dart"><b>Flutter Spinkit</b></a><br/>
+        <sub>20+ animated indicators</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_spinkit">flutter_spinkit ^5.2.2</a></td>
+      <td align="center"><img src="screenshots/day20_flutter_spinkit.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>21</b></td>
+      <td>
+        <a href="lib/features/day21_audioplayers/day21_audioplayers.dart"><b>Audioplayers</b></a><br/>
+        <sub>Audio playback engine</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/audioplayers">audioplayers ^6.7.1</a></td>
+      <td align="center"><img src="screenshots/day21_audioplayers.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>22</b></td>
+      <td>
+        <a href="lib/features/day22_go_router/day22_go_router.dart"><b>Go Router</b></a><br/>
+        <sub>Declarative URL navigation</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/go_router">go_router ^17.3.0</a></td>
+      <td align="center"><img src="screenshots/day22_go_router.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>23</b></td>
+      <td>
+        <a href="lib/features/day23_http/day23_http.dart"><b>HTTP</b></a><br/>
+        <sub>REST API networking</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/http">http ^1.6.0</a></td>
+      <td align="center"><img src="screenshots/day23_http.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>24</b></td>
+      <td>
+        <a href="lib/features/day24_onboarding/day24_onboarding.dart"><b>Onboarding</b></a><br/>
+        <sub>Drag-based intro flow</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/onboarding">onboarding ^4.0.2</a></td>
+      <td align="center"><img src="screenshots/day24_onboarding.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>25</b></td>
+      <td>
+        <a href="lib/features/day25_flutter_neumorphic_plus/day25_flutter_neumorphic_plus.dart"><b>Neumorphic</b></a><br/>
+        <sub>Soft neumorphic UI kits</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_neumorphic_plus">flutter_neumorphic_plus ^3.5.0</a></td>
+      <td align="center"><img src="screenshots/day25_flutter_neumorphic_plus.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>26</b></td>
+      <td>
+        <a href="lib/features/day26_math_expressions/day26_math_expressions.dart"><b>Math Exp</b></a><br/>
+        <sub>Parse & evaluate formulas</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/math_expressions">math_expressions ^3.1.0</a></td>
+      <td align="center"><img src="screenshots/day26_math_expressions.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>27</b></td>
+      <td>
+        <a href="lib/features/day27_clay_containers/day27_clay_containers.dart"><b>Clay Containers</b></a><br/>
+        <sub>Moldable "clay" UI shapes</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/clay_containers">clay_containers ^0.3.4</a></td>
+      <td align="center"><img src="screenshots/day27_clay_containers.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>28</b></td>
+      <td>
+        <a href="lib/features/day28_day_night_switch/day28_day_night_switch.dart"><b>Day/Night</b></a><br/>
+        <sub>Animated theme toggle</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/day_night_switch">day_night_switch ^1.0.4</a></td>
+      <td align="center"><img src="screenshots/day28_day_night_switch.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>29</b></td>
+      <td>
+        <a href="lib/features/day29_provider/day29_provider.dart"><b>Provider</b></a><br/>
+        <sub>Simple state management</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/provider">provider ^6.1.5+1</a></td>
+      <td align="center"><img src="screenshots/day29_provider.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>30</b></td>
+      <td>
+        <a href="lib/features/day30_flutter_lucide/day30_flutter_lucide.dart"><b>Lucide Icons</b></a><br/>
+        <sub>1,699+ outline icons</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_lucide">flutter_lucide ^1.11.0</a></td>
+      <td align="center"><img src="screenshots/day30_flutter_lucide.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>31</b></td>
+      <td>
+        <a href="lib/features/day31_simple_gradient_text/day31_simple_gradient_text.dart"><b>Gradient Text</b></a><br/>
+        <sub>Gradient-painted text</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/simple_gradient_text">simple_gradient_text ^1.4.0</a></td>
+      <td align="center"><img src="screenshots/day31_simple_gradient_text.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>32</b></td>
+      <td>
+        <a href="lib/features/day32_image_picker/day32_image_picker.dart"><b>Image Picker</b></a><br/>
+        <sub>Pick photos/videos</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/image_picker">image_picker ^1.2.3</a></td>
+      <td align="center"><img src="screenshots/day32_image_picker.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>33</b></td>
+      <td>
+        <a href="lib/features/day33_curved_labeled_navigation_bar/day33_curved_labeled_navigation_bar.dart"><b>Curved Nav</b></a><br/>
+        <sub>Animated bottom bar</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/curved_labeled_navigation_bar">curved_labeled_navigation_bar ^2.0.6</a></td>
+      <td align="center"><img src="screenshots/day33_curved_labeled_navigation_bar.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>34</b></td>
+      <td>
+        <a href="lib/features/day34_intro_slider/day34_intro_slider.dart"><b>Intro Slider</b></a><br/>
+        <sub>Full-screen onboarding</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/intro_slider">intro_slider ^4.2.5</a></td>
+      <td align="center"><img src="screenshots/day34_intro_slider.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>35</b></td>
+      <td>
+        <a href="lib/features/day35_phosphor_flutter_icons/day35_phosphor_flutter_icons.dart"><b>Phosphor</b></a><br/>
+        <sub>Flexible icon family</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/phosphor_flutter">phosphor_flutter ^2.1.0</a></td>
+      <td align="center"><img src="screenshots/day35_phosphor_flutter_icons.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>36</b></td>
+      <td>
+        <a href="lib/features/day36_flutter_staggered_grid_view/day36_flutter_staggered_grid_view.dart"><b>Staggered Grid</b></a><br/>
+        <sub>Advanced grid delegates</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_staggered_grid_view">flutter_staggered_grid_view ^0.7.0</a></td>
+      <td align="center"><img src="screenshots/day36_flutter_staggered_grid_view.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>37</b></td>
+      <td>
+        <a href="lib/features/day37_shimmer/day37_shimmer.dart"><b>Shimmer</b></a><br/>
+        <sub>Animated shimmer effect</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/shimmer">shimmer ^3.0.0</a></td>
+      <td align="center"><img src="screenshots/day37_shimmer.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>38</b></td>
+      <td>
+        <a href="lib/features/day38_lottie/day38_lottie.dart"><b>Lottie</b></a><br/>
+        <sub>After Effects animations</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/lottie">lottie ^3.3.3</a></td>
+      <td align="center"><img src="screenshots/day38_lottie.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>39</b></td>
+      <td>
+        <a href="lib/features/day39_shared_preferences/day39_shared_preferences.dart"><b>Shared Prefs</b></a><br/>
+        <sub>Persistent local storage</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/shared_preferences">shared_preferences ^2.5.5</a></td>
+      <td align="center"><img src="screenshots/day39_shared_preferences.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>40</b></td>
+      <td>
+        <a href="lib/features/day40_auto_size_text_plus/day40_auto_size_text_plus.dart"><b>Auto Size Text</b></a><br/>
+        <sub>Self-resizing text</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/auto_size_text_plus">auto_size_text_plus ^3.0.2</a></td>
+      <td align="center"><img src="screenshots/day40_auto_size_text_plus.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>41</b></td>
+      <td>
+        <a href="lib/features/day41_device_info_plus/day41_device_info_plus.dart"><b>Device Info</b></a><br/>
+        <sub>Platform-specific details</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/device_info_plus">device_info_plus ^13.2.0</a></td>
+      <td align="center"><img src="screenshots/day41_device_info_plus.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>42</b></td>
+      <td>
+        <a href="lib/features/day42_geolocator/day42_geolocator.dart"><b>Geolocator</b></a><br/>
+        <sub>Device GPS coordinates</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/geolocator">geolocator ^14.0.3</a></td>
+      <td align="center"><img src="screenshots/day42_geolocator.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>43</b></td>
+      <td>
+        <a href="lib/features/day43_glass_kit/day43_glass_kit.dart"><b>Glass Kit</b></a><br/>
+        <sub>Frosted glassmorphism UI</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/glass_kit">glass_kit ^4.0.2</a></td>
+      <td align="center"><img src="screenshots/day43_glass_kit.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>44</b></td>
+      <td>
+        <a href="lib/features/day44_url_launcher/day44_url_launcher.dart"><b>URL Launcher</b></a><br/>
+        <sub>Open links & apps</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/url_launcher">url_launcher ^6.3.2</a></td>
+      <td align="center"><img src="screenshots/day44_url_launcher.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>45</b></td>
+      <td>
+        <a href="lib/features/day45_webview_flutter/day45_webview_flutter.dart"><b>WebView</b></a><br/>
+        <sub>Embed web pages</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/webview_flutter">webview_flutter ^4.14.1</a></td>
+      <td align="center"><img src="screenshots/day45_webview_flutter.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>46</b></td>
+      <td>
+        <a href="lib/features/day46_sizer/day46_sizer.dart"><b>Sizer</b></a><br/>
+        <sub>Responsive %-based sizing</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/sizer">sizer ^3.1.3</a></td>
+      <td align="center"><img src="screenshots/day46_sizer.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>47</b></td>
+      <td>
+        <a href="lib/features/day47_video_player/day47_video_player.dart"><b>Video Player</b></a><br/>
+        <sub>Network & asset video</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/video_player">video_player ^2.11.1</a></td>
+      <td align="center"><img src="screenshots/day47_video_player.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>48</b></td>
+      <td>
+        <a href="lib/features/day48_responsive_framework/day48_responsive_framework.dart"><b>Responsive</b></a><br/>
+        <sub>Adaptive layout breakpoints</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/responsive_framework">responsive_framework ^1.5.1</a></td>
+      <td align="center"><img src="screenshots/day48_responsive_framework.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>49</b></td>
+      <td>
+        <a href="lib/features/day49_timelines_upgraded/day49_timelines_upgraded.dart"><b>Timelines</b></a><br/>
+        <sub>Vertical progress steps</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/timelines_upgraded">timelines_upgraded ^0.1.1</a></td>
+      <td align="center"><img src="screenshots/day49_timelines_upgraded.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>50</b></td>
+      <td>
+        <a href="lib/features/day50_just_audio/day50_just_audio.dart"><b>Just Audio</b></a><br/>
+        <sub>High-quality audio streaming</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/just_audio">just_audio ^0.10.6</a></td>
+      <td align="center"><img src="screenshots/day50_just_audio.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>51</b></td>
+      <td>
+        <a href="lib/features/day51_persistent_bottom_nav_bar_v2/day51_persistent_bottom_nav_bar_v2.dart"><b>Persistent Nav</b></a><br/>
+        <sub>Multi-stack bottom bar</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/persistent_bottom_nav_bar_v2">persistent_bottom_nav_bar_v2 ^6.3.2</a></td>
+      <td align="center"><img src="screenshots/day51_persistent_bottom_nav_bar_v2.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>52</b></td>
+      <td>
+        <a href="lib/features/day52_equatable/day52_equatable.dart"><b>Equatable</b></a><br/>
+        <sub>Value-based object equality</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/equatable">equatable ^2.1.0</a></td>
+      <td align="center"><img src="screenshots/day52_equatable.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>53</b></td>
+      <td>
+        <a href="lib/features/day53_dart_web_scraper/day53_dart_web_scraper.dart"><b>Web Scraper</b></a><br/>
+        <sub>Extract data from websites</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/dart_web_scraper">dart_web_scraper ^0.2.16</a></td>
+      <td align="center"><img src="screenshots/day53_dart_web_scraper.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>54</b></td>
+      <td>
+        <a href="lib/features/day54_introduction_screen/day54_introduction_screen.dart"><b>Intro Screen</b></a><br/>
+        <sub>Quick onboarding setup</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/introduction_screen">introduction_screen ^4.0.0</a></td>
+      <td align="center"><img src="screenshots/day54_introduction_screen.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>55</b></td>
+      <td>
+        <a href="lib/features/day55_animated_text_kit/day55_animated_text_kit.dart"><b>Text Kit</b></a><br/>
+        <sub>Polished text animations</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/animated_text_kit">animated_text_kit ^4.3.0</a></td>
+      <td align="center"><img src="screenshots/day55_animated_text_kit.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>56</b></td>
+      <td>
+        <a href="lib/features/day56_horizontal_data_table/day56_horizontal_data_table.dart"><b>Data Table</b></a><br/>
+        <sub>Fixed-column scrollable table</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/horizontal_data_table">horizontal_data_table ^4.3.4</a></td>
+      <td align="center"><img src="screenshots/day56_horizontal_data_table.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>57</b></td>
+      <td>
+        <a href="lib/features/day57_confetti/day57_confetti.dart"><b>Confetti</b></a><br/>
+        <sub>Success particle effects</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/confetti">confetti ^0.8.0</a></td>
+      <td align="center"><img src="screenshots/day57_confetti.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>58</b></td>
+      <td>
+        <a href="lib/features/day58_chewie/day58_chewie.dart"><b>Chewie</b></a><br/>
+        <sub>Custom video player UI</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/chewie">chewie ^1.14.1</a></td>
+      <td align="center"><img src="screenshots/day58_chewie.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>59</b></td>
+      <td>
+        <a href="lib/features/day59_get_it/day59_get_it.dart"><b>GetIt</b></a><br/>
+        <sub>Service locator dependency</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/get_it">get_it ^9.2.1</a></td>
+      <td align="center"><img src="screenshots/day59_get_it.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>60</b></td>
+      <td>
+        <a href="lib/features/day60_another_flushbar/day60_another_flushbar.dart"><b>Flushbar</b></a><br/>
+        <sub>Custom floating notifications</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/another_flushbar">another_flushbar ^2.2.4</a></td>
+      <td align="center"><img src="screenshots/day60_another_flushbar.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>61</b></td>
+      <td>
+        <a href="lib/features/day61_connectivity_plus/day61_connectivity_plus.dart"><b>Connectivity</b></a><br/>
+        <sub>Real-time network status</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/connectivity_plus">connectivity_plus ^7.3.1</a></td>
+      <td align="center"><img src="screenshots/day61_connectivity_plus.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>62</b></td>
+      <td>
+        <a href="lib/features/day62_flutter_hooks/day62_flutter_hooks.dart"><b>Flutter Hooks</b></a><br/>
+        <sub>Stateless lifecycle management</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_hooks">flutter_hooks ^0.21.3+1</a></td>
+      <td align="center"><img src="screenshots/day62_flutter_hooks.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>63</b></td>
+      <td>
+        <a href="lib/features/day63_path_provider/day63_path_provider.dart"><b>Path Provider</b></a><br/>
+        <sub>System file storage paths</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/path_provider">path_provider ^2.1.6</a></td>
+      <td align="center"><img src="screenshots/day63_path_provider.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>64</b></td>
+      <td>
+        <a href="lib/features/day64_youtube_player_flutter/day64_youtube_player_flutter.dart"><b>YouTube Player</b></a><br/>
+        <sub>Embed native YouTube videos</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/youtube_player_flutter">youtube_player_flutter ^9.1.3</a></td>
+      <td align="center"><img src="screenshots/day64_youtube_player_flutter.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>65</b></td>
+      <td>
+        <a href="lib/features/day65_youtube_player_iframe/day65_youtube_player_iframe.dart"><b>YT IFrame</b></a><br/>
+        <sub>Official IFrame video player</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/youtube_player_iframe">youtube_player_iframe ^6.0.2</a></td>
+      <td align="center"><img src="screenshots/day65_youtube_player_iframe.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>66</b></td>
+      <td>
+        <a href="lib/features/day66_flutter_slidable/day66_flutter_slidable.dart"><b>Slidable</b></a><br/>
+        <sub>Interactive swipe-to-action items</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_slidable">flutter_slidable ^4.0.3</a></td>
+      <td align="center"><img src="screenshots/day66_flutter_slidable.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>67</b></td>
+      <td>
+        <a href="lib/features/day67_json_annotation/day67_json_annotation.dart"><b>JSON Annotation</b></a><br/>
+        <sub>Automated model generation</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/json_annotation">json_annotation ^4.12.0</a></td>
+      <td align="center"><img src="screenshots/day67_json_annotation.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>68</b></td>
+      <td>
+        <a href="lib/features/day68_dio/day68_dio.dart"><b>Dio</b></a><br/>
+        <sub>Advanced HTTP network client</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/dio">dio ^5.11.0</a></td>
+      <td align="center"><img src="screenshots/day68_dio.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>69</b></td>
+      <td>
+        <a href="lib/features/day69_gal/day69_gal.dart"><b>Gal</b></a><br/>
+        <sub>Save images to device gallery</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/gal">gal ^2.3.3</a></td>
+      <td align="center"><img src="screenshots/day69_gal.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>70</b></td>
+      <td>
+        <a href="lib/features/day70_searchfield/day70_searchfield.dart"><b>SearchField</b></a><br/>
+        <sub>Autocomplete search input</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/searchfield">searchfield ^2.0.0</a></td>
+      <td align="center"><img src="screenshots/day70_searchfield.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>71</b></td>
+      <td>
+        <a href="lib/features/day71_file_picker/day71_file_picker.dart"><b>File Picker</b></a><br/>
+        <sub>Select files from system</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/file_picker">file_picker ^12.0.0-beta.7</a></td>
+      <td align="center"><img src="screenshots/day71_file_picker.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>72</b></td>
+      <td>
+        <a href="lib/features/day72_share_plus/day72_share_plus.dart"><b>Share Plus</b></a><br/>
+        <sub>Native content sharing</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/share_plus">share_plus ^13.3.0</a></td>
+      <td align="center"><img src="screenshots/day72_share_plus.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>73</b></td>
+      <td>
+        <a href="lib/features/day73_infinite_scroll_pagination/day73_infinite_scroll_pagination.dart"><b>Infinite Scroll</b></a><br/>
+        <sub>Page-by-page lazy loading</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/infinite_scroll_pagination">infinite_scroll_pagination ^5.1.1</a></td>
+      <td align="center"><img src="screenshots/day73_infinite_scroll_pagination.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>74</b></td>
+      <td>
+        <a href="lib/features/day74_marquee/day74_marquee.dart"><b>Marquee</b></a><br/>
+        <sub>Scrolling text animations</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/marquee">marquee ^2.3.0</a></td>
+      <td align="center"><img src="screenshots/day74_marquee.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>75</b></td>
+      <td>
+        <a href="lib/features/day75_cached_network_image/day75_cached_network_image.dart"><b>Cached Image</b></a><br/>
+        <sub>Automatic disk caching</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/cached_network_image">cached_network_image ^3.4.1</a></td>
+      <td align="center"><img src="screenshots/day75_cached_network_image.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>76</b></td>
+      <td>
+        <a href="lib/features/day76_flutter_cache_manager/day76_flutter_cache_manager.dart"><b>Cache Manager</b></a><br/>
+        <sub>Low-level file caching</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_cache_manager">flutter_cache_manager ^3.4.2</a></td>
+      <td align="center"><img src="screenshots/day76_flutter_cache_manager.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>77</b></td>
+      <td>
+        <a href="lib/features/day77_fluttertoast/day77_fluttertoast.dart"><b>Fluttertoast</b></a><br/>
+        <sub>Simple popup feedback</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/fluttertoast">fluttertoast ^9.1.0</a></td>
+      <td align="center"><img src="screenshots/day77_fluttertoast.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>78</b></td>
+      <td>
+        <a href="lib/features/day78_crypto/day78_crypto.dart"><b>Crypto</b></a><br/>
+        <sub>Secure hashing algorithms</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/crypto">crypto ^3.0.7</a></td>
+      <td align="center"><img src="screenshots/day78_crypto.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>79</b></td>
+      <td>
+        <a href="lib/features/day79_slide_countdown/day79_slide_countdown.dart"><b>Countdown</b></a><br/>
+        <sub>Premium sliding timer</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/slide_countdown">slide_countdown ^2.0.2</a></td>
+      <td align="center"><img src="screenshots/day79_slide_countdown.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>80</b></td>
+      <td>
+        <a href="lib/features/day80_date_format/day80_date_format.dart"><b>Date Format</b></a><br/>
+        <sub>Declarative date strings</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/date_format">date_format ^2.0.9</a></td>
+      <td align="center"><img src="screenshots/day80_date_format.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>81</b></td>
+      <td>
+        <a href="lib/features/day81_custom_rating_bar/day81_custom_rating_bar.dart"><b>Rating Bar</b></a><br/>
+        <sub>Modern star-based ratings</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/custom_rating_bar">custom_rating_bar ^3.0.0</a></td>
+      <td align="center"><img src="screenshots/day81_custom_rating_bar.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>82</b></td>
+      <td>
+        <a href="lib/features/day82_pin_code_fields/day82_pin_code_fields.dart"><b>Pin Code</b></a><br/>
+        <sub>Customizable OTP fields</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/pin_code_fields">pin_code_fields ^9.4.0</a></td>
+      <td align="center"><img src="screenshots/day82_pin_code_fields.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>83</b></td>
+      <td>
+        <a href="lib/features/day83_uuid/day83_uuid.dart"><b>UUID</b></a><br/>
+        <sub>Unique ID generation</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/uuid">uuid ^4.6.0</a></td>
+      <td align="center"><img src="screenshots/day83_uuid.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>84</b></td>
+      <td>
+        <a href="lib/features/day84_rxdart/day84_rxdart.dart"><b>RxDart</b></a><br/>
+        <sub>Advanced reactive streams</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/rxdart">rxdart ^0.28.0</a></td>
+      <td align="center"><img src="screenshots/day84_rxdart.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>85</b></td>
+      <td>
+        <a href="lib/features/day85_flutter_local_notifications/day85_flutter_local_notifications.dart"><b>Notifications</b></a><br/>
+        <sub>Native local alerts</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_local_notifications">flutter_local_notifications ^22.3.0</a></td>
+      <td align="center"><img src="screenshots/day85_flutter_local_notifications.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>86</b></td>
+      <td>
+        <a href="lib/features/day86_flutter_timezone/day86_flutter_timezone.dart"><b>Timezone</b></a><br/>
+        <sub>Native device location IDs</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_timezone">flutter_timezone ^5.1.0</a></td>
+      <td align="center"><img src="screenshots/day86_flutter_timezone.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>87</b></td>
+      <td>
+        <a href="lib/features/day87_faker/day87_faker.dart"><b>Faker</b></a><br/>
+        <sub>Realistic mock data gen</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/faker">faker ^2.2.0</a></td>
+      <td align="center"><img src="screenshots/day87_faker.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>88</b></td>
+      <td>
+        <a href="lib/features/day88_stylish_bottom_bar/day88_stylish_bottom_bar.dart"><b>Stylish Bar</b></a><br/>
+        <sub>Modern pill animations</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/stylish_bottom_bar">stylish_bottom_bar ^1.1.0</a></td>
+      <td align="center"><img src="screenshots/day88_stylish_bottom_bar.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>89</b></td>
+      <td>
+        <a href="lib/features/day89_device_preview/day89_device_preview.dart"><b>Device Preview</b></a><br/>
+        <sub>Multi-screen responsiveness</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/device_preview">device_preview ^1.3.1</a></td>
+      <td align="center"><img src="screenshots/day89_device_preview.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>90</b></td>
+      <td>
+        <a href="lib/features/day90_animate_do/day90_animate_do.dart"><b>Animate Do</b></a><br/>
+        <sub>Unified animation library</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/animate_do">animate_do ^3.3.4</a></td>
+      <td align="center"><img src="screenshots/day90_animate_do.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>91</b></td>
+      <td>
+        <a href="lib/features/day91_animated_toggle_switch/day91_animated_toggle_switch.dart"><b>Animated Toggle</b></a><br/>
+        <sub>Premium multi-value switch</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/animated_toggle_switch">animated_toggle_switch ^0.8.7</a></td>
+      <td align="center"><img src="screenshots/day91_animated_toggle_switch.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>92</b></td>
+      <td>
+        <a href="lib/features/day92_routemaster/day92_routemaster.dart"><b>Routemaster</b></a><br/>
+        <sub>URL-based tab navigation</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/routemaster">routemaster ^1.1.1</a></td>
+      <td align="center"><img src="screenshots/day92_routemaster.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>93</b></td>
+      <td>
+        <a href="lib/features/day93_skeletonizer/day93_skeletonizer.dart"><b>Skeletonizer</b></a><br/>
+        <sub>Automatic loading states</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/skeletonizer">skeletonizer ^1.4.1</a></td>
+      <td align="center"><img src="screenshots/day93_skeletonizer.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>94</b></td>
+      <td>
+        <a href="lib/features/day94_fl_chart/day94_fl_chart.dart"><b>fl_chart</b></a><br/>
+        <sub>Open-source interactive charts</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/fl_chart">fl_chart ^0.70.2</a></td>
+      <td align="center"><img src="screenshots/day94_fl_chart.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>95</b></td>
+      <td>
+        <a href="lib/features/day95_permission_handler/day95_permission_handler.dart"><b>Permissions</b></a><br/>
+        <sub>System permission manager</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/permission_handler">permission_handler ^11.3.1</a></td>
+      <td align="center"><img src="screenshots/day95_permission_handler.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>96</b></td>
+      <td>
+        <a href="lib/features/day96_sembast/day96_sembast.dart"><b>Sembast</b></a><br/>
+        <sub>Pure Dart NoSQL database</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/sembast">sembast ^3.8.6</a></td>
+      <td align="center"><img src="screenshots/day96_sembast.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>97</b></td>
+      <td>
+        <a href="lib/features/day97_flutter_riverpod/day97_flutter_riverpod.dart"><b>Riverpod</b></a><br/>
+        <sub>Compile-safe state manager</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_riverpod">flutter_riverpod ^2.6.1</a></td>
+      <td align="center"><img src="screenshots/day97_flutter_riverpod.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>98</b></td>
+      <td>
+        <a href="lib/features/day98_timeago/day98_timeago.dart"><b>Timeago</b></a><br/>
+        <sub>Relative human-readable time</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/timeago">timeago ^3.7.1</a></td>
+      <td align="center"><img src="screenshots/day98_timeago.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>99</b></td>
+      <td>
+        <a href="lib/features/day99_pretty_qr_code/day99_pretty_qr_code.dart"><b>Pretty QR</b></a><br/>
+        <sub>Modern Squircle QR codes</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/pretty_qr_code">pretty_qr_code ^3.6.0</a></td>
+      <td align="center"><img src="screenshots/day99_pretty_qr_code.webp" width="170"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>100</b></td>
+      <td>
+        <a href="lib/features/day100_flutter_bloc/day100_flutter_bloc.dart"><b>Flutter BLoC</b></a><br/>
+        <sub>Enterprise-grade architecture</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/flutter_bloc">flutter_bloc ^9.1.1</a></td>
+      <td align="center"><img src="screenshots/day100_flutter_bloc.webp" width="170"/></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -27,7 +958,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 
 ---
 
-## 📦 Packages Covered
+## 📦 Detailed Package Breakdown
 
 ### Day 01. Avatar Glow
 - Animated glowing ring effect around widgets
@@ -194,7 +1125,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Drag-based onboarding flow with a fixed footer, page indicator, and skip/get-started button — built on the verified v4.0.2 API
 - Each slide's icon sits in a gradient circle with a soft shadow instead of a flat tinted circle — small touch, reads noticeably more polished
 - Package: onboarding: ^4.0.2
-- Features: CustomPainter-based indicators (4 built-ins: LinePainter, CirclePainter, SquarePainter, TrianglePainter), fully custom footer builder, configurable animation speed
+- Features: CustomPainter-based indicators (4 builtins: LinePainter, CirclePainter, SquarePainter, TrianglePainter), fully custom footer builder, configurable animation speed
 
 ### Day 25. Flutter Neumorphic
 - Renders "soft UI" components — embossed buttons, sliders, switches, progress bars — using light/shadow pairs instead of flat colors or borders
@@ -224,7 +1155,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - **`day_night_switcher` (originally requested) is discontinued** — swapped for `day_night_switch`, an actively maintained package offering the same idea (an animated sun/moon toggle), with a simpler single-widget API instead of two separate widgets
 - **Removed a redundant UI pattern** from the original: it had three separate controls (`Switch.adaptive`, `DayNightSwitcher`, and `DayNightSwitcherIcon`) all bound to the exact same boolean — visually confusing and pointless, since toggling any one should logically toggle all three. Now there's a single switch
 - Uses `provider`'s `ChangeNotifier` to drive `ThemeMode` across the whole app — the switch is just one input that calls `toggleTheme()`; everything else (app bar colors, background, text colors) updates automatically via `Theme.of(context)`
-- Package: `day_night_switch: <latest>` (replacing discontinued `day_night_switcher: ^0.2.0+1`)
+- Package: `day_night_switch: ^1.0.4`
 - Features: single animated toggle between day/night states, customizable day/night/sun/moon colors, optional custom sun/moon images
 
 ### Day 29. Provider
@@ -237,7 +1168,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 ### Day 30. Flutter Lucide
 - Lucide is a free, open-source icon set of 1,699+ simple, consistent outline icons on a 24x24 grid — a clean alternative to Material's filled icon set, and the actively-maintained continuation of the (now-discontinued) Feather icon project
 - Curated the original's 20-icon dump across 5 rows in 5 different pastel background colors down to a **labeled 12-icon grid in one consistent accent color**, matching Day 7's Font Awesome showcase
-- Package: `flutter_lucide: <latest>`
+- Package: `flutter_lucide: ^1.11.0`
 - Features: 1,699+ icons, tree-shaking (only the icons you actually use are bundled), cross-platform (Android/iOS/web/desktop), regularly updated alongside upstream Lucide releases
 
 ### Day 31. Simple Gradient Text
@@ -248,7 +1179,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 
 ### Day 32. Image Picker
 - Lets users choose a photo from their gallery or take a new one with the camera — a near-universal building block for profile pictures and uploads
-- **Fixed a web-compatibility bug**: the original used `File(image.path)` and `Image.file(...)`. `dart:io`'s `File` doesn't work on Flutter web (there's no real filesystem there) — this would crash if the app ever ran on web. Reads the picked image as bytes (`picked.readAsBytes()`) and displays it with `Image.memory(...)` instead, which works identically on mobile, desktop, and web
+- **Fixed a web-compatibility bug**: the original used `File(image.path)` and `Image.file(...)`. `dart:io`'s `File` doesn't work on Flutter web (there's no real filesystem there) — this would crash if the app ever ran on web
 - **Fixed silent error handling**: the original only `print()`ed failures — invisible to the actual user. Failures now show a snackbar with the actual error message
 - Restyled the preview as a circular avatar placeholder (with a loading spinner while picking) instead of the default `FlutterLogo`, and the two buttons as a labeled icon row instead of full-width stacked buttons
 - Package: `image_picker: ^1.2.3`
@@ -296,7 +1227,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - **Added success feedback** with SnackBars after saving, loading, and clearing preferences, giving users clear confirmation for every action
 - **Demonstrates data management** using both typed getters/setters (`setString`, `setInt`, `setDouble`, `setBool`) and `clear()` to remove all saved preferences
 - Package: `shared_preferences: ^2.5.5`
-- Features: `SharedPreferences.getInstance()`, `setString()`, `getString()`, `setInt()`, `getInt()`, `setDouble()`, `getDouble()`, `setBool()`, `getBool()`, `clear()`
+- Features: `SharedPreferences.getInstance()`, `setString()`, `getString()`, `setInt()`, `setInt()`, `setDouble()`, `getDouble()`, `setBool()`, `getBool()`, `clear()`
 
 
 ### Day 40. Auto Size Text (auto_size_text_plus)
@@ -704,7 +1635,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - A highly intelligent loading state library that automatically generates skeleton screens by analyzing and masking your existing UI widgets, removing the need for manual placeholder code.
 - **Why it is helpful**: Traditionally, developers had to build two separate UIs—one for the data and one for the loading shimmer. Skeletonizer paints your actual layout with a shimmering effect automatically, making your code significantly more maintainable.
 - **Pro Strategy**: This implementation demonstrates how to resolve modern Flutter SDK conflicts (like the clipRSuperellipse error) using dependency overrides to point directly to the latest package fixes on GitHub—a key skill for managing production-grade projects.
-- Package: `skeletonizer: ^2.1.3`
+- Package: `skeletonizer: ^1.4.1`
 - Features: Automatic widget-to-skeleton mapping, highly customizable ShimmerEffect, support for complex lists, and seamless transitions between loading and data states.
 
 ### Day 94. fl_chart
@@ -732,8 +1663,8 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - A modern and reactive state management framework for Flutter that provides a compile-safe, testable, and highly organized way to manage application logic.
 - **Why it is helpful**: It is the professional successor to the Provider package. Riverpod catches common errors (like ProviderNotFoundException) at compile-time rather than at runtime. It also allows you to access your state from anywhere in the app without needing the BuildContext, making your code much more flexible.
 - **Learning Path**: This implementation demonstrates "Feature-First Architecture" by splitting the code into logical layers: Models, Providers, and Widgets. We built a real-world "User Profile Manager" to show how complex data objects can be synced across the UI instantly.
-- Package: `flutter_riverpod: ^3.3.2`
-- Features: Support for the Notifier pattern, immutable state updates using copyWith, automatic disposal of unused data, and a decoupled architecture that is perfect for large-scale enterprise applications.'
+- Package: `flutter_riverpod: ^2.6.1`
+- Features: Support for the Notifier pattern, immutable state updates using copyWith, automatic disposal of unused data, and a decoupled architecture that is perfect for large-scale enterprise applications.
 
 ### Day 98. Timeago
 - A lightweight utility for transforming static `DateTime` objects into dynamic, human-readable relative time strings (e.g., "just now", "5m ago", "2 days ago").
@@ -749,997 +1680,22 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Package: `pretty_qr_code: ^3.6.0`
 - Features: Support for data-based and widget-based rendering, customizable dot shapes (Smooth, Rounded, Square), built-in logo overlay support, and high-resolution canvas painting.
 
-
-
----
-
-## 📋 Table of Contents
-<div align="center">
-
-## 📦 Flutter Package of the Day
-
-Learn Flutter packages by building practical examples, one package at a time. Each example demonstrates real-world usage with clean, easy-to-understand code.
-
-</div>
-
-## 📋 Packages
-
-<table>
-  <thead>
-    <tr>
-      <th width="90">Day</th>
-      <th width="220">Package</th>
-      <th width="220">Pub.dev</th>
-      <th>Preview</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><b>01</b></td>
-      <td>
-        <a href="lib/features/day01_avatar_glow/day01_avatar_glow.dart">
-          <b>Avatar Glow</b>
-        </a><br/>
-        <sub>Animated glowing ring effect around widgets</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/avatar_glow">
-          avatar_glow ^3.0.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day01_avatar_glow.gif">
-          <img src="screenshots/day01_avatar_glow.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>02</b></td>
-      <td>
-        <a href="lib/features/day02_google_fonts/day02_google_fonts.dart">
-          <b>Google Fonts</b>
-        </a><br/>
-        <sub>Instant access to 1500+ fonts</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/google_fonts">
-          google_fonts ^8.2.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day02_google_fonts.gif">
-          <img src="screenshots/day02_google_fonts.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>03</b></td>
-      <td>
-        <a href="lib/features/day03_liquid_pull_to_refresh/day03_liquid_pull_to_refresh.dart">
-          <b>Liquid Pull to Refresh</b>
-        </a><br/>
-        <sub>Liquid-fill pull to refresh effect</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/liquid_pull_to_refresh">
-          liquid_pull_to_refresh ^3.0.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day03_liquid_pull_to_refresh.gif">
-          <img src="screenshots/day03_liquid_pull_to_refresh.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>04</b></td>
-      <td>
-        <a href="lib/features/day04_percent_indicator/day04_percent_indicator.dart">
-          <b>Percent Indicator</b>
-        </a><br/>
-        <sub>Circular and linear progress indicators</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/percent_indicator">
-          percent_indicator ^4.2.5
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day04_percent_indicator.gif">
-          <img src="screenshots/day04_percent_indicator.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>05</b></td>
-      <td>
-        <a href="lib/features/day05_flutter_carousel_slider/day05_flutter_carousel_slider.dart">
-          <b>Carousel Slider</b>
-        </a><br/>
-        <sub>3D cube carousel slider</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_carousel_slider">
-          flutter_carousel_slider ^1.1.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day05_flutter_carousel_slider.gif">
-          <img src="screenshots/day05_flutter_carousel_slider.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>06</b></td>
-      <td>
-        <a href="lib/features/day06_smooth_page_indicator/day06_smooth_page_indicator.dart">
-          <b>Smooth Page Indicator</b>
-        </a><br/>
-        <sub>Polished, animated dot indicators</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/smooth_page_indicator">
-          smooth_page_indicator ^2.0.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day06_smooth_page_indicator.gif">
-          <img src="screenshots/day06_smooth_page_indicator.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>07</b></td>
-      <td>
-        <a href="lib/features/day07_font_awesome_flutter/day07_font_awesome_flutter.dart">
-          <b>Font Awesome</b>
-        </a><br/>
-        <sub>2000+ Font Awesome icons</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/font_awesome_flutter">
-          font_awesome_flutter ^11.0.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day07_font_awesome_flutter.png">
-          <img src="screenshots/day07_font_awesome_flutter.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>08</b></td>
-      <td>
-        <a href="lib/features/day08_animations/day08_animations.dart">
-          <b>Animations</b>
-        </a><br/>
-        <sub>Morphing card transitions</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/animations">
-          animations ^2.2.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day08_animations.gif">
-          <img src="screenshots/day08_animations.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>09</b></td>
-      <td>
-        <a href="lib/features/day09_neon/day09_neon.dart">
-          <b>Neon</b>
-        </a><br/>
-        <sub>Glowing neon sign text</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/neon">
-          neon ^0.1.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day09_neon.png">
-          <img src="screenshots/day09_neon.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>10</b></td>
-      <td>
-        <a href="lib/features/day10_aurora/day10_aurora.dart">
-          <b>Aurora</b>
-        </a><br/>
-        <sub>Soft, blurred color blobs backdrop</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/aurora">
-          aurora ^1.0.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day10_aurora.gif">
-          <img src="screenshots/day10_aurora.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>11</b></td>
-      <td>
-        <a href="lib/features/day11_card_swiper/day11_card_swiper.dart">
-          <b>Card Swiper</b>
-        </a><br/>
-        <sub>Auto-playing swipeable carousel</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/card_swiper">
-          card_swiper ^3.0.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day11_card_swiper.gif">
-          <img src="screenshots/day11_card_swiper.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>12</b></td>
-      <td>
-        <a href="lib/features/day12_flutter_blurhash/day12_flutter_blurhash.dart">
-          <b>BlurHash</b>
-        </a><br/>
-        <sub>Blurred image placeholders</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_blurhash">
-          flutter_blurhash ^0.9.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day12_flutter_blurhash.gif">
-          <img src="screenshots/day12_flutter_blurhash.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>13</b></td>
-      <td>
-        <a href="lib/features/day13_flutter_svg/day13_flutter_svg.dart">
-          <b>Flutter SVG</b>
-        </a><br/>
-        <sub>Scalable vector graphics (SVG)</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_svg">
-          flutter_svg ^2.3.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day13_flutter_svg.png">
-          <img src="screenshots/day13_flutter_svg.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>14</b></td>
-      <td>
-        <a href="lib/features/day14_flutter_custom_clippers/day14_flutter_custom_clippers.dart">
-          <b>Custom Clippers</b>
-        </a><br/>
-        <sub>Pre-made ClipPath shapes</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_custom_clippers">
-          flutter_custom_clippers ^2.1.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day14_flutter_custom_clippers.gif">
-          <img src="screenshots/day14_flutter_custom_clippers.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>15</b></td>
-      <td>
-        <a href="lib/features/day15_flutter_tts/day15_flutter_tts.dart">
-          <b>Flutter TTS</b>
-        </a><br/>
-        <sub>Text-to-speech conversion</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_tts">
-          flutter_tts ^4.2.5
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day15_flutter_tts.gif">
-          <img src="screenshots/day15_flutter_tts.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>16</b></td>
-      <td>
-        <a href="lib/features/day16_flutter_highlight/day16_flutter_highlight.dart">
-          <b>Flutter Highlight</b>
-        </a><br/>
-        <sub>Syntax-colored code blocks</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_highlight">
-          flutter_highlight ^0.7.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day16_flutter_highlight.gif">
-          <img src="screenshots/day16_flutter_highlight.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>17</b></td>
-      <td>
-        <a href="lib/features/day17_syncfusion_flutter_charts/day17_syncfusion_flutter_charts.dart">
-          <b>Syncfusion Charts</b>
-        </a><br/>
-        <sub>Production-ready charts</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/syncfusion_flutter_charts">
-          syncfusion_flutter_charts ^34.1.32
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day17_syncfusion_flutter_charts.gif">
-          <img src="screenshots/day17_syncfusion_flutter_charts.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>18</b></td>
-      <td>
-        <a href="lib/features/day18_rflutter_alert/day18_rflutter_alert.dart">
-          <b>RFlutter Alert</b>
-        </a><br/>
-        <sub>Styled alert dialogs</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/rflutter_alert">
-          rflutter_alert ^2.0.7
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day18_rflutter_alert.gif">
-          <img src="screenshots/day18_rflutter_alert.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>19</b></td>
-      <td>
-        <a href="lib/features/day19_flutter_settings_ui/day19_flutter_settings_ui.dart">
-          <b>Settings UI</b>
-        </a><br/>
-        <sub>Native-feeling settings screens</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_settings_ui">
-          flutter_settings_ui ^3.0.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day19_flutter_settings_ui.gif">
-          <img src="screenshots/day19_flutter_settings_ui.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>20</b></td>
-      <td>
-        <a href="lib/features/day20_flutter_spinkit/day20_flutter_spinkit.dart">
-          <b>Flutter Spinkit</b>
-        </a><br/>
-        <sub>20+ animated loading indicators</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_spinkit">
-          flutter_spinkit ^5.2.2
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day20_flutter_spinkit.gif">
-          <img src="screenshots/day20_flutter_spinkit.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>21</b></td>
-      <td>
-        <a href="lib/features/day21_audioplayers/day21_audioplayers.dart">
-          <b>Audioplayers</b>
-        </a><br/>
-        <sub>Play audio from assets, files, or URLs</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/audioplayers">
-          audioplayers ^6.7.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day21_audioplayers.gif">
-          <img src="screenshots/day21_audioplayers.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>22</b></td>
-      <td>
-        <a href="lib/features/day22_go_router/day22_go_router.dart">
-          <b>Go Router</b>
-        </a><br/>
-        <sub>Declarative, URL-based navigation</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/go_router">
-          go_router ^17.3.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day22_go_router.gif">
-          <img src="screenshots/day22_go_router.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>23</b></td>
-      <td>
-        <a href="lib/features/day23_http/day23_http.dart">
-          <b>HTTP</b>
-        </a><br/>
-        <sub>Making HTTP requests</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/http">
-          http ^1.6.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day23_http.gif">
-          <img src="screenshots/day23_http.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>24</b></td>
-      <td>
-        <a href="lib/features/day24_onboarding/day24_onboarding.dart">
-          <b>Onboarding</b>
-        </a><br/>
-        <sub>Drag-based onboarding flow</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/onboarding">
-          onboarding ^4.0.2
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day24_onboarding.gif">
-          <img src="screenshots/day24_onboarding.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>25</b></td>
-      <td>
-        <a href="lib/features/day25_flutter_neumorphic_plus/day25_flutter_neumorphic_plus.dart">
-          <b>Flutter Neumorphic</b>
-        </a><br/>
-        <sub>Soft neumorphic UI components</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_neumorphic_plus">
-          flutter_neumorphic_plus ^3.5.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day25_flutter_neumorphic_plus.gif">
-          <img src="screenshots/day25_flutter_neumorphic_plus.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>26</b></td>
-      <td>
-        <a href="lib/features/day26_math_expressions/day26_math_expressions.dart">
-          <b>Math Expressions</b>
-        </a><br/>
-        <sub>Parse and evaluate math expressions</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/math_expressions">
-          math_expressions ^3.1.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day26_math_expressions.gif">
-          <img src="screenshots/day26_math_expressions.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>27</b></td>
-      <td>
-        <a href="lib/features/day27_clay_containers/day27_clay_containers.dart">
-          <b>Clay Containers</b>
-        </a><br/>
-        <sub>Moldable "clay" containers</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/clay_containers">
-          clay_containers ^0.3.4
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day27_clay_containers.png">
-          <img src="screenshots/day27_clay_containers.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>28</b></td>
-      <td>
-        <a href="lib/features/day28_day_night_switch/day28_day_night_switch.dart">
-          <b>Day/Night Switch</b>
-        </a><br/>
-        <sub>Animated day/night theme switch</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/day_night_switch">
-          day_night_switch ^1.0.4
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day28_day_night_switch.gif">
-          <img src="screenshots/day28_day_night_switch.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>29</b></td>
-      <td>
-        <a href="lib/features/day29_provider/day29_provider.dart">
-          <b>Provider</b>
-        </a><br/>
-        <sub>Simple state management</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/provider">
-          provider ^6.1.5+1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day29_provider.gif">
-          <img src="screenshots/day29_provider.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>30</b></td>
-      <td>
-        <a href="lib/features/day30_flutter_lucide/day30_flutter_lucide.dart">
-          <b>Flutter Lucide</b>
-        </a><br/>
-        <sub>1,699+ simple outline icons</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_lucide">
-          flutter_lucide ^1.11.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day30_flutter_lucide.png">
-          <img src="screenshots/day30_flutter_lucide.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>31</b></td>
-      <td>
-        <a href="lib/features/day31_simple_gradient_text/day31_simple_gradient_text.dart">
-          <b>Gradient Text</b>
-        </a><br/>
-        <sub>Gradient-painted text</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/simple_gradient_text">
-          simple_gradient_text ^1.4.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day31_simple_gradient_text.png">
-          <img src="screenshots/day31_simple_gradient_text.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>32</b></td>
-      <td>
-        <a href="lib/features/day32_image_picker/day32_image_picker.dart">
-          <b>Image Picker</b>
-        </a><br/>
-        <sub>Pick images from gallery or camera</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/image_picker">
-          image_picker ^1.2.3
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day32_image_picker.gif">
-          <img src="screenshots/day32_image_picker.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>33</b></td>
-      <td>
-        <a href="lib/features/day33_curved_labeled_navigation_bar/day33_curved_labeled_navigation_bar.dart">
-          <b>Curved Nav Bar</b>
-        </a><br/>
-        <sub>Animated curved bottom nav bar</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/curved_labeled_navigation_bar">
-          curved_labeled_navigation_bar ^2.0.6
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day33_curved_labeled_navigation_bar.gif">
-          <img src="screenshots/day33_curved_labeled_navigation_bar.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>34</b></td>
-      <td>
-        <a href="lib/features/day34_intro_slider/day34_intro_slider.dart">
-          <b>Intro Slider</b>
-        </a><br/>
-        <sub>Full-screen onboarding slider</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/intro_slider">
-          intro_slider ^4.2.5
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day34_intro_slider.gif">
-          <img src="screenshots/day34_intro_slider.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>35</b></td>
-      <td>
-        <a href="lib/features/day35_phosphor_flutter_icons/day35_phosphor_flutter_icons.dart">
-          <b>Phosphor Icons</b>
-        </a><br/>
-        <sub>Flexible icon family with 6 styles</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/phosphor_flutter">
-          phosphor_flutter ^2.1.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day35_phosphor_flutter_icons.png">
-          <img src="screenshots/day35_phosphor_flutter_icons.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>36</b></td>
-      <td>
-        <a href="lib/features/day36_flutter_staggered_grid_view/day36_flutter_staggered_grid_view.dart">
-          <b>Staggered Grid</b>
-        </a><br/>
-        <sub>Advanced grid layout delegates</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/flutter_staggered_grid_view">
-          flutter_staggered_grid_view ^0.7.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day36_flutter_staggered_grid_view.gif">
-          <img src="screenshots/day36_flutter_staggered_grid_view.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>37</b></td>
-      <td>
-        <a href="lib/features/day37_shimmer/day37_shimmer.dart">
-          <b>Shimmer</b>
-        </a><br/>
-        <sub>Animated shimmer loading effect</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/shimmer">
-          shimmer ^3.0.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day37_shimmer.gif">
-          <img src="screenshots/day37_shimmer.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>38</b></td>
-      <td>
-        <a href="lib/features/day38_lottie/day38_lottie.dart">
-          <b>Lottie</b>
-        </a><br/>
-        <sub>After Effects Lottie animations</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/lottie">
-          lottie ^3.3.3
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day38_lottie.gif">
-          <img src="screenshots/day38_lottie.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>39</b></td>
-      <td>
-        <a href="lib/features/day39_shared_preferences/day39_shared_preferences.dart">
-          <b>Shared Preferences</b>
-        </a><br/>
-        <sub>Persistent local storage</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/shared_preferences">
-          shared_preferences ^2.5.5
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day39_shared_preferences.gif">
-          <img src="screenshots/day39_shared_preferences.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>40</b></td>
-      <td>
-        <a href="lib/features/day40_auto_size_text_plus/day40_auto_size_text_plus.dart">
-          <b>Auto Size Text</b>
-        </a><br/>
-        <sub>Automatically resizing text</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/auto_size_text_plus">
-          auto_size_text_plus ^3.0.2
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day40_auto_size_text_plus.gif">
-          <img src="screenshots/day40_auto_size_text_plus.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>41</b></td>
-      <td>
-        <a href="lib/features/day41_device_info_plus/day41_device_info_plus.dart">
-          <b>Device Info Plus</b>
-        </a><br/>
-        <sub>Read device details</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/device_info_plus">
-          device_info_plus ^13.2.0
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day41_device_info_plus.png">
-          <img src="screenshots/day41_device_info_plus.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>42</b></td>
-      <td>
-        <a href="lib/features/day42_geolocator/day42_geolocator.dart">
-          <b>Geolocator</b>
-        </a><br/>
-        <sub>Read device GPS coordinates</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/geolocator">
-          geolocator ^14.0.3
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day42_geolocator.gif">
-          <img src="screenshots/day42_geolocator.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>43</b></td>
-      <td>
-        <a href="lib/features/day43_glass_kit/day43_glass_kit.dart">
-          <b>Glass Kit</b>
-        </a><br/>
-        <sub>Frosted glass glassmorphism UI</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/glass_kit">
-          glass_kit ^4.0.2
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day43_glass_kit.png">
-          <img src="screenshots/day43_glass_kit.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>44</b></td>
-      <td>
-        <a href="lib/features/day44_url_launcher/day44_url_launcher.dart">
-          <b>URL Launcher</b>
-        </a><br/>
-        <sub>Open links, dialers, SMS, and email</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/url_launcher">
-          url_launcher ^6.3.2
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day44_url_launcher.gif">
-          <img src="screenshots/day44_url_launcher.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>45</b></td>
-      <td>
-        <a href="lib/features/day45_webview_flutter/day45_webview_flutter.dart">
-          <b>WebView Flutter</b>
-        </a><br/>
-        <sub>Embed interactive web pages</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/webview_flutter">
-          webview_flutter ^4.14.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day45_webview_flutter.gif">
-          <img src="screenshots/day45_webview_flutter.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>46</b></td>
-      <td>
-        <a href="lib/features/day46_sizer/day46_sizer.dart">
-          <b>Sizer</b>
-        </a><br/>
-        <sub>Responsive percentage-based sizing</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/sizer">
-          sizer ^3.1.3
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day46_sizer.gif">
-          <img src="screenshots/day46_sizer.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>47</b></td>
-      <td>
-        <a href="lib/features/day47_video_player/day47_video_player.dart">
-          <b>Video Player</b>
-        </a><br/>
-        <sub>Play videos from network or assets</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/video_player">
-          video_player ^2.11.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day47_video_player.gif">
-          <img src="screenshots/day47_video_player.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>48</b></td>
-      <td>
-        <a href="lib/features/day48_responsive_framework/day48_responsive_framework.dart">
-          <b>Responsive Framework</b>
-        </a><br/>
-        <sub>Adaptive layouts for all screens</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/responsive_framework">
-          responsive_framework ^1.5.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day48_responsive_framework.gif">
-          <img src="screenshots/day48_responsive_framework.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>49</b></td>
-      <td>
-        <a href="lib/features/day49_timelines_upgraded/day49_timelines_upgraded.dart">
-          <b>Timelines Upgraded</b>
-        </a><br/>
-        <sub>Vertical timeline of steps</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/timelines_upgraded">
-          timelines_upgraded ^0.1.1
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day49_timelines_upgraded.png">
-          <img src="screenshots/day49_timelines_upgraded.png" width="170"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>50</b></td>
-      <td>
-        <a href="lib/features/day50_just_audio/day50_just_audio.dart">
-          <b>Just Audio</b>
-        </a><br/>
-        <sub>Stream and play audio from a URL</sub>
-      </td>
-      <td>
-        <a href="https://pub.dev/packages/just_audio">
-          just_audio ^0.10.6
-        </a>
-      </td>
-      <td align="center">
-        <a href="screenshots/day50_just_audio.gif">
-          <img src="screenshots/day50_just_audio.gif" width="170"/>
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+### Day 100. Flutter BLoC
+- The industry-standard architecture for state management in professional Flutter development. BLoC (Business Logic Component) ensures a clean separation between the user interface and application logic.
+- **The Grand Finale**: Reached the 100-day milestone by implementing a modular "Celebration Counter" using a Cubit—the streamlined version of BLoC. This demonstrates the complete reactive flow: User Input → Logic Execution → State Emission → UI Reconstruction.
+- **Why it matters**: BLoC is the #1 most requested skill in Flutter job descriptions. It makes applications predictable, easy to debug, and simple to unit test by strictly defining how data flows from user actions to UI updates.
+- Package: `flutter_bloc: ^9.1.1`
+- Features: Reactive BlocBuilder for targeted UI updates, dependency injection via BlocProvider, centralized business logic using the emit() pattern, and a completely Stateless UI layer.
 
 ---
 
-## 🚀 Goal
+## 🛠️ Tech Stack & Architecture
 
-To explore the Flutter ecosystem by learning one package at a time, understanding its purpose, API, best practices, and real-world implementation through practical examples.
-
----
-
-## 🛠️ Tech Stack
-
-- Flutter
-- Dart
-- Pub.dev Packages
+-   **Framework:** Flutter 3.x
+-   **Language:** Dart (Null Safety)
+-   **Architecture:** Feature-First, Clean Architecture (BLoC, Riverpod, Provider)
+-   **Persistence:** NoSQL (Sembast), Shared Preferences
+-   **UI Patterns:** Neumorphism, Glassmorphism, Responsive Design
 
 ---
 
@@ -1763,15 +1719,14 @@ flutter run
 
 ## 📌 Note
 
-This repository is created for learning and practice purposes.  
-Each package is implemented in its own example to keep the code clean, focused, and easy to understand.
+This repository is created for learning and practice purposes. Each package is implemented in its own example to keep the code clean, focused, and easy to understand.
 
 ---
 
 ## ⭐ Future Improvements
 
-- Cover 100+ popular Flutter packages
-- Add package comparisons and alternatives
-- Build mini real-world apps using multiple packages
-- Add web support where applicable
-- Keep examples updated with the latest package versions
+-   Cover 200+ popular Flutter packages
+-   Add package comparisons and alternatives
+-   Build mini real-world apps using multiple packages
+-   Add web support where applicable
+-   Keep examples updated with the latest package versions
