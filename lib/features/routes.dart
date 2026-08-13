@@ -98,3 +98,4 @@ export 'day97_flutter_riverpod/day97_flutter_riverpod.dart';
 export 'day98_timeago/day98_timeago.dart';
 export 'day99_pretty_qr_code/day99_pretty_qr_code.dart';
 export 'day100_flutter_bloc/day100_flutter_bloc.dart';
+export 'day101_get/day101_get.dart';

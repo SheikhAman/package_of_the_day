@@ -938,6 +938,15 @@ Explore all 100 implementations at a glance. Each example is a standalone featur
       <td><a href="https://pub.dev/packages/flutter_bloc">flutter_bloc ^9.1.1</a></td>
       <td align="center"><img src="screenshots/day100_flutter_bloc.webp" width="170"/></td>
     </tr>
+    <tr>
+      <td align="center"><b>101</b></td>
+      <td>
+        <a href="lib/features/day101_get/day101_get.dart"><b>GetX</b></a><br/>
+        <sub>Reactive state & dependency injection</sub>
+      </td>
+      <td><a href="https://pub.dev/packages/get">get ^4.7.3</a></td>
+      <td align="center"><img src="screenshots/day101_get.webp" width="170"/></td>
+    </tr>
   </tbody>
 </table>
 
@@ -1000,7 +1009,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Pairs with any PageView to add polished, animated dot indicators — a staple of onboarding flows
 - Page view is sized reasonably within the layout (not a nested Scaffold per page, not full-screen by accident), with a "Next" button that walks through pages using the shared PageController
 - Each page is a gradient card with an icon, title, and subtitle instead of an empty colored box, and the button label changes to "You're all set" on the last page
-- Package: smooth_page_indicator: ^2.0.1
+- Package: `smooth_page_indicator: ^2.0.1`
 - Features: multiple built-in dot effects (ExpandingDotsEffect, WormEffect, JumpingDotEffect, and more), fully customizable size, spacing, and color
 
 ### Day 07. Font Awesome
@@ -1012,69 +1021,69 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 ### Day 08. Animations (OpenContainer)
 - OpenContainer (from the animations package) smoothly morphs a small card into a full detail screen — a common pattern in real apps (product cards, list-to-detail navigation)
 - Uses a realistic example: a short list of trail cards that expand into detail pages with a title, tag, and description, instead of an abstract "small box / big box" demo
-- Package: animations: ^2.2.0
+- Package: `animations: ^2.2.0`
 - Features: multiple transition types (fadeThrough, fade, fadeThroughWithRipple), customizable colors, shapes, and duration for both the closed and open states
 
 ### Day 09. Neon
 - Renders glowing, sign-style text with built-in retro fonts (Cyberpunk, Night Club 70s, Beon, and more), colors, and an optional flicker effect
 - Kept on a dark background intentionally — unlike the earlier light-themed days, neon glow only reads clearly against black, so each sign sits in its own subtly-bordered panel like a real sign board
-- Package: neon: ^0.1.0
+- Package: `neon: ^0.1.0`
 - Features: multiple neon fonts, custom glow color, adjustable font size, per-letter or whole-text flickering
 
 ### Day 10. Aurora Gradients
 - Draws soft, blurred color blobs to give a screen an ambient, animated backdrop
 - Kept on a black background intentionally, same reasoning as Day 09 — the glow only reads clearly against dark backdrops
 - Content sits on a frosted-glass card (BackdropFilter + translucent container) over the aurora blobs, showing a realistic use case — a hero/landing header — rather than plain text floating on the background
-- Package: aurora: ^1.0.0
+- Package: `aurora: ^1.0.0`
 - Features: customizable blob size, position, and color list; layer multiple Aurora widgets in a Stack for a fuller effect
 
 ### Day 11. Card Swiper
 - Turns a list of widgets into an auto-playing, swipeable carousel with pagination dots — a common pattern for promo/banner sections
 - The original example used bundled asset images (assets/images/banner/*.jpg); swapped for styled gradient banner cards (icon, title, subtitle) so the example runs standalone without needing image assets in the project
 - Carousel is sized as a fixed 190px banner, not full-screen, sitting inside a scrollable page alongside the info card
-- Package: card_swiper: ^3.0.1
+- Package: `card_swiper: ^3.0.1`
 - Features: autoplay with configurable delay, multiple layouts, customizable pagination dot builder
 
 ### Day 12. BlurHash
 - Decodes a short string (like LB9amjso4Txuq@t8yYMxD4IUysx]) into a soft blurred preview shown instantly, while the real image loads over the network — the same technique behind Medium's and Wolt's image placeholders
 - Added a "Replay transition" button so you can watch the blur-to-image fade more than once, instead of only seeing it on first load
 - Generate your own hash for any photo at blurha.sh
-- Package: flutter_blurhash: ^0.9.1
+- Package: `flutter_blurhash: ^0.9.1`
 - Features: works as an Image fit/loader combo, configurable fade duration, any BoxFit
 
 ### Day 13. Flutter SVG
 - Renders vector graphics via SvgPicture.asset, .network, or .string — stays crisp at any size, unlike raster (PNG/JPG) images
 - The original example loaded a bundled asset (assets/svg/flutter.svg); since that file isn't available here, this uses inline SVG strings with SvgPicture.string instead, so the example runs standalone with no asset setup — swap in SvgPicture.asset(...) once you have real files in pubspec.yaml
 - A small gallery shows three hand-written vector icons (sun, mountains, rocket) in styled cards
-- Package: flutter_svg: ^2.3.0
+- Package: `flutter_svg: ^2.3.0`
 - Features: BoxFit support, works from assets, network URLs, or raw SVG strings
 
 ### Day 14. Custom Clippers
 - Ships ready-made ClipPath shapes — waves, arcs, tickets, diagonals — for headers, banners, and cards without hand-drawing paths yourself
 - Rather than dumping all ~18 clippers with debug labels, this curates 4 clippers used the way they'd appear in a real app: a wave header banner, a movie-ticket-style coupon card, an arc promo banner, and an oval profile header
 - Each shape is filled with a gradient and real content (icon + text) instead of a flat color with the class name printed on it
-- Package: flutter_custom_clippers: ^2.1.0
+- Package: `flutter_custom_clippers: ^2.1.0`
 - Features: wave, arc, oval, diagonal, ticket, and pointed-edge clippers, most with flip/reverse options for mirroring
 
 ### Day 15. Flutter TTS
 - Converts text into spoken audio using the platform's built-in speech engine — no server, API key, or internet connection required
 - Swapped the original's unrelated news-article sample text for generic, self-describing copy ("try adjusting the rate and pitch...") so the demo makes sense on its own
 - Added live speech-rate and pitch sliders wired directly to setSpeechRate / setPitch, so you can actually hear the effect instead of only seeing fixed platform-specific presets
-- Package: flutter_tts: ^4.2.5
+- Package: `flutter_tts: ^4.2.5`
 - Features: adjustable language, pitch, speech rate, and volume; start/completion/cancel handlers to track playback state
 
 ### Day 16. Flutter Highlight
 - Adds syntax-colored code blocks with themes borrowed from highlight.js — handy for tutorials, docs, and code-sharing screens
 - Fixed a bug from the original: the code was Dart but language was set to 'javascript' — now correctly matches each snippet's actual language
 - A small language switcher (Dart / JSON) swaps both the code and the highlighter's language live, and a copy button puts the current snippet on the clipboard with a confirmation snackbar
-- Package: flutter_highlight: ^0.7.0
+- Package: `flutter_highlight: ^0.7.0`
 - Features: dozens of built-in themes, language auto-detection or explicit language param, works with any TextStyle (paired here with google_fonts' Fira Code for a real code-editor look)
 
 ### Day 17. Syncfusion Flutter Charts
 - Production-ready bar, line, and area/pie charts with built-in tooltips, legends, and animation — free for individuals and small businesses under Syncfusion's Community License
 - The original referenced RunningBidsChart, CompletedBidsChart, and TotalAmountChart from a separate model.dart that wasn't included; this version is fully self-contained with sample weekly data built right in, so it compiles and runs standalone
 - Three chart types on purpose, to show range: a column chart (running bids), a line chart with markers (completed bids), and an area chart (total amount)
-- Package: syncfusion_flutter_charts: ^34.1.32
+- Package: `syncfusion_flutter_charts: ^34.1.32`
 - Features: TooltipBehavior, category/numeric axes, dozens of series types (column, line, area, pie, and more), per-series color and styling
 
 ### Day 18. RFlutter Alert
@@ -1088,14 +1097,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Builds native-feeling settings screens — sections, tiles, and switches — without hand-rolling ListTile styling and dividers yourself
 - Fixed a logic bug from the original: "Change password" was a switchTile (a boolean toggle), which doesn't make sense for an action like changing a password — it's now a regular tappable tile like "Sign out" or "Email"
 - Every tile's onPressed now shows a snackbar (Opening "Language"...) instead of doing nothing, so tapping around actually gives feedback
-- Package: flutter_settings_ui: ^3.0.1
+- Package: `flutter_settings_ui: ^3.0.1`
 - Features: sections with titles, standard tiles, switch tiles, custom leading/trailing widgets, works with Text widgets for full styling control
 
 ### Day 20. Flutter Spinkit
 - Ships 20+ animated loading indicators — a drop-in upgrade from the default CircularProgressIndicator
 - Curated down to 9 spinners in one consistent accent color, instead of all 20+ in random colors separated by thick dividers — easier to compare styles side by side, and reads as a designed screen rather than a raw feature dump
 - Added an "In Practice" section: a real submit button that swaps its label for a spinner during a simulated 2-second load, showing the pattern you'd actually use in an app
-- Package: flutter_spinkit: ^5.2.2
+- Package: `flutter_spinkit: ^5.2.2`
 - Features: dozens of spinner styles, customizable color, size, duration, and (for some) control via AnimationController
 
 ### Day 21. Audioplayers
@@ -1103,14 +1112,14 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Updated to the current API — the original used AudioCache and PlayerMode.LOW_LATENCY, which are from a much older version of the package (pre-v1). audioplayers: ^6.8.1 plays sources directly via AudioPlayer().play(...) with typed sources like UrlSource, AssetSource, or DeviceFileSource
 - Also replaced missing local assets (audio file + cover image) with a streamed sample track from a public URL and a gradient album-art placeholder, so the example runs standalone
 - Added a live, seekable progress bar driven by onPositionChanged/onDurationChanged, and pause/resume instead of only play/stop
-- Package: audioplayers: ^6.7.1
+- Package: `audioplayers: ^6.7.1`
 - Features: multiple source types, player state stream, position/duration streams, seeking
 
 ### Day 22. Go Router
 - Adds declarative, URL-based navigation to Flutter — deep linking and browser back/forward work out of the box, on web and mobile alike
 - Updated to the current router API: replaced the separate routeInformationParser / routerDelegate parameters with the single routerConfig parameter, which is what go_router (and Flutter's Router widget) recommends as of v6+
 - Renamed Page1Screen/Page2Screen to HomeScreen/DetailsScreen, each showing its current path so it's clear what context.go(...) actually changed
-- Package: go_router: ^17.3.0
+- Package: `go_router: ^17.3.0`
 - Features: declarative route definitions, path parameters, nested/shell routes, redirects, deep linking
 
 ### Day 23. HTTP
@@ -1118,13 +1127,13 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Fixed a race condition in the original: it set isLoading = false after a hardcoded 3-second Future.delayed, regardless of whether the actual request had finished — meaning a slow network would flip the UI back before data arrived, and a fast one would show a spinner for 3 seconds for nothing. Now the button awaits _fetchData() directly, and loading state is always cleared in a finally block
 - Added proper error handling — failed requests now show a visible error message instead of just a print() no one sees
 - JSON response is pretty-printed (JsonEncoder.withIndent) in a code-style block, instead of dumped as one unformatted line of text
-- Package: http: ^1.6.0
+- Package: `http: ^1.6.0`
 - Features: GET/POST/PUT/DELETE, headers, timeouts, works with any REST API
 
 ### Day 24. Onboarding
 - Drag-based onboarding flow with a fixed footer, page indicator, and skip/get-started button — built on the verified v4.0.2 API
 - Each slide's icon sits in a gradient circle with a soft shadow instead of a flat tinted circle — small touch, reads noticeably more polished
-- Package: onboarding: ^4.0.2
+- Package: `onboarding: ^4.0.2`
 - Features: CustomPainter-based indicators (4 builtins: LinePainter, CirclePainter, SquarePainter, TrianglePainter), fully custom footer builder, configurable animation speed
 
 ### Day 25. Flutter Neumorphic
@@ -1133,7 +1142,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Uses the package's own theming (NeumorphicTheme/NeumorphicBackground) rather than the series' usual white-card style, since neumorphism needs one shared flat base color for the embossed effect to read correctly
 - Working dark/light toggle in the header, now a single icon button instead of a labeled "Dark Mode" button
 - Switched to flutter_neumorphic_plus — the original flutter_neumorphic package is unmaintained and its source still references Flutter Material APIs (bodyText2, headline5, ThemeData.accentColor, AppBarTheme.textTheme) that were removed in later Flutter SDK versions, causing build failures. The fork patches exactly this and is a drop-in replacement — same widget names, same API, just a different import path (package:flutter_neumorphic_plus/flutter_neumorphic.dart)
-- Package: flutter_neumorphic_plus: ^3.5.0
+- Package: `flutter_neumorphic_plus: ^3.5.0`
 - Features: NeumorphicButton, Slider, Switch, Progress, concave/convex/flat shape styles, full dark mode support
 
 ### Day 26. Math Expressions
@@ -1235,7 +1244,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Added side-by-side comparison: Visually contrasts standard Flutter Text (which overflows) against AutoSizeText (which scales down automatically)
 - Interactive playground: Features live text editing, a maxLines slider, and a card width contraction slider to observe real-time scaling behavior
 - Demonstrates core API features: Highlights minFontSize, maxFontSize, presetFontSizes, stepGranularity, and overflow behavior
-- Package: auto_size_text_plus: ^3.0.2
+- Package: `auto_size_text_plus: ^3.0.2`
 - Features: AutoSizeText(), minFontSize, maxFontSize, maxLines, presetFontSizes, stepGranularity
 
 ### Day 41. Device Info Plus
@@ -1464,6 +1473,7 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - Uses `path_provider` to create a temporary storage location before saving the image.
 - Shows proper async/await handling with error management.
 - Provides SnackBar feedback after successful image saving.
+- Package: `gal: ^2.3.3`
 
 ### Day 70. SearchField
 - Implements a modern autocomplete search experience using the `searchfield` package.
@@ -1686,6 +1696,15 @@ The goal is to understand how Flutter packages work, when to use them, and how t
 - **Why it matters**: BLoC is the #1 most requested skill in Flutter job descriptions. It makes applications predictable, easy to debug, and simple to unit test by strictly defining how data flows from user actions to UI updates.
 - Package: `flutter_bloc: ^9.1.1`
 - Features: Reactive BlocBuilder for targeted UI updates, dependency injection via BlocProvider, centralized business logic using the emit() pattern, and a completely Stateless UI layer.
+
+### Day 101. GetX
+- A high-performance, all-in-one state management and dependency injection library that enables reactive Flutter development with minimal boilerplate.
+- **Why it is helpful**: It allows developers to create "Observable" variables using the `.obs` extension. This makes state management incredibly simple: whenever a variable changes, only the specific widgets wrapped in `Obx()` rebuild, providing superior performance and cleaner code.
+- **Learning Path**: This implementation demonstrates the separation of business logic and presentation through a `GetxController`. It showcases a reactive user profile that updates instantly across multiple fields (name, stats, membership) without ever needing a `StatefulWidget`.
+- Package: `get: ^4.7.3`
+- Features: Reactive `Obx` listeners, automatic dependency injection with `Get.put`, ultra-fast state updates, and an easy-to-use API that simplifies the entire development lifecycle.
+
+
 
 ---
 

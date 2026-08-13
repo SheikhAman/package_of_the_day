@@ -315,6 +315,9 @@ dependencies:
   # The industry standard for enterprise-level state management and architecture
   flutter_bloc: ^9.1.1
 
+  # A powerful and lightweight solution for state management, navigation, and dependency injection
+  get: ^4.7.3
+
 
 
 
